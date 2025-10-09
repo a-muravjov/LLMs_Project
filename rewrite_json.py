@@ -21,5 +21,3 @@ for entry in combined.values():
 
 with open("predictions_all.json", "w") as f:
     json.dump(combined, f, indent=2, ensure_ascii=False)
-
-print(f"Combined {len(data_main)} + {len(data_neu)} = {len(combined)} entries")

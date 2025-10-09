@@ -68,5 +68,5 @@ for start in range(0, len(prompts), BATCH_SIZE):
     if start % (BATCH_SIZE*20) == 0:
         break
 
-with open("predictions_neu.json", "w") as f:
+with open("predictions.json", "w") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
