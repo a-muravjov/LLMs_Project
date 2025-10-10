@@ -3,7 +3,7 @@
 #SBATCH --partition=gpushort
 #SBATCH --gres=gpu:1
 #SBATCH --time=01:00:00
-#SBATCH --mem=24G
+#SBATCH --mem=48G
 #SBATCH --cpus-per-task=6
 
 echo "Job started at $(date)"
@@ -20,5 +20,5 @@ export HUGGING_FACE_HUB_TOKEN=$(cat /scratch/s5473535/.hf_token)
 module load Python/3.10.8-GCCcore-12.2.0
 source /scratch/s5473535/xed-llm/.venv/bin/activate
 
-python -u /scratch/s5473535/xed-llm/test_neu.py
+python -u /scratch/s5473535/xed-llm/peft_try.py
 echo "Job finished at $(date)"
