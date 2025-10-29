@@ -1,0 +1,923 @@
+[
+  {
+    "text": "Hỡi bằng hữu!",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Nếu ngài trở thành Tổng thống, thì Claire Underwood vẫn là Phó Tổng thống?",
+    "gold": [
+      7,
+      8
+    ]
+  },
+  {
+    "text": "Vâng? - Cảm ơn chúa.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Tôi không thể giấu Tổng thống chuyện này lâu hơn nữa.",
+    "gold": [
+      4,
+      6
+    ]
+  },
+  {
+    "text": "Tôi thích được theo bên thắng một lần.",
+    "gold": [
+      2,
+      5
+    ]
+  },
+  {
+    "text": "Không lôi thôi gì nữa.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Phùng lão gia không phải là kẻ phản phúc...",
+    "gold": [
+      1,
+      8
+    ]
+  },
+  {
+    "text": "- Đó là trách nhiệm.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Cô không thể làm được gì nhiều.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Cô đã giết cô ấy? - Tình trạng hiện giờ của thân chủ tôi ...",
+    "gold": [
+      1,
+      3
+    ]
+  },
+  {
+    "text": "- Chúng ta làm gì bây giờ?",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "Có muốn lấy thì cũng phải hỏi một tiếng chứ!",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Nó sẽ là lịch sử.",
+    "gold": [
+      2,
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Hợp tác với Tổng thống Petrov luôn là một sai lầm.",
+    "gold": [
+      1,
+      3
+    ]
+  },
+  {
+    "text": "Tonya!",
+    "gold": [
+      5,
+      7
+    ]
+  },
+  {
+    "text": "Có những lãnh đạo đến rồi đi.",
+    "gold": [
+      3,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Tôi không đến nhà của Christine. Tôi đi xem ballet.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Tôi rất biết ơn, thưa ngài.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Sao vậy?",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Cái mẹ gì?",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "- Sao ông không câm CMN mồm đi?",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Nếu như chúng ta không có đủ bằng chứng buộc tội cô ấy",
+    "gold": [
+      1,
+      3
+    ]
+  },
+  {
+    "text": "- Vậy là xong.",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "Tại sao các người giấu bằng chứng này?",
+    "gold": [
+      3
+    ]
+  },
+  {
+    "text": "Một người như ngươi... có số phần là vào trong ngục.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Thoả thuận thương mại với Trung Quốc sẽ khiến cử tri Ohio rất hài lòng.",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "Sao lại khắc tên tôi trên tường?",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Cũng may là còn có đai lưng...",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "Ngươi là thứ yêu quái gì vậy?",
+    "gold": [
+      1,
+      3
+    ]
+  },
+  {
+    "text": "Hắn không hề giấu giếm nhân thân. Trong suốt cuộc thẩm vấn, hắn yêu cầu họ gọi hắn là Pavel Antipov là tên thật của hắn, và từ chối trả lời dưới tên Strelnikov.",
+    "gold": [
+      3
+    ]
+  },
+  {
+    "text": "Tôi nghĩ tôi yêu anh.",
+    "gold": [
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Một sự ràng buộc nho nhỏ?",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Buông ra! Buông ra tôi rớt thì sao?",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "Ký vô!",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "- Kệ chúng.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Các vị có khác biệt với tôi...",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "Đó chỉ mới là bắt đầu.",
+    "gold": [
+      1,
+      5
+    ]
+  },
+  {
+    "text": "Chúa ơi, cô ấy đang vào trong. Ôi Chúa ơi.",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "- Tất nhiên là được.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Có lẽ sếp cần phải kết thúc những gì mà mình đã bắt đầu.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Một mình à?",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Ở triều đình có nhiều yêu quái lộng hành... tôi đành phải can thiệp vào việc triều chính rồi!",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "Thân phụ...hắn có thể phản lại thân phụ!",
+    "gold": [
+      1,
+      4
+    ]
+  },
+  {
+    "text": "Em xin lỗi.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Còn hơn là chết trong một cái khách sạn hôi hám nào đó.",
+    "gold": [
+      1,
+      2,
+      6
+    ]
+  },
+  {
+    "text": "Chị nghĩ đó là quân Nga?",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Mong gặp ông ở đó.",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "Màu đỏ điên dại. Tiếp, cảm ơn.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Tôi cần ngài chiêm ngưỡng ánh trăng cắt qua rừng cây.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Đầu tiên thì họ phủ nhận, rồi thì họ nói nước đôi...",
+    "gold": [
+      3
+    ]
+  },
+  {
+    "text": "Sao không để tôi giúp cậu nhỉ?",
+    "gold": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Chúa ơi.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Óc hài hước của cô đâu rồi?",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Rồi bất ngờ rùng mình, như kiểu... người anh yêu ở cùng thế giới với anh.",
+    "gold": [
+      2,
+      5,
+      8
+    ]
+  },
+  {
+    "text": "- Công tố viên sẽ giải thích tất cả chuyện này",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Tôi sẽ không nói gì tôi muốn gặp luật sư của mình",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "- Kéo màn xuống!",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Christine Stanford bị giết tại nhà riêng của mình, anh biết chứ?",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "- Cảm ơn sự giúp đỡ của các bạn",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Không ngờ ta lại chết ở đây như vậy!",
+    "gold": [
+      4,
+      6
+    ]
+  },
+  {
+    "text": "Hai người sao vậy?",
+    "gold": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "text": "Tôi uống vài viên thuốc ngủ.",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "- Tôi không muốn thế.",
+    "gold": [
+      1,
+      6
+    ]
+  },
+  {
+    "text": "không thể gần gũi phụ nữ.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Dani!",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Tôi muốn được thấy chính quyền Underwood.",
+    "gold": [
+      2,
+      8
+    ]
+  },
+  {
+    "text": "Bỏ tao ra! Bỏ tao ra!",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Lạnh quá!",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Cảm ơn vì đã tới gặp anh ấy.",
+    "gold": [
+      5,
+      8
+    ]
+  },
+  {
+    "text": "chặt đầu các ngươi... thì ích lợi gì?",
+    "gold": [
+      3
+    ]
+  },
+  {
+    "text": "Ta đến để nghiêng mình trước Đại Hòa tThượng...",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "- Hai người thật khó đoán",
+    "gold": [
+      3
+    ]
+  },
+  {
+    "text": "Rất vinh dự được Tiên sinh cưỡi ngựa của tôi!",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "Tôi muốn cảm ơn chị rất nhiều vì đã giúp chúng tôi vụ này.",
+    "gold": [
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Còn gì nữa?",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "Phải, nhưng ngài sẽ thắng.",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "- Cậu bị sa thải, Jeffries.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Ông ta không thể là bạn anh.",
+    "gold": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Tôi sẽ không bao giờ gặp nàng nữa...",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Lại gần hơn nào",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "Tôi muốn tất cả danh sách về quỹ, báo cáo tài chính tất cả trên bàn của tôi vào ngày mai",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Liên lạc với Đại sứ Caspi và kiếm cho tôi 15 phút.",
+    "gold": [
+      2,
+      7
+    ]
+  },
+  {
+    "text": "Anh yêu em.",
+    "gold": [
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Cách anh nói câu đó... nghe như vẹt ý.",
+    "gold": [
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "text": "Từ lúc bắt đầu chuyện này, tôi không tưởng tượng nổi sẽ có lúc đứng cùng ngài tại đây tối nay.",
+    "gold": [
+      5,
+      7
+    ]
+  },
+  {
+    "text": "Nếu đôi ta có thể sống bên nhau mãi thì còn gì bằng",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Có ma à?",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "Tôi đã chuẩn bị xe.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Lát nữa tôi sẽ tìm chị ấy. Nhanh lên, đưa tay đây cho tôi!",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "Ngươi sẽ không bao giờ lừa dối được ai nữa!",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Thử phép \"Đứng yên\" xem nào?",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "- Không chấp nhận.",
+    "gold": [
+      1,
+      3
+    ]
+  },
+  {
+    "text": "Cậu phí của quá!",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "- Cô Harvey đang chờ.",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "Sếp cứ nói với em đi, biết đâu em giúp được sếp.",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "Chào buổi sáng, ngài Tổng thống.",
+    "gold": [
+      2,
+      8
+    ]
+  },
+  {
+    "text": "Đi nhanh đi!",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Từ giờ mọi thứ sẽ dễ dàng hơn.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Cảm ơn.",
+    "gold": [
+      2,
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Anh không thấy.",
+    "gold": [
+      1,
+      3
+    ]
+  },
+  {
+    "text": "Phải tìm chỗ trú mưa thôi!",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Cảm ơn mọi người vì đã tiếp tục phục vụ.",
+    "gold": [
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Có gì, Cat?",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Nó buồn cười",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Thông cáo báo chí nói rằng cô nghỉ phép để xem xét lại các lựa chọn cho sự nghiệp của mình.",
+    "gold": [
+      2,
+      5
+    ]
+  },
+  {
+    "text": "Cô không có quyền phán xét tôi.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Một cuộc đấu súng.",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "Tôi không nghĩ là mình có thời gian làm việc đó.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "- Cảm ơn, Mark.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Ông già rồi.",
+    "gold": [
+      3,
+      6
+    ]
+  },
+  {
+    "text": "Đang phân công cho uỷ ban mới, nếu ông muốn chúng tôi có thể sắp xếp.",
+    "gold": [
+      2,
+      5
+    ]
+  },
+  {
+    "text": "Tất nhiên rồi.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Không cần nghiêm nghị thế đâu.",
+    "gold": [
+      7
+    ]
+  },
+  {
+    "text": "Tôi có thể làm bạn anh, anh biết điều đó mà.",
+    "gold": [
+      2,
+      5
+    ]
+  },
+  {
+    "text": "Hay một giải thưởng vô vị?",
+    "gold": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Vậy, ổng chưa bao giờ gặp lại bả?",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Đại gia, có muốn nói gì thì cứ nói thẳng ...",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "- Anh cần em, Isabelle.",
+    "gold": [
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Ê, cho tôi ra khỏi đây!",
+    "gold": [
+      4
+    ]
+  },
+  {
+    "text": "Xém chút nữa em lên đỉnh rồi. Chỉ là, uh, mới xuất hiện vài chuyện... đã không xảy ra hơn 30 năm rồi.",
+    "gold": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Anh sẽ kể cho cô ấy cách anh thao túng tâm trạng người dân Mỹ?",
+    "gold": [
+      3
+    ]
+  },
+  {
+    "text": "Có giết mấy mạng người tối nay cũng không thể cứu được đất nước.",
+    "gold": [
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "text": "Tôi thật sự xin lỗi.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Ai bị ốm?",
+    "gold": [
+      6,
+      7
+    ]
+  },
+  {
+    "text": "Tôi đã làm việc cho cậu.",
+    "gold": [
+      4,
+      6
+    ]
+  },
+  {
+    "text": "Hãy cưới cổ!",
+    "gold": [
+      2,
+      5
+    ]
+  },
+  {
+    "text": "Vinh hoa phú quý chỉ dành cho nhân gian thường tình",
+    "gold": [
+      4,
+      8
+    ]
+  },
+  {
+    "text": "- Rất vinh hạnh.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "Kate Baldwin có thể sẽ không bao giờ được nói chuyện với anh ta.",
+    "gold": [
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "text": "Tất cả đã sẵn sàng!",
+    "gold": [
+      2
+    ]
+  },
+  {
+    "text": "Tôi đã cố liên lạc với ông ấy cả ngày nay.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Có Underwood trong bộ máy sẽ gây ra thiệt hại.",
+    "gold": [
+      6
+    ]
+  },
+  {
+    "text": "Ai sợ bị săn lùng chớ?",
+    "gold": [
+      3
+    ]
+  },
+  {
+    "text": "Em chỉ hỏi thăm anh, người đang ngồi cùng em.",
+    "gold": [
+      2,
+      5,
+      8
+    ]
+  },
+  {
+    "text": "Vẫn còn binh lính quanh đây. Liệu vào trong đi!",
+    "gold": [
+      2,
+      4
+    ]
+  },
+  {
+    "text": "Như tôi đã nói, họ sẽ gọi nếu họ cần cô.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Tuyệt vời.",
+    "gold": [
+      5
+    ]
+  },
+  {
+    "text": "- Khá hơn chưa?",
+    "gold": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "text": "Phải cho ảnh ra ngoài!",
+    "gold": [
+      1,
+      4
+    ]
+  },
+  {
+    "text": "Con trai của Gerald Ford thường lẻn vào đây để lên mái, chơi trò Led Zeppelin với bạn cậu ta.",
+    "gold": [
+      8
+    ]
+  },
+  {
+    "text": "Cười lên nào.",
+    "gold": [
+      1
+    ]
+  },
+  {
+    "text": "Còn nhớ đàn bò Hereford ở Yatrong County không?",
+    "gold": [
+      2,
+      5
+    ]
+  },
+  {
+    "text": "Này!",
+    "gold": [
+      7
+    ]
+  }
+]
