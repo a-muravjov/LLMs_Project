@@ -87,5 +87,6 @@ enter mistral_peft/mistral_finetuned.py to predict. There should be no need
 to rewrite any paths. Predictions will be found in
 predictions/*{PEFTmethod_predictions_language_rank_alpha.json}*.
 
-Finally, to evaluate, run evals/evaluate_all.py to compare 5 metrics (Jaccard,
-Micro/Macro F1, Precision, Recall, Hamming Loss) of all model variations.
+Finally, to evaluate, run evals/run_evaluate.py to compare 5 metrics (Jaccard,
+Micro/Macro F1, Precision, Recall, Hamming Loss) of all model variations. You
+can also check our current results in evals/figures/.
