@@ -1,7 +1,10 @@
-from mistral_baseline import run
+from mistral_prompting.mistral_model import run
 
 
-def run_baseline():
+def main():
+
+    """ZERO-SHOT PROMPTING"""
+
     # CZ
     print("Czech prompting")
     run(inp_path="datasets/CZ/test.json",
@@ -29,6 +32,8 @@ def run_baseline():
         prompt="zero-shot")
 
     ####################################################
+
+    """FEW-SHOT PROMPTING"""
 
     # CZ
     print("Czech prompting")
@@ -58,6 +63,8 @@ def run_baseline():
 
     ####################################################
 
+    """STRUCTURE BASED PROMPTING"""
+
     # CZ
     print("Czech prompting")
     run(inp_path="datasets/CZ/test.json",
@@ -86,6 +93,8 @@ def run_baseline():
 
     ####################################################
 
+    """INSTRUCTION BASED PROMPTING"""
+
     # CZ
     print("Czech prompting")
     run(inp_path="datasets/CZ/test.json",
@@ -111,13 +120,6 @@ def run_baseline():
     run(inp_path="datasets/MULTI/test.json",
         out_path="predictions/instruction-based/predictions_multi.json",
         prompt="instruction-based")
-
-
-
-
-def main():
-    print("Running baseline...")
-    run_baseline()
 
 
 if __name__ == "__main__":

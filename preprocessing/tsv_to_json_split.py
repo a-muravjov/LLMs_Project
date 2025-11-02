@@ -3,11 +3,9 @@ import json
 import csv
 from sklearn.model_selection import train_test_split
 
-# === Config ===
+
 XED_DIR = "XED"
 OUTPUT_BASE = "datasets"
-
-# Define language mapping: TSV → output folder name
 LANG_MAP = {
     "en-annotated.tsv": "EN",
     "cs-projections.tsv": "CZ",
@@ -16,8 +14,18 @@ LANG_MAP = {
 }
 
 
-def parse_tsv(path):
-    """Read TSV file and return list of dicts {text, labels, pred}."""
+def parse_tsv(path: str) -> list:
+    """
+    Reads a tsv file given by the file path and returns the list
+    of dictionaries, each containing keys 'text', 'gold'.
+
+    Args:
+        path (str): File path.
+
+    Returns:
+        list: List of dictionaries containing the text, its corresponding
+        emotion label.
+    """
     samples = []
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.reader(f, delimiter="\t")
@@ -25,13 +33,21 @@ def parse_tsv(path):
             if len(row) < 2:
                 continue
             text = row[0].strip()
-            labels = [int(x.strip()) for x in row[1].split(",") if x.strip().isdigit()]
-            samples.append({"text": text, "gold": labels})  # dummy pred
+            labels = [int(x.strip()) for x in row[1].split(",")
+                      if x.strip().isdigit()]
+            samples.append({"text": text, "gold": labels})
     return samples
 
 
-def split_and_save(lang, samples):
-    """Split into train/val/test and save under datasets/{lang}/."""
+def split_and_save(lang: str, samples: list) -> None:
+    """
+    Splits into train/val/test and saves under path 'datasets/{lang}/...'
+
+    Args:
+        lang (str): Chosen language (RU, VNM, CZ, EN).
+        samples (list): List of dictionaries containing the text,
+        its corresponding emotion label.
+    """
     train, temp = train_test_split(samples, test_size=0.3, random_state=42)
     val, test = train_test_split(temp, test_size=0.5, random_state=42)
 
@@ -42,20 +58,19 @@ def split_and_save(lang, samples):
         out_path = os.path.join(out_dir, f"{name}.json")
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(split, f, indent=2, ensure_ascii=False)
-        print(f"Saved {name}.json → {out_path} ({len(split)} samples)")
 
 
-def main():
-    # --- Parse and split all other languages ---
+def main() -> None:
+    """
+    Loops through all langaguges and their corresponding tsv files
+    and creates train/test/val splits and saves them as JSON files.
+    """
     for fname, lang in LANG_MAP.items():
         path = os.path.join(XED_DIR, fname)
         if not os.path.exists(path):
             continue
-        print(f"Processing {lang} from {fname}")
         samples = parse_tsv(path)
         split_and_save(lang, samples)
-
-    print("Doneee")
 
 
 if __name__ == "__main__":
