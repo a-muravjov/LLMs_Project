@@ -64,7 +64,7 @@ def preprocess_fn(batch, tok, max_len: int = MAX_LEN) -> dict:
         p = tok(prompt, add_special_tokens=True)
         t = tok(label_text, add_special_tokens=False)
 
-        # Hugging Face standard convetion to ignore tokens when computing loss
+        # Hugging Face standard convention to ignore tokens when computing loss
         ignore_tokens = -100
 
         # create tokenized input (prompt + label)
