@@ -60,7 +60,10 @@ chosen subsets of the XED multilingual dataset, which can be found using the
 link https://github.com/Helsinki-NLP/XED. The current code implements 2 model
 variations: prompt engineering, specifically *zero-shot, few-shot,*
 *structured based, and instruction based prompting* and fine-tuning,
-specifically using PEFT methods *LoRA and QLoRA*. 
+specifically using PEFT methods *LoRA and QLoRA*. All of the models are provided
+in this drive: https://drive.google.com/drive/folders/1NaKzYKkL6QTKGPG8frvNUc7xgd2MVvAp?usp=share_link .
+To run the models it is necessary to put the folder from the drive into the
+project folder from GitHub.
 
 The model performances were compared using the English annotated dataset,
 and three projection datasets: Czech, Russian and Vietnamese.
