@@ -172,6 +172,8 @@ def summarize_results() -> pd.DataFrame:
         records.append(row)
 
     df = pd.DataFrame(records)
+    df = df.sort_values(by="Path", ascending=True)
+
     df.to_csv(RESULTS_CSV, index=False)
     print(f"Saved {len(df)} results to {RESULTS_CSV}")
     return df
@@ -348,3 +350,138 @@ def plot_lora_vs_qlora(df: pd.DataFrame, metric: str) -> None:
     plt.tight_layout()
     plt.savefig("evals/figures/lora_vs_qlora.png")
     plt.show()
+
+
+def plot_all_lora_qlora_variants(df: pd.DataFrame, metric: str) -> None:
+    """
+    Plot ALL LoRA and QLoRA variants (including different ranks/alphas)
+    for each language in separate subplots.
+
+    Args:
+        df (pd.DataFrame): Results dataframe.
+        metric (str): Metric to plot, e.g. "Jaccard" or "Macro F1".
+    """
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    import re
+
+    sub = df[df["Model"].isin(["LoRA", "QLoRA"])].copy()
+
+    def extract_variant(path, model):
+        r = re.search(r"r(\d+)", path)
+        a = re.search(r"a(\d+)", path)
+        r = r.group(1) if r else "?"
+        a = a.group(1) if a else "?"
+        return f"{model} (r{r}_a{a})"
+
+    sub["Variant"] = sub.apply(
+        lambda row: extract_variant(row["Path"], row["Model"]),
+        axis=1
+    )
+
+    sub = sub.sort_values(by=["Language", "Variant"])
+
+    languages = sorted(sub["Language"].unique())
+
+    fig, axes = plt.subplots(
+        nrows=len(languages),
+        ncols=1,
+        figsize=(11, 2.2 * len(languages)),
+        sharex=True
+    )
+
+    if len(languages) == 1:
+        axes = [axes]
+
+    sns.set(style="whitegrid")
+
+    for ax, lang in zip(axes, languages):
+        lang_df = sub[sub["Language"] == lang]
+
+        sns.barplot(
+            data=lang_df,
+            y="Variant",
+            x=metric,
+            hue="Model",
+            palette={"LoRA": "#d95f02", "QLoRA": "#1b9e77"},
+            orient="h",
+            dodge=False,
+            ax=ax
+        )
+
+        ax.set_title(f"{lang} — {metric} Scores", fontsize=12)
+        ax.set_ylabel("Variant")
+        ax.set_xlabel(metric)
+
+    plt.tight_layout()
+    plt.savefig(f"evals/figures/all_lora_qlora_{metric}.png")
+    plt.show()
+
+    print("Saved plot:", f"evals/figures/all_lora_qlora_{metric}.png")
+
+
+def plot_lora_vs_qlora_per_language(df: pd.DataFrame, metric: str) -> None:
+    """
+    Creates a separate bar plot for each language that compares ALL
+    LoRA and QLoRA variants individually for a chosen metric.
+
+    Args:
+        df (pd.DataFrame): Dataframe containing full evaluation results.
+        metric (str): Metric column to visualize (e.g. "Jaccard", "Macro F1").
+    """
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    import re
+    from pathlib import Path
+
+    sns.set(style="whitegrid", font_scale=1.2)
+
+    sub = df[df["Model"].isin(["LoRA", "QLoRA"])].copy()
+
+    def extract_variant(path, model):
+        r = re.search(r"r(\d+)", path)
+        a = re.search(r"a(\d+)", path)
+        r = r.group(1) if r else "?"
+        a = a.group(1) if a else "?"
+        return f"{model} (r{r}_a{a})"
+
+    sub["Variant"] = sub.apply(
+        lambda row: extract_variant(row["Path"], row["Model"]),
+        axis=1
+    )
+
+    sub = sub.sort_values(["Language", "Variant"])
+
+    languages = sorted(sub["Language"].unique())
+
+    output_dir = Path("evals/figures/language_plots")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    for lang in languages:
+        lang_df = sub[sub["Language"] == lang]
+
+        plt.figure(figsize=(10, max(6, 0.35 * len(lang_df))))
+
+        sns.barplot(
+            data=lang_df,
+            y="Variant",
+            x=metric,
+            hue="Model",
+            palette={"LoRA": "#d95f02", "QLoRA": "#1b9e77"},
+            orient="h",
+            dodge=False,
+            edgecolor="black"
+        )
+
+        plt.title(f"{lang} — {metric} for LoRA & QLoRA Variants", fontsize=15)
+        plt.xlabel(metric)
+        plt.ylabel("Variant")
+        plt.xlim(0, 1)
+        plt.legend(title="Model", fontsize=9)
+
+        out_path = output_dir / f"lora_qlora_{lang}_{metric}.png"
+        plt.tight_layout()
+        plt.savefig(out_path)
+        plt.close()
+
+        print(f"Saved: {out_path}")
