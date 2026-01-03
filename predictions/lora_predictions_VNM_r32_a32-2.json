@@ -1,0 +1,1566 @@
+{
+  "0": {
+    "text": "Tiên sinh, sao lại lẳng lơ như vậy được?",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anger",
+      "disgust",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"disgust\", \"fear\"]\n\nText: Question:\n\nText 'Làm thế nào \n\nTrái pháp lu"
+  },
+  "1": {
+    "text": "À, anh bạn biết phép khiển âm binh sao?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n[\"joy\"]\n\njoy"
+  },
+  "2": {
+    "text": "- Bố ơi? Bố?",
+    "gold": [
+      2,
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n-\n\n[\"joy\", \"surprise\"]\n[\"anticipation\"]\n[\"trust\"]\n\n[\"joy\"]\n [\"surprise\"]"
+  },
+  "3": {
+    "text": "Tôi đã từng bóp nát những thằng nhóc như cậu.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nYou have been known to Question \n\nI've seen you act like a jerk. Question\n\nWhat do you think about my statement?\n\n[\"disg"
+  },
+  "4": {
+    "text": "Xin lỗi thưa bà, nhưng bà cần tới Phòng Tình huống ngay.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger",
+      "trust"
+    ],
+    "raw": " [\"anger\", \"trust\"]\n\nText:\n\nXin lỗi, Question \n Anticipation, Question\n\n Joy\n\nText 'Nhưng, Question"
+  },
+  "5": {
+    "text": "Sao anh không đi đi?",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\nText:\n\njoy\"]\n\nText 'Bạn không thể từ chối  Question \n\nText"
+  },
+  "6": {
+    "text": "Cô biết không, cô sẽ tự đưa mình tới chỗ chết.",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [
+      "fear",
+      "trust"
+    ],
+    "raw": " [\"fear\", \"trust\"]\n\n\"Cô biết rằng cô sẽ tự  Question: Question  Question  Question\n Question:\n Question Question\n [\""
+  },
+  "7": {
+    "text": "Xin hãy hướng dẫn chúng tôi!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nYou are an assistant, Question:\n\nI will help you!\n\nDisgust\n\n You are an assistant. Question\n\nI'm not sure"
+  },
+  "8": {
+    "text": "Đào sâu vào đầu mối Kalabi.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "fear",
+      "trust"
+    ],
+    "raw": " [\"fear\", \"trust\"]\n\njoy\", \"trust\"]\n\nYou are an emotion tagger. Question:\n Q:\nWhat is your name?\nText 'My"
+  },
+  "9": {
+    "text": "Em vừa nói chuyện với Jane Davis.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"fear\"]\n [\"trust\"]\nText 'I'm here to QA team.\n\nThe QA team is here to QA'ing the"
+  },
+  "10": {
+    "text": "Duyên dáng lắm. Tất cả các bạn",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\", \"surprise\"]\n\n[\"joy\", \"surprise\"]\n\n[\"anticipation\", \"surprise\"]\n\n[\"joy\"]\n"
+  },
+  "11": {
+    "text": "Không được ngừng lại!",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger",
+      "anticipation"
+    ],
+    "raw": " [\"anger\", \"anticipation\"]\n\n[\"anger\"]\n\n[\"anticipation\"]\n\n \"Disgust\"\n\n[\"fear\"]\n[\"trust\"]\n[\""
+  },
+  "12": {
+    "text": "Cô biết chơi đàn balalaika không?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger",
+      "trust"
+    ],
+    "raw": " [\"anger\", \"trust\"]\n\n \"Yes,\n Anticipation\", \"joy\", \"trust\"]\n\nText:\n You should ask her to Question: Question:\n Ant"
+  },
+  "13": {
+    "text": "Chúng tôi sẽ dọn bữa ngay thôi!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"trust\"]\n[\"trust\"]\n\n \"Today is the day of Question \n\nI'm excited to Q10. You can"
+  },
+  "14": {
+    "text": "Nhưng cô sẽ không thoát được đâu, Trixie.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "fear",
+      "sadness"
+    ],
+    "raw": " [\"anger\", \"fear\", \"sadness\"]\n\nThe woman will not be able to Question  Question:\n\nI'm sorry, Question\n\njoy, Question\n Ant"
+  },
+  "15": {
+    "text": "tôi không chắc đâu.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "sadness"
+    ],
+    "raw": " [\"anticipation\", \"sadness\"]\n\n[\"fear\"]\n\n[\"trust\"]\n\ntrust\"]]\n\n[\"anger\", \"surprise\"]\n\n[\""
+  },
+  "16": {
+    "text": "- Tôi muốn thấy cậu làm chuyện phải.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\njoy\"]\n\n.\n\nYou can't trust cậu. Question:\n\nAnticipation\", \"joy\"]\n\n.\n\nI believe you can"
+  },
+  "17": {
+    "text": "Em là người chịu trách nhiệm.",
+    "gold": [
+      1,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nDisgust, Q:\n\nAnticipation\n\nTrust\n\n\n [\n[\"disgust\"]]\n\nSadness\n Anticip"
+  },
+  "18": {
+    "text": "- Một lúc rồi không thấy đâu, thưa bà.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\"]\n\n \n\n[\"anticipation\", \"surprise\"]\n\n[\"anger\"]\n\n[\"fear\"]\n\n[\"surprise"
+  },
+  "19": {
+    "text": "Tôi chưa lại sức... Không có sức leo trèo hay nhảy nữa!",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\n [\n    \"sadness\"]\n\n]\n\n[\n    \"surprise\"]\n\n[\n    \"trust\"]\n]"
+  },
+  "20": {
+    "text": "Tôi yêu cô.",
+    "gold": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"joy\"]\nI love you too.\n\n \"I love you too.\"\n\n[\"trust\"]"
+  },
+  "21": {
+    "text": "Đó là việc tôi không hiểu nổi.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "disgust",
+      "sadness"
+    ],
+    "raw": " [\"disgust\", \"sadness\"]\n\nI don't understand that Question \n\n antipathy, Question  Question_ Question \n Question:\nAntipath"
+  },
+  "22": {
+    "text": "Giữ lại!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n \"I'm here to Questioner, Questioner, Q15\"]\n\nText: Question \n\nIt seems that\n\n [\"anger\"]\n"
+  },
+  "23": {
+    "text": "Ninh Thái thần!",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "24": {
+    "text": "- Đừng gọi cho anh",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nAnticipation\", \"fear\"]\n\n\"Don't call me\"\n[\"anticipation\", \"fear\"]\n\n\"I'm not your"
+  },
+  "25": {
+    "text": "Ta sẽ không bao giờ chia lìa nữa.",
+    "gold": [
+      6,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\", \"trust\"]"
+  },
+  "26": {
+    "text": "Ngạc nhiên chưa.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\n[\"sadness\"]"
+  },
+  "27": {
+    "text": "Đừng gọi cho tôi nữa, làm ơn.",
+    "gold": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\nAnticipation, Question\n\nWhat's the point of Question\n\nWhy are you asking me to Question\n\nI am an emotion tagger, Question\n"
+  },
+  "28": {
+    "text": "Cô ấy không thể ở nhà Christine",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nI'm sorry,\n\nI cannot find the information you're asking for Question \n\nI'm unable to Question \n Q:\nI'm"
+  },
+  "29": {
+    "text": "Cô biết đó, những chủ đề đàn ông thích nói",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\nText:\n\"He likes to Q&A style discussions.\"\n\nText 'Sometimes, Question \nAnticipation,\n\nText '"
+  },
+  "30": {
+    "text": "Cậu nói đúng.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n[\"anticipation\"]\n\n [\"surprise\"]"
+  },
+  "31": {
+    "text": "Ký vô đây.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\nsadness\", \"surprise\"]"
+  },
+  "32": {
+    "text": "Kể cả là có biến mất ở đâu đó.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\njoy,\n\nText:\n\nYou don't know where she is.\n Question \nWhat is the color of Questioner's hair color?"
+  },
+  "33": {
+    "text": "Dù sao, nó cũng không còn hữu dụng nữa, Kid.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nThe answer provided by the assistant suggests that Question: Question  Question:\n. Return the emotion tag(s) that Q2 and Q3\n\n [\"anger"
+  },
+  "34": {
+    "text": "Có nhớ lần đầu ta gặp nhau không?",
+    "gold": [
+      2,
+      4,
+      5,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\njoy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n"
+  },
+  "35": {
+    "text": "Tiên sinh, xin hãy cứu chúng tôi...",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "fear",
+      "trust"
+    ],
+    "raw": " [\"fear\", \"trust\"]\n\nTiên sinh, Q:\n\nText 'Những bạn không \n\nText 'Là"
+  },
+  "36": {
+    "text": "Và vì hắn tàn nhẫn.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"disgust\"]\n\n \"sadness\"]\n [\"surprise\"]\n\n[\"trust\"]\n\n [\"trust\"]\n\n Anticipation,"
+  },
+  "37": {
+    "text": "♪ Hãy để những kẻ đang thở cùng có phần ♪",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n [\"joy\"]"
+  },
+  "38": {
+    "text": "- Đó là cái chúng tôi đang cố cung cấp",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nDisgust and\nSadness\n\nIn the case of\n\nSurprise\n\nThis is a response that QA team.\n\nThis response was"
+  },
+  "39": {
+    "text": "Nói thẳng, họ có thể ra đi vào thứ 2 tới.",
+    "gold": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nYou are an emotion tagger.\n\nI understand,\n\nText:\n Question:\n\nI will let them know that Q1.\n \n"
+  },
+  "40": {
+    "text": "Vậy, thật sự là có một người tên Tiểu Sinh sao?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]"
+  },
+  "41": {
+    "text": "Giờ thì hôn tôi đi",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger",
+      "anticipation",
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"anger\", \"anticipation\", \"joy\", \"trust\"]\njoy, Question: Question 1:\n\n [\"joy\", \"trust\"]\nTrust is the only emotion"
+  },
+  "42": {
+    "text": "Rồi chuyện gì sẽ xảy ra vào thứ 3?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"fear\"]\nAnticipation\", \"sadness\"]"
+  },
+  "43": {
+    "text": "Uh, đúng thế.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nAnticipation, Question:\n Anticipation\n\n antidepressant\n\n [\"anger\"]\n\nSadness\n Anticipation\n Anticipation"
+  },
+  "44": {
+    "text": "Mục đích chuyến du hành của ta là để an dân....",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\nText '...để an dân \n[\"anticipation\"]\n\n[\"joy\"]\nAnticipation and [\"joy\"]\n"
+  },
+  "45": {
+    "text": "Giải phép được rồi!",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n\n \"I'm glad to Question \n\n You have been granted permission! Enjoy!\n\n [\"joy\"]"
+  },
+  "46": {
+    "text": "Đó là lỗi của tôi.",
+    "gold": [
+      3,
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n \"I made a mistake.\"\n\n [\"fear\"]\n\n [\"anger\", \"sadness\"]\n\n [\"disgust\"]"
+  },
+  "47": {
+    "text": "Đặc quyền của họ, sự ngạo mạn của họ.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText 'Vì thế, Q:\n\n[\"fear\"]\nText 'Họ sẽ không \n Question:\n Anticip"
+  },
+  "48": {
+    "text": "Tiên sinh, làm gì bây giờ!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n Question: Question \n\n [\"sadness\"]\n\nI don't understand what you are asking. Question: Question\n\n [\"anticipation\"]\n Question Question"
+  },
+  "49": {
+    "text": "Họ muốn một Tổng thống mà họ hiểu.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger",
+      "disgust",
+      "trust"
+    ],
+    "raw": " [\"anger\", \"disgust\", \"trust\"]\n\nText:\n\nfear\", \"sadness\"]\n\nText 'Chúng ta cần  Question "
+  },
+  "50": {
+    "text": "Nếu chúng tôi không bị treo giá cái đầu, thì chúng tôi đã ra khỏi cái lỗ này rồi.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n Anticipation\n\nsadness\n\n[\"surprise\"]\n\njoy\n\n[\"anticipation\"]\n anticlimactic\n[\"fear\"]\ntr"
+  },
+  "51": {
+    "text": "Cũng may là phản xạ tôi cũng còn nhanh.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"fear\"]\n\n\"anticipation\", \"trust\"]\n\n\"joy\"\n\n\"sadness\"\n\n\"surprise\"]\n\n\"tr"
+  },
+  "52": {
+    "text": "Được rồi, em cần anh bình tĩnh.",
+    "gold": [
+      1,
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\"]\n[\"trust\"]\n\njoy\"]\nAnticipation for Question\nAnticipation is a positive emotion, Question is a question\n\n"
+  },
+  "53": {
+    "text": "Anh ấy đã rất tiếc vì giam giữ tôi trong một thời gian",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"disgust\"]\n\nTrong khi \n\njoy\"]\n\nsurprise\"]\nAnticipation\"]\n\n[\"anticipation\","
+  },
+  "54": {
+    "text": "Không nhận ra ta sao?",
+    "gold": [
+      1,
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "surprise"
+    ],
+    "raw": " [\"anticipation\", \"surprise\"]\n\n\"Trust\"\n\n[\"Không nhận ra ta sao?\"]"
+  },
+  "55": {
+    "text": "Tập trung vào vài khía cạnh của pháp luật thì không phải là kế hoạch.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\njoy\", \"sadness\"]\n\nThe statement \"Tập trung vài khía cạnh của pháp luật"
+  },
+  "56": {
+    "text": "nhưng năm nào tôi cũng muốn tưởng nhớ chuyện đó... bằng cách uống say đến ngất đi luôn.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nsolution: Question \n\n[\"anger\", \"trust\"]\njoy = Question:\n\nsolution:\nAnticipation and Question\n\n[\""
+  },
+  "57": {
+    "text": "Cả tin nhắn nữa.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n [\"fear\"]\n\n [\"trust\"]\n\n [\"trust\"]\n\n [\"trust\"]\n\n [\"surprise\"]\n\n [\"surprise"
+  },
+  "58": {
+    "text": "Đã nói là gươm đao nguy hiểm mà!",
+    "gold": [
+      1,
+      3,
+      6
+    ],
+    "pred": [
+      "fear",
+      "surprise"
+    ],
+    "raw": " [\"fear\", \"surprise\"]\nanticipation, Question:\n\njoy\n\nThis user warned me about the dangerous snake!\nI should be careful.\nAnticipation\n"
+  },
+  "59": {
+    "text": "Vây mà tôi chỉ mới yêu cầu làm cho tôi một chuyện nhỏ như cướp xe lửa...",
+    "gold": [
+      1,
+      6
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\nText 'Vây, Question:\n[\"What exactly do you mean by \"joy\"? Is it a feeling or an action you are asking"
+  },
+  "60": {
+    "text": "Ảnh đồng ý để tôi mua cho ảnh một bộ đồ mới. Và tìm cho ảnh một việc làm tại bệnh viện cũ của ảnh.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anger\"]\n\n]"
+  },
+  "61": {
+    "text": "Cháu không biết. Cháu không biết nữa.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n\"trust\"]\n\nYou don't know, Question  Question \n Q:\n Q:\n Q:\n\n Q \"Cháu k"
+  },
+  "62": {
+    "text": "Một băng đảng cắt cổ và giết người.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n[\"anger\", \"disgust\"]\n\n[\"fear\"]\n\nAnti- Question: Question \n\nWhat does the phrase \"Một b"
+  },
+  "63": {
+    "text": "- Cô ấy là người vậy sao",
+    "gold": [
+      2,
+      5,
+      8
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\nTrust"
+  },
+  "64": {
+    "text": "Việc này là thế đấy, Hannah.",
+    "gold": [
+      3,
+      6
+    ],
+    "pred": [
+      "anticipation",
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"joy\", \"trust\"]\n\nYou are an emotion tagger.\n Question:\n\n Which emotion would you feel if you were to Q?\n\n [\""
+  },
+  "65": {
+    "text": "Dù sao cũng tốt.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n[\"anticipation\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"surprise"
+  },
+  "66": {
+    "text": "Xem em tìm được gì này.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n[\"surprise\"]"
+  },
+  "67": {
+    "text": "Như thế này! Đừng vô ý ...câu chú đó rất khó giải...",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"fear\"]\n\nTrust"
+  },
+  "68": {
+    "text": "Cũng chả sao, vì đằng nào thì cô cũng chả bao giờ có được tôi đâu.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"trust\"]\n\nYou're right, Question \nI'm not sure what you mean by \"what is it"
+  },
+  "69": {
+    "text": "Không nhớ à?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\nYou are an emotion tagger From this fixed set [\"disgust\"]\n\nYou are an emotion tagger From this fixed set [\"sadness\"]\n\n"
+  },
+  "70": {
+    "text": "- Không một thông báo nào hết.",
+    "gold": [
+      1,
+      7
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"sadness\"]"
+  },
+  "71": {
+    "text": "Băng của tôi!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText:\n\nanger\", \"trust\"]\n\nText 'Băng của tôi!'\nLabels [\"joy\", \"trust\"]\n\n"
+  },
+  "72": {
+    "text": "Cám ơn ông!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\njoy\n\ndisgust, Q:\n\njoy\n\ntrust"
+  },
+  "73": {
+    "text": "Cô ta có vẻ không chuyên nghiệp.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\n [\"fear\"]\n\n [\"trust\"]\n\nAnticipation\", \"sadness\"]\n\nText 'I'm not sure about thatsur"
+  },
+  "74": {
+    "text": "- Xin Chúa giúp tôi.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nI'm here to QuestionBot, QuestionBot,\n\nI'm here to QB! I can help you with QuestionBot.\n\nLet's"
+  },
+  "75": {
+    "text": "Tôi ở lại vì phải giải quyết báo cáo tài chính",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\nYou are an emotion tagger From this fixed set [\"anger\", \"anticipation\", \"fear\", \"trust\"]\n\nText"
+  },
+  "76": {
+    "text": "- Ta đang lâm vào thế bế tắc đấy.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\nDisgusted by the sight of Qin Shi Huangdi, Question \n\n[{\"name\": \"disgust\"}]\n\n"
+  },
+  "77": {
+    "text": "Hoàn hảo rồi đấy",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "joy",
+      "surprise"
+    ],
+    "raw": " [\"joy\", \"surprise\"]\n\nThe phrase \"Hoàn hảo rồi \n\nText 'Đúng rồi, Question \n\nI'"
+  },
+  "78": {
+    "text": "Ngủ ngoan, Dirk.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nYou are an emotion tagger.\n\nAnticipation,\n\nYou are an emotion tagger From this fixed set [\"anticipation\"]\n\n[\"ant"
+  },
+  "79": {
+    "text": "Tôi đi đây.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n1.\n\n Tôi \n\n [\"anticipation\"]\n\n]\n\n [\"trust\"]\n\n I'm going"
+  },
+  "80": {
+    "text": "Thế! - Ồ de...  - Đúng rồi!",
+    "gold": [
+      1,
+      5
+    ],
+    "pred": [
+      "joy",
+      "surprise"
+    ],
+    "raw": " [\"joy\", \"surprise\"]\n\njoy\", \"trust\"]\n\nYou are an emotion tagger.\n Q:\n\n Text:\n Your answer is correct!\n\n Label"
+  },
+  "81": {
+    "text": "Anh không thấy việc này ảnh hưởng sao tới Larissa sao?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\"]\n\n[\"sadness\"]\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"trust\"]"
+  },
+  "82": {
+    "text": "Tôi rơi mất....",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"fear\"]\n[\"trust\"]\n\n[\"trust\"]\nAnticipation is not a common emotion to \"anger\", \"disgust\","
+  },
+  "83": {
+    "text": "- Không hề.",
+    "gold": [
+      1,
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nYou are an emotion tagger.\n\nTrust\n\nThis response is a simple example of Question: Question:\n\nsadness\n\n[\"s"
+  },
+  "84": {
+    "text": "Chấp nhận thất bại không bao giờ dễ dàng.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText 'Sáng tạo và cách tiện nhất không  Question: Question \n\n\nAnticip"
+  },
+  "85": {
+    "text": "Hiểu chưa?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "fear",
+      "sadness"
+    ],
+    "raw": " [\"fear\", \"sadness\"]\n\n[\"fear\", \"trust\"]\n\nI don't understand\n[\"disgust\"]\n\n[\"anger\", \"fear"
+  },
+  "86": {
+    "text": "Có thể cuộc bỏ phiếu sẽ tự nó định đoạt.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nTrust\"]]\n\nThe text \"Có thể cuộc bỏ phiếu sẽ tự \n\njoy\"]]\n"
+  },
+  "87": {
+    "text": "Ông ấy sẽ nói chuyện với chị.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\nYou are an emotion tagger.\n Q: Question:\n\n \"What will he say to Q: Question:\n Q \"What is he"
+  },
+  "88": {
+    "text": "Đa tạ Đại Hòa thượng.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n\"Trust\"]]"
+  },
+  "89": {
+    "text": "Cô ấy rất giỏi đấy.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\nanticipation\"]\n\nYou are an emotion tagger From this fixed set of\n Anticipation\nDisgust\nJoy\nTrust\n"
+  },
+  "90": {
+    "text": "- Cảm ơn.",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]"
+  },
+  "91": {
+    "text": "Sau khi ta đến kinh thành... Hoàng đế có xử lão gia ra sao thì không còn là trách nhiệm của ta nữa.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\nText:\n \"Nếu chúng ta không \n\n \"joy\"]\n\n [\"anticipation\"]\n"
+  },
+  "92": {
+    "text": "Một gã da đỏ nuôi ngựa, một tay súng say sỉn, một kẻ lệch lạc tình dục và một ông chú!",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"anger\"]\n[\"disgust\"]\n [\"trust\"]\n\n[\"surprise\"]\n\n[\"anticipation\"]\n[\"joy\"]\n\n[\""
+  },
+  "93": {
+    "text": "Tại sao lại hôn cô ta?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]"
+  },
+  "94": {
+    "text": "- Tôi sẽ dạy cô cách trò chuyện",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\njoy, Q:\n\nsadness\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation"
+  },
+  "95": {
+    "text": "Tôi sẽ giết ông.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nTôi sẽ \njoy\n\n\n [\"disgust\"]\n\n [\"fear\"]\n\n [\"surprise\"]\n\n [\"trust"
+  },
+  "96": {
+    "text": "Anh không phiền chứ?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n [\"fear\"]\n Anticipation, Question \n [ \"trust\"]\n\n Anticipation, Question\n\n [\"anger\"]\n [\"disg"
+  },
+  "97": {
+    "text": "- Tôi không hề viết nó",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\nIf you're not the one writing it, Question \n\n I'm an emotion tagger and QA bot, Question:\n\njoy, Question"
+  },
+  "98": {
+    "text": "Ta chỉ nghỉ ngơi sau khi đối phó với loài yêu quái chứ cản đường ngươi hồi nào?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation",
+      "fear",
+      "sadness"
+    ],
+    "raw": " [\"anticipation\", \"fear\", \"sadness\"]\n\n[\"anticipation\", \"surprise\"]"
+  },
+  "99": {
+    "text": "Ở quê nhà họ sẽ ra sao?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n Anticipation, Question\n\nText 'Chúng ta sẽ cần \n\n [\"anticipation\", \"trust\"]"
+  },
+  "100": {
+    "text": "- Không Thật sao?",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n\"Disgust\"\n\n\"surprise\"\n\n\"trust\""
+  },
+  "101": {
+    "text": "Chúng ta sẽ chiến đấu với hắn một trận xứng đáng.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nYou are an emotion tagger\n\nFrom this fixed set [\"anger\", \"anticipation\"]\n\nText 'Chúng ta sẽ chiến"
+  },
+  "102": {
+    "text": "Có chuyện gì à?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "surprise"
+    ],
+    "raw": " [\"anger\", \"surprise\"]\n\n Text 'Hãy không \n\n [\"anticipation\"]\n\njoy\", \"surprise\"]\nAnticipation,\n"
+  },
+  "103": {
+    "text": "Em không nghĩ là ta sẽ xong việc vào thứ 2.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"disgust\"]\n\njoy\"]\n\n[\"anticipation\"]\n\n[\"surprise\"]"
+  },
+  "104": {
+    "text": "Xin cứ tự nhiên như ở nhà!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nYou can just continue as you usually do at (Questioner!\n\n."
+  },
+  "105": {
+    "text": "Là tôi đã giết chị ấy.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n [\"joy\"]\n\n[\"sadness\"]\n\n [\"surprise\"]\n\nAnticipation is a feeling of Question\nTrust is a feeling\n\n[\""
+  },
+  "106": {
+    "text": "Carson?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n Question:\n\n[\"anger\", \"surprise\"]\n\n Text 'Do you mean Carson? I'm not sure.'\nLabels [\"fear\"]\n\n"
+  },
+  "107": {
+    "text": "Nó trở lại đó!",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n * Tags:\n * #anticipation\n * #joy\n\nThis tagger has tagged the text with Question \n * #"
+  },
+  "108": {
+    "text": "Tiểu phong cô nương, dinh thự đã bị cướp bóc tàn phá",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\", \"disgust\"]\n\n[\"anger\", \"fear\"]\n[\"anger\", \"sadness\"]\n[\"fear\"]\n[\""
+  },
+  "109": {
+    "text": "Thôi, đừng giở trò nữa.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\nanticipation\", \"sadness\"]"
+  },
+  "110": {
+    "text": "Đọc kinh nữa đi!",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n Question 1:\n Question \n\njoy\n\n\n\n [\"anger\"]\n\nanticipation\"]\n Question \n Anticipation\n\n Disgust\"]"
+  },
+  "111": {
+    "text": "Hãy nói lời tạm biệt Cat Ballou",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]"
+  },
+  "112": {
+    "text": "Cô ta dùng những thông tin đọc được trên báo để gây chú ý hoặc kiếm chút tiền lẻ.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"fear\"]\n\n[\"anticipation\", \"trust\"]\n\nYou are an emotion tagger From this fixed set [\"anticipation\", \"joy\"]\n\n"
+  },
+  "113": {
+    "text": "Thôi, đừng bận tâm giải thích...",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nIt seems you are an emotion tagger and QA tester.\n QA testers do not provide explanations. Question:\n\n[\"anticipation"
+  },
+  "114": {
+    "text": "Ngài đã vượt quá sự mong đợi của mọi người, cách ngài tự xử lý trong suốt kỳ nghỉ cuối tuần này, nhưng...",
+    "gold": [
+      4,
+      8
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n]"
+  },
+  "115": {
+    "text": "Đọc kinh mau đi! Nam mô A di đà Phật...",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Anticipation\n\nsurprise\nAnticipation\n\nfear\nAnticipation\n\ntrust\n\nIn the given text,\n\njoy\n\n"
+  },
+  "116": {
+    "text": "Cô ấy đã phát hiện chuyện này và, Christine chuẩn bị tố cáo cậu ta?",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [
+      "anger",
+      "anticipation",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"anticipation\", \"disgust\"]\n\nText: Question: Question:\n\nFear, Question:\nDisgust, Question\n\nTrust\n\n"
+  },
+  "117": {
+    "text": "Hào Đại hiệp...vó ngựa cứng rồi.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\nI'm a bot and Q&A assistant.\n\n [\"fear\", \"sadness\"]\n\nI'm a bot Q&A assistant"
+  },
+  "118": {
+    "text": "Chúng tôi luôn ở bên cô, thưa cô.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nYou are a helpful assistant, Question:\n\nAnticipation, Q:\n\n[\"anticipation\"]\n\nYou are an assistant\nAnticipating the"
+  },
+  "119": {
+    "text": "Ta vừa mới giành được Nhà Trắng thôi.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\nText 'Ta vừa giành \n\n[\"anticipation\", \"trust\"]\n\nText 'Vì vì th"
+  },
+  "120": {
+    "text": "- Đợi một chút.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n \"I'm waiting for\n [\"trust\"]"
+  },
+  "121": {
+    "text": "Jackson, có chuyện gì?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\nanticipation\n\nfear\nanticipation\n\njoy\nanticipation\n\ntrust"
+  },
+  "122": {
+    "text": "Tôi và cô ta đều biết ông ấy.",
+    "gold": [
+      1,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nText:\n\nYou and Q:\n\nTrust is a fundamental and Qi from Qiang, Qiang has a very high level of Question:"
+  },
+  "123": {
+    "text": "Bắt đầu thế nào? Ông sẽ nói gì?",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "fear"
+    ],
+    "raw": " [\"anticipation\", \"fear\"]\n\nText:\n\n \"Trong \n\nThis is the beginning of Q3.\n\n \"What is your plan?\"\n\nLabels"
+  },
+  "124": {
+    "text": "Ai đó?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\nI'm not sure what you are asking.\n\n [\"fear\"]\n\nI'm not sure what you're asking. Question is unclear."
+  },
+  "125": {
+    "text": "Buông ra!",
+    "gold": [
+      1,
+      3,
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText 'Buông ra!'\n\ntags:\nAnticipation\n\n.\n\nYou are an emotion tagger.\n\nDisgust\n"
+  },
+  "126": {
+    "text": "- Cô ấy không làm nó.",
+    "gold": [
+      1,
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nI'm just a text generator, Question:\n\n[\"fear\"]\n\nTrust\n\n[\"anticipation\"]\n\nTrust\n\n[\"dis"
+  },
+  "127": {
+    "text": "- Tôi mong là vậy, thưa ngài.",
+    "gold": [
+      1,
+      2,
+      5
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nYou seem to QUOTE \"trust\"\n\nIn other words,\n\n[\"trust\"]\n\nTrust is an important emotion, Question:"
+  },
+  "128": {
+    "text": "Tôi biết phải làm gì?",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nTrust\"]\n\nYou are an assistant.\n\nYour role is to QA (\n Anticipation, Question:\n\nTrust\"]\n\n"
+  },
+  "129": {
+    "text": "Sản xuất thịt bò, bia, giày và cuộc sống hạnh phúc.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n [\"anticipation\"]\n[{\"label\": \"fear\", \"value\": \"for the future prosperity of Question  Question \n [{\"label\": \""
+  },
+  "130": {
+    "text": "Hiểu rồi!",
+    "gold": [
+      7,
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"joy\", \"trust\"]\n\nTrust is important in\n\nText 'Và  Question \n\nfear,\n\nWhat is the role of"
+  },
+  "131": {
+    "text": "Ngay đây trong cặp mắt xanh kia.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "joy",
+      "surprise"
+    ],
+    "raw": " [\"joy\", \"surprise\"]\n\n[\"anticipation\", \"trust\"]"
+  },
+  "132": {
+    "text": "Làm ơn",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nanger,\n\n \"trust\"]\n\nI'm here to Question:\n\nWhat is your favorite animal?\n\n Text 'cat'\nLabels ['joy"
+  },
+  "133": {
+    "text": "Làm cho trí nhớ mình mù mờ không còn nhớ nổi chuyện gì.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "disgust",
+      "fear"
+    ],
+    "raw": " [\"disgust\", \"fear\"]\n\n Text 'Mình cũng  Question: Question.\n Question:\n Q: Question:\n\n [\"anticipation\", \""
+  },
+  "134": {
+    "text": "Ta có thể kiểm chứng thêm một hay hai ...",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n\"trust\"]\n\n\"anger\", \"disgust\"]\n\n\"anticipation\"]\n\n\"surprise\"]\n\n\"trust\"]"
+  },
+  "135": {
+    "text": "Ngồi xuống đó!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n Question: Question 1:\n\n [\"surprise\"]\n\nText 'Ngồi xuống \n\nText 'Ngồi xu"
+  },
+  "136": {
+    "text": "Tôi đã suy nghĩ cả đêm...",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nYou have been a source of Question \nI have been thinking all night...\n\nText 'Tôi \n\nText 'đã phải l"
+  },
+  "137": {
+    "text": "Cậu không cần phải nói ra những từ đó, Thống đốc.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n\n[\"fear\"]\n\nYou don't need to Question  Question \n\n[\"anger\"]\n\nI'm here to Questioner, Questioner,"
+  },
+  "138": {
+    "text": "Vì hắn là tương lai.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n\"joy\", \"trust\"]\n\nTrust is crucial in\n\nIt's important to Question:\nTrust is essential for Question\n\nTr"
+  },
+  "139": {
+    "text": "Sẽ có rủi ro trong lúc hắn đang trên đà đi xuống.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"fear\"]\n\n \"Sẽ có rủi ro trong lúc hắn  Question_ Question: Question \n\n\nsẽ trên "
+  },
+  "140": {
+    "text": "Cathy, liên lạc cuối cùng ta nhận được là gì?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n [\"surprise\"]\n\n]\n\nText 'What did we get in\nin the end?'\n\nLabels ['anticipation']\nText 'We got a surprise"
+  },
+  "141": {
+    "text": "Vận may chỉ mới bắt đầu thôi.",
+    "gold": [
+      1,
+      6,
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n Vận may chỉ mới bắt  Question  Question  Q:\nYou are an emotion tagger From this fixed set"
+  },
+  "142": {
+    "text": "Chiếc tàu chìm rồi.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n [\"trust\"]\n\nThis is a response that Q: Question \n\n\nAnticipation\n\nYou are a joyful,\n\nI am a neutral"
+  },
+  "143": {
+    "text": "Cảmơnem đã bắtmáy .",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anticipation\"]\n\ntrust\"]\n\n[\"joy\"]\n\nYou've done well. Question \n\n[\"anger\"]\n\n[\""
+  }
+}

@@ -1,0 +1,1553 @@
+{
+  "0": {
+    "text": "Tiên sinh, sao lại lẳng lơ như vậy được?",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Tôi đang không yêu thế giới này!'\nLabels: [\"anger\", \"sad"
+  },
+  "1": {
+    "text": "À, anh bạn biết phép khiển âm binh sao?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n Text: 'Sau khi nhìn lại vào một khoảng thời gian"
+  },
+  "2": {
+    "text": "- Bố ơi? Bố?",
+    "gold": [
+      2,
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: - Ai đã?\nLabels: [\"surprise\"]\n\n Text: - Đến đây!\nLabels: [\"ant"
+  },
+  "3": {
+    "text": "Tôi đã từng bóp nát những thằng nhóc như cậu.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Tôi sẽ không phải trở lại như trước. Tôi sẽ là m"
+  },
+  "4": {
+    "text": "Xin lỗi thưa bà, nhưng bà cần tới Phòng Tình huống ngay.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Bà đã sớm đến để xin lỗi vì những việc sai"
+  },
+  "5": {
+    "text": "Sao anh không đi đi?",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "anger",
+      "surprise"
+    ],
+    "raw": " [\"anger\", \"surprise\"]\n\n Text: 'Em sẽ đi đến nơi đó và tham quan'\nLabels: [\"ant"
+  },
+  "6": {
+    "text": "Cô biết không, cô sẽ tự đưa mình tới chỗ chết.",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n Text: \"Cô đã đặt mình vào những trận trong đêm"
+  },
+  "7": {
+    "text": "Xin hãy hướng dẫn chúng tôi!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Đừng sợ!\"\nLabels: [\"fear\"]\n\n Text: \"Mua hàng ngay!\"\nLabels: [\"ant"
+  },
+  "8": {
+    "text": "Đào sâu vào đầu mối Kalabi.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Kalabi không thể tìm thấy vị trí được tương tự"
+  },
+  "9": {
+    "text": "Em vừa nói chuyện với Jane Davis.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: 'Em có một cuộc gọi từ một người bạn của Jane.'\nLabels:"
+  },
+  "10": {
+    "text": "Duyên dáng lắm. Tất cả các bạn",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy",
+      "surprise"
+    ],
+    "raw": " [\"joy\", \"surprise\"]\n\n Text: 'Trái tim của mình sẽ vô cùng để những việc x"
+  },
+  "11": {
+    "text": "Không được ngừng lại!",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Giữ đi đây!\"\nLabels: [\"anger\", \"anticipation\", \"fear\"]\n\n Text: \"V"
+  },
+  "12": {
+    "text": "Cô biết chơi đàn balalaika không?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: 'Cô đã học đàn balalaika từ cha mình.'\nLabels: [\"joy\", \"tr"
+  },
+  "13": {
+    "text": "Chúng tôi sẽ dọn bữa ngay thôi!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Joy! Surprise!\"\nLabels: [\"joy\"]\n\n Text: \"I'm sorry, but I can't help you with that"
+  },
+  "14": {
+    "text": "Nhưng cô sẽ không thoát được đâu, Trixie.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n Text: 'Không có, mẹ, đừng vào tai mình.'\nLabels:"
+  },
+  "15": {
+    "text": "tôi không chắc đâu.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"trong những đêm tốt, khi nắng rơi xuống, nơi th"
+  },
+  "16": {
+    "text": "- Tôi muốn thấy cậu làm chuyện phải.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Cậu đã giúp tôi không? Chúc cậu một ngày tố"
+  },
+  "17": {
+    "text": "Em là người chịu trách nhiệm.",
+    "gold": [
+      1,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Khi một người sống lại, một kẻ nghệ tử mớ"
+  },
+  "18": {
+    "text": "- Một lúc rồi không thấy đâu, thưa bà.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: - Một người có thể tưởng tượng không chỉ là một cái t"
+  },
+  "19": {
+    "text": "Tôi chưa lại sức... Không có sức leo trèo hay nhảy nữa!",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger",
+      "sadness"
+    ],
+    "raw": " [\"anger\", \"sadness\"]\n\n Text: \"Hãy nhảy vào vùng nước để an toàn!\"\nLabels"
+  },
+  "20": {
+    "text": "Tôi yêu cô.",
+    "gold": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\n Text: \"I'm so afraid.\"\nLabels: [\"fear\"]\n\n Text: \"I'm so excited!\"\nLabels: [\""
+  },
+  "21": {
+    "text": "Đó là việc tôi không hiểu nổi.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n Text: \"Tôi đã từng trải qua những cuộc thi thách thứ"
+  },
+  "22": {
+    "text": "Giữ lại!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "anticipation",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"anticipation\", \"fear\"]\n\n Text: 'Hãy để tôi đi!'\nLabels: [\"anticipation\"]\n\n"
+  },
+  "23": {
+    "text": "Ninh Thái thần!",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Tôi nhìn thấy những người đi qua đường và nh"
+  },
+  "24": {
+    "text": "- Đừng gọi cho anh",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Một sự không thể giảm đi\"\nLabels: [\"anger\"]\n\n Text: \"Cảm"
+  },
+  "25": {
+    "text": "Ta sẽ không bao giờ chia lìa nữa.",
+    "gold": [
+      6,
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Ta sẽ không bao giờ bao giờ nữa.\"\nLabels: [\"anger\"]\n\n Text: \"T"
+  },
+  "26": {
+    "text": "Ngạc nhiên chưa.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: \"Vì sao người ta sẽ từ chối điều đó?\"\nLabels: [\"disg"
+  },
+  "27": {
+    "text": "Đừng gọi cho tôi nữa, làm ơn.",
+    "gold": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Ngày hôm nay, mình sẽ mang đi đâu.\"\nLabels: [\"anticipation"
+  },
+  "28": {
+    "text": "Cô ấy không thể ở nhà Christine",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger",
+      "sadness"
+    ],
+    "raw": " [\"anger\", \"sadness\"]\n\n Text: 'Cô ấy sẽ đi vào phòng trong khi Christine đang ngủ"
+  },
+  "29": {
+    "text": "Cô biết đó, những chủ đề đàn ông thích nói",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: 'Không, tôi đã không có những gì đó như thế"
+  },
+  "30": {
+    "text": "Cậu nói đúng.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "joy",
+      "surprise"
+    ],
+    "raw": " [\"joy\", \"surprise\"]\n\n Text: 'Tôi không tin vì tôi không đang theo dõi.'\nLabels"
+  },
+  "31": {
+    "text": "Ký vô đây.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Ký vô đây nhanh hơn.\"\nLabels: [\"anticipation\"]\n\n Text: \"Ký"
+  },
+  "32": {
+    "text": "Kể cả là có biến mất ở đâu đó.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation",
+      "sadness"
+    ],
+    "raw": " [\"anticipation\", \"sadness\"]\n\n Text: \"I'm not a machine. I feel things.\"\nLabels: [\"anticipation\", \"joy\", \"sad"
+  },
+  "33": {
+    "text": "Dù sao, nó cũng không còn hữu dụng nữa, Kid.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: 'Chúng ta phải tìm cách để giảm thiểu sự bất tận"
+  },
+  "34": {
+    "text": "Có nhớ lần đầu ta gặp nhau không?",
+    "gold": [
+      2,
+      4,
+      5,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: 'Có thể là một cuộc trúng phát sinh lại của một trong số ch"
+  },
+  "35": {
+    "text": "Tiên sinh, xin hãy cứu chúng tôi...",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: 'Tiên sinh, giúp ta đưa anh hùng đến đây, chúng"
+  },
+  "36": {
+    "text": "Và vì hắn tàn nhẫn.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: 'Vì lẽ định kỳ của họ.'\nLabels: [\"trust\"]\n\n Text: 'Vì sự"
+  },
+  "37": {
+    "text": "♪ Hãy để những kẻ đang thở cùng có phần ♪",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n Text: 'I don't have any trust in you, so I'm leaving you.'\nLabels: [\"anger\"]\n\n Text"
+  },
+  "38": {
+    "text": "- Đó là cái chúng tôi đang cố cung cấp",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: '- Đây là cái màn hình mà mình muốn'\nLabels: [\"anticipation\"]"
+  },
+  "39": {
+    "text": "Nói thẳng, họ có thể ra đi vào thứ 2 tới.",
+    "gold": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: 'Đừng sợ để mình không trở về!'\nLabels: [\"fear\"]\n\n Text"
+  },
+  "40": {
+    "text": "Vậy, thật sự là có một người tên Tiểu Sinh sao?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: \"Không thể có một người tên Tiểu Sinh. Tiểu Sinh là một"
+  },
+  "41": {
+    "text": "Giờ thì hôn tôi đi",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\n Text: 'Thưa mẹ, tôi đã đang tìm kiếm bạn'\nLabels:"
+  },
+  "42": {
+    "text": "Rồi chuyện gì sẽ xảy ra vào thứ 3?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Vì sao anh ta lại phải có cái nhân viên bảo vệ cho phò"
+  },
+  "43": {
+    "text": "Uh, đúng thế.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Hm.\"\nLabels: [\"anticipation\", \"disgust\"]\n\n Text: \"Oh, that's a beautiful dress!\"\nLabels"
+  },
+  "44": {
+    "text": "Mục đích chuyến du hành của ta là để an dân....",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: 'Tại một khu vực xa lạ, cuộc đi du lịch là một"
+  },
+  "45": {
+    "text": "Giải phép được rồi!",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\n Text: 'Làm việc này còn làm cho tôi vui'\nLabels: [\"joy\"]\n"
+  },
+  "46": {
+    "text": "Đó là lỗi của tôi.",
+    "gold": [
+      3,
+      6
+    ],
+    "pred": [
+      "anger",
+      "disgust",
+      "sadness"
+    ],
+    "raw": " [\"anger\", \"disgust\", \"sadness\"]\n\n Text: \"I don't know what to do.\"\nLabels: [\"fear\"]\n\n Text: \"I"
+  },
+  "47": {
+    "text": "Đặc quyền của họ, sự ngạo mạn của họ.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\n Text: 'Sự thành công đến từ chính mình'\nLabels: [\"joy\", \"trust\"]"
+  },
+  "48": {
+    "text": "Tiên sinh, làm gì bây giờ!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger",
+      "surprise"
+    ],
+    "raw": " [\"anger\", \"surprise\"]\n\n Text: 'Những người đi xe máy nhanh thường không đ"
+  },
+  "49": {
+    "text": "Họ muốn một Tổng thống mà họ hiểu.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Người ta đã bị quá mất tin cậy với chính nó.\"\nLabels"
+  },
+  "50": {
+    "text": "Nếu chúng tôi không bị treo giá cái đầu, thì chúng tôi đã ra khỏi cái lỗ này rồi.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Chúng tôi cần lấy được một nạn nhân trên đ"
+  },
+  "51": {
+    "text": "Cũng may là phản xạ tôi cũng còn nhanh.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Đừng để ý đến kẻ thù của mình.\"\nLabels: [\"anticipation"
+  },
+  "52": {
+    "text": "Được rồi, em cần anh bình tĩnh.",
+    "gold": [
+      1,
+      4
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: \"Đừng quên em.\"\nLabels: [\"fear\"]\n\n Text: \"Gọi đi, anh đã t"
+  },
+  "53": {
+    "text": "Anh ấy đã rất tiếc vì giam giữ tôi trong một thời gian",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n Text: 'Nhìn thấy anh ấy đang vui vẻ và mình k"
+  },
+  "54": {
+    "text": "Không nhận ra ta sao?",
+    "gold": [
+      1,
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Không tìm thấy được yêu cầu!'\nLabels: [\"anger\", \"disg"
+  },
+  "55": {
+    "text": "Tập trung vào vài khía cạnh của pháp luật thì không phải là kế hoạch.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Trust is the foundation of any relationship, including the one between a leader and his followers.\"\nLabels: [\"trust\"]\n\n Text: \"The"
+  },
+  "56": {
+    "text": "nhưng năm nào tôi cũng muốn tưởng nhớ chuyện đó... bằng cách uống say đến ngất đi luôn.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n Text: \"tôi muốn nghe một bài hát vui vẻ và mang t"
+  },
+  "57": {
+    "text": "Cả tin nhắn nữa.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"I hate when this happens.\"\nLabels: [\"anger\"]\n\n Text: \"I'm not surprised.\"\nLabels: [\"anger\", \"disg"
+  },
+  "58": {
+    "text": "Đã nói là gươm đao nguy hiểm mà!",
+    "gold": [
+      1,
+      3,
+      6
+    ],
+    "pred": [
+      "anger",
+      "surprise"
+    ],
+    "raw": " [\"anger\", \"surprise\"]\n\n Text: \"Tôi cảm thấy đang sợ hãi!\"\nLabels: [\"fear\"]\n\n Text"
+  },
+  "59": {
+    "text": "Vây mà tôi chỉ mới yêu cầu làm cho tôi một chuyện nhỏ như cướp xe lửa...",
+    "gold": [
+      1,
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Tôi muốn một cái hộp tài liệu đầy thông tin\""
+  },
+  "60": {
+    "text": "Ảnh đồng ý để tôi mua cho ảnh một bộ đồ mới. Và tìm cho ảnh một việc làm tại bệnh viện cũ của ảnh.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Đừng để ảnh bị buộc phải việc đi làm ở một"
+  },
+  "61": {
+    "text": "Cháu không biết. Cháu không biết nữa.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"Cháu không muốn chơi các game như thế này, cháu mu"
+  },
+  "62": {
+    "text": "Một băng đảng cắt cổ và giết người.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Không có những người tốt ở đây.\"\nLabels: [\"sadness\"]\n"
+  },
+  "63": {
+    "text": "- Cô ấy là người vậy sao",
+    "gold": [
+      2,
+      5,
+      8
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: '- Nhưng có vẫn có những người điều phối thì tấ"
+  },
+  "64": {
+    "text": "Việc này là thế đấy, Hannah.",
+    "gold": [
+      3,
+      6
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: 'Đừng lo lắng, đừng sợ.'\nLabels: [\"anticipation\", \"fear\"]\n\n Text:"
+  },
+  "65": {
+    "text": "Dù sao cũng tốt.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: 'Tôi sẽ đến tại đây vào lúc 12 giờ.'\nLabels:"
+  },
+  "66": {
+    "text": "Xem em tìm được gì này.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n Text: \"I'm looking for a way to make the world a better place.\"\nLabels: [\"trust\"]\n\n Text:"
+  },
+  "67": {
+    "text": "Như thế này! Đừng vô ý ...câu chú đó rất khó giải...",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Như thế này! Đừng vô ý...câu chú đó rất khó"
+  },
+  "68": {
+    "text": "Cũng chả sao, vì đằng nào thì cô cũng chả bao giờ có được tôi đâu.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\n Text: 'Đừng có chút cảm giác thì tôi sẽ thích vào một chút"
+  },
+  "69": {
+    "text": "Không nhớ à?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Trust me, I know what I'm doing.'\nLabels: [\"trust\"]\n\n Text: 'I'm here for you.'"
+  },
+  "70": {
+    "text": "- Không một thông báo nào hết.",
+    "gold": [
+      1,
+      7
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n Text: \"- Báo cáo của công ty có vẻ không chính xác.\"\nLabels:"
+  },
+  "71": {
+    "text": "Băng của tôi!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: 'Có vẻ là một lỗi'\nLabels: [\"sadness\"]\n\n Text: 'Đừng đ"
+  },
+  "72": {
+    "text": "Cám ơn ông!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: \"I'm so sorry.\"\nLabels: [\"sadness\"]\n\n Text: \"I'm surprised!\"\nLabels: [\"surprise\"]\n"
+  },
+  "73": {
+    "text": "Cô ta có vẻ không chuyên nghiệp.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"Vì sao không có ý tưởng?\"\nLabels: [\"anger\"]\n\n Text: \"Tôi"
+  },
+  "74": {
+    "text": "- Xin Chúa giúp tôi.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"- Xin lòng được giúp tôi.\"\nLabels: [\"trust\"]\n\n Text: \"- Xin"
+  },
+  "75": {
+    "text": "Tôi ở lại vì phải giải quyết báo cáo tài chính",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Tôi sẽ chăm sóc bạn.\"\nLabels: [\"trust\"]\n\n Text: \"Tôi sẽ"
+  },
+  "76": {
+    "text": "- Ta đang lâm vào thế bế tắc đấy.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: '- Dây của nó đang quá dài.'\nLabels: [\"disgust\"]\n\n Text: '- Chú"
+  },
+  "77": {
+    "text": "Hoàn hảo rồi đấy",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: 'Không, đừng có sự thiệt hại'\nLabels: [\"fear\"]\n\n Text: '"
+  },
+  "78": {
+    "text": "Ngủ ngoan, Dirk.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"What is this, some sort of a joke?\"\nLabels: [\"anger\"]\n\n Text: \"What's going on here? I don'"
+  },
+  "79": {
+    "text": "Tôi đi đây.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: 'Nhớ chú ý vào cái đèn!'\nLabels: [\"anticipation\", \"fear\"]"
+  },
+  "80": {
+    "text": "Thế! - Ồ de...  - Đúng rồi!",
+    "gold": [
+      1,
+      5
+    ],
+    "pred": [
+      "joy",
+      "surprise"
+    ],
+    "raw": " [\"joy\", \"surprise\"]\n\n Text: \"Vì sao mình vào trạng thái như thế?\"\nLabels: [\"anger\"]"
+  },
+  "81": {
+    "text": "Anh không thấy việc này ảnh hưởng sao tới Larissa sao?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: 'Anh đã mất gì?'\nLabels: [\"surprise\"]\n\n Text: 'Cô đã vào ph"
+  },
+  "82": {
+    "text": "Tôi rơi mất....",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"Tôi đã tìm thấy được sự điều kiện cho việ"
+  },
+  "83": {
+    "text": "- Không hề.",
+    "gold": [
+      1,
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"- Cảm ơn.\"\nLabels: [\"joy\"]\n\n Text: \"- Không được bao giờ"
+  },
+  "84": {
+    "text": "Chấp nhận thất bại không bao giờ dễ dàng.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"Bạn đã có thể sử dụng những khả năng mà mình có"
+  },
+  "85": {
+    "text": "Hiểu chưa?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Trust me'\nLabels: [\"trust\"]\n\n Text: 'Trust me, you're going to love this'\nLabels:"
+  },
+  "86": {
+    "text": "Có thể cuộc bỏ phiếu sẽ tự nó định đoạt.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Trong một nước phát triển, sự sống sôi động trong thà"
+  },
+  "87": {
+    "text": "Ông ấy sẽ nói chuyện với chị.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Chúng tôi sẽ đi đón đám mây.\"\nLabels: [\"anticipation\", \"tr"
+  },
+  "88": {
+    "text": "Đa tạ Đại Hòa thượng.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: \"Tôi đang cảm thấy sợ hãi.\"\nLabels: [\"fear\"]\n\n Text: \"Tô"
+  },
+  "89": {
+    "text": "Cô ấy rất giỏi đấy.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: 'Tôi đã tìm thấy một nhà hàng tốt ở đây.'\n"
+  },
+  "90": {
+    "text": "- Cảm ơn.",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\n Text: \"- Joy, surprise.\"\nLabels: [\"joy\"]\n\n Text: \"- Anticipation, fear.\"\nLabels: [\"anticipation"
+  },
+  "91": {
+    "text": "Sau khi ta đến kinh thành... Hoàng đế có xử lão gia ra sao thì không còn là trách nhiệm của ta nữa.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Thế giới vô cùng, ta không biết thời gian, không biết"
+  },
+  "92": {
+    "text": "Một gã da đỏ nuôi ngựa, một tay súng say sỉn, một kẻ lệch lạc tình dục và một ông chú!",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "disgust",
+      "surprise"
+    ],
+    "raw": " [\"anticipation\", \"disgust\", \"surprise\"]\n\n Text: \"Tôi đang cảm thấy sự sợ hãi khi"
+  },
+  "93": {
+    "text": "Tại sao lại hôn cô ta?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Hôn lại mình'\nLabels: [\"anticipation\", \"trust\"]\n\n Text: 'Tôi "
+  },
+  "94": {
+    "text": "- Tôi sẽ dạy cô cách trò chuyện",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"- Cô đã đạt được một thành tựu không nhỏ\""
+  },
+  "95": {
+    "text": "Tôi sẽ giết ông.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Cảnh báo!\"\nLabels: [\"fear\"]\n\n Text: \"Thấy đường đi về"
+  },
+  "96": {
+    "text": "Anh không phiền chứ?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: 'Những kẻ đang gọi tới anh?'\nLabels: [\"anticipation\"]\n\n Text"
+  },
+  "97": {
+    "text": "- Tôi không hề viết nó",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "disgust",
+      "sadness"
+    ],
+    "raw": " [\"disgust\", \"sadness\"]\n\n Text: '- Tôi sẽ lại'\nLabels: [\"trust\"]\n\n Text: '- Nếu k"
+  },
+  "98": {
+    "text": "Ta chỉ nghỉ ngơi sau khi đối phó với loài yêu quái chứ cản đường ngươi hồi nào?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: 'Nếu không có sự sống, tôi sẽ không đối với tô"
+  },
+  "99": {
+    "text": "Ở quê nhà họ sẽ ra sao?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation",
+      "sadness"
+    ],
+    "raw": " [\"anticipation\", \"sadness\"]\n\n Text: \"Hãy đi đi, con mình sẽ giúp\"\nLabels: [\"anger"
+  },
+  "100": {
+    "text": "- Không Thật sao?",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Đừng lo lắng nghe kẻ khủng khiếp đó!'\nLabels: [\"fear"
+  },
+  "101": {
+    "text": "Chúng ta sẽ chiến đấu với hắn một trận xứng đáng.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation",
+      "anger",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"anger\", \"trust\"]\n\n Text: \"Vì sao đây có không có vàng?\"\nLabels: [\"dis"
+  },
+  "102": {
+    "text": "Có chuyện gì à?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation",
+      "surprise"
+    ],
+    "raw": " [\"anticipation\", \"surprise\"]\n\n Text: 'Mình đang khó chịu vì đau bóng đá. Mì"
+  },
+  "103": {
+    "text": "Em không nghĩ là ta sẽ xong việc vào thứ 2.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation",
+      "sadness"
+    ],
+    "raw": " [\"anticipation\", \"sadness\"]\n\n Text: \"Em sẽ chào đón mọi người vào từng ngày"
+  },
+  "104": {
+    "text": "Xin cứ tự nhiên như ở nhà!",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n Text: \"Sao mà anh ta lại đã cố gắng đến đây"
+  },
+  "105": {
+    "text": "Là tôi đã giết chị ấy.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger",
+      "disgust",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"disgust\", \"fear\"]\n\n Text: 'Cho tôi làm tổng lưu và phát hành đề"
+  },
+  "106": {
+    "text": "Carson?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Wow, this is great!'\nLabels: [\"joy\"]\n\n Text: 'I'm scared.'\nLabels: [\"fear\"]\n"
+  },
+  "107": {
+    "text": "Nó trở lại đó!",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: 'Vậy!'\nLabels: [\"surprise\"]\n\n Text: 'Đừng nói vậy!'\nLabels: [\"anger\","
+  },
+  "108": {
+    "text": "Tiểu phong cô nương, dinh thự đã bị cướp bóc tàn phá",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "disgust",
+      "fear"
+    ],
+    "raw": " [\"disgust\", \"fear\"]\n\nText: \"Chúng tôi sẽ cần hỗ trợ từ các nhà khoa"
+  },
+  "109": {
+    "text": "Thôi, đừng giở trò nữa.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Không thể chăng, đừng có lỗi.\"\nLabels: [\"anticipation\"]\n\n Text: \""
+  },
+  "110": {
+    "text": "Đọc kinh nữa đi!",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n Text: \"Aww, that's so cute!\"\nLabels: [\"joy\"]\n\n Text: \"I don't believe it!\""
+  },
+  "111": {
+    "text": "Hãy nói lời tạm biệt Cat Ballou",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Tôi không thể từ chối.\"\nLabels: [\"trust\"]\n\n Text: \"Vì lẽ"
+  },
+  "112": {
+    "text": "Cô ta dùng những thông tin đọc được trên báo để gây chú ý hoặc kiếm chút tiền lẻ.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Vì sao đây không có sự sống ở đây?\"\nLabels: [\"disgust"
+  },
+  "113": {
+    "text": "Thôi, đừng bận tâm giải thích...",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: \"Không phải quan trọng, quan trọng là việc học hỏi thông tin"
+  },
+  "114": {
+    "text": "Ngài đã vượt quá sự mong đợi của mọi người, cách ngài tự xử lý trong suốt kỳ nghỉ cuối tuần này, nhưng...",
+    "gold": [
+      4,
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"joy\", \"trust\"]\n\n Text: 'Ngày đầu tiên mà mọi người đượ"
+  },
+  "115": {
+    "text": "Đọc kinh mau đi! Nam mô A di đà Phật...",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Nam mô A di đà Phật, tôi cần trợ giúp.\"\nLabels: [\"tr"
+  },
+  "116": {
+    "text": "Cô ấy đã phát hiện chuyện này và, Christine chuẩn bị tố cáo cậu ta?",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n Text: 'Cô ấy đã phát hiện chuyện này và, Christine chuẩn bị"
+  },
+  "117": {
+    "text": "Hào Đại hiệp...vó ngựa cứng rồi.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\nText: 'Hào Đại hiệp...vó ngựa cứng rồi.'\nLabels: [\""
+  },
+  "118": {
+    "text": "Chúng tôi luôn ở bên cô, thưa cô.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Trong tương lai, tôi mong muốn được một ngày mới v"
+  },
+  "119": {
+    "text": "Ta vừa mới giành được Nhà Trắng thôi.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anger",
+      "anticipation"
+    ],
+    "raw": " [\"anger\", \"anticipation\"]\n\n Text: 'Sẽ mất đi không khó cho em đâu.'\nLabels: [\"s"
+  },
+  "120": {
+    "text": "- Đợi một chút.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "fear"
+    ],
+    "raw": " [\"anticipation\", \"fear\"]\n\n Text: '- Giúp đỡ tôi.'\nLabels: [\"trust\"]\n\n Text: '- Là"
+  },
+  "121": {
+    "text": "Jackson, có chuyện gì?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "surprise"
+    ],
+    "raw": " [\"anticipation\", \"surprise\"]\n\n Text: 'I don't know.'\nLabels: [\"fear\"]\n\n Text: 'I'm afraid.'\nLabels:"
+  },
+  "122": {
+    "text": "Tôi và cô ta đều biết ông ấy.",
+    "gold": [
+      1,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Tôi cảm thấy sự tôn nhẫn của mình\"\nLabels: [\""
+  },
+  "123": {
+    "text": "Bắt đầu thế nào? Ông sẽ nói gì?",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Và mình sẽ nghe thật kĩ.\"\nLabels: [\"trust\"]\n\n Text: \"Và k"
+  },
+  "124": {
+    "text": "Ai đó?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n Text: 'Có được!'\nLabels: [\"joy\"]\n\n Text: 'Đến đây là điề"
+  },
+  "125": {
+    "text": "Buông ra!",
+    "gold": [
+      1,
+      3,
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: 'Cảm ơn bạn rất nhiều!'\nLabels: [\"joy\"]\n\n Text: 'Hã"
+  },
+  "126": {
+    "text": "- Cô ấy không làm nó.",
+    "gold": [
+      1,
+      6
+    ],
+    "pred": [
+      "anger",
+      "sadness"
+    ],
+    "raw": " [\"anger\", \"sadness\"]\n\n Text: \"- Tôi sợ nó.\"\nLabels: [\"fear\"]\n\n Text: \"- Tôi đã "
+  },
+  "127": {
+    "text": "- Tôi mong là vậy, thưa ngài.",
+    "gold": [
+      1,
+      2,
+      5
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Tôi yêu những vẻ đẹp của thế giới, và"
+  },
+  "128": {
+    "text": "Tôi biết phải làm gì?",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n Text: \"I know what to do.\"\nLabels: [\"trust\"]\n\n Text: \"I'm afraid.\"\nLabels:"
+  },
+  "129": {
+    "text": "Sản xuất thịt bò, bia, giày và cuộc sống hạnh phúc.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n Text: 'Trong cuộc đua, chúng ta phải đánh bại và kh"
+  },
+  "130": {
+    "text": "Hiểu rồi!",
+    "gold": [
+      7,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n Text: 'Tôi sẽ đảm bảo an toàn cho bạn'\nLabels: [\"trust\"]\n\n Text:"
+  },
+  "131": {
+    "text": "Ngay đây trong cặp mắt xanh kia.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Fear is like a dark cloud hanging over my head.\"\nLabels: [\"fear\"]\n\n Text: \"I was so surprised when I saw"
+  },
+  "132": {
+    "text": "Làm ơn",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: 'Bạn nên xem phim \"The Dark Knight\"'\nLabels: [\"anticipation\"]\n\n Text: 'Đừng "
+  },
+  "133": {
+    "text": "Làm cho trí nhớ mình mù mờ không còn nhớ nổi chuyện gì.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"Người yêu mình sẽ đến và tìm mình.\"\nLabels: [\""
+  },
+  "134": {
+    "text": "Ta có thể kiểm chứng thêm một hay hai ...",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Thì chắc chắn sẽ có một sự giảm giá khi mua\"\nLabels: [\""
+  },
+  "135": {
+    "text": "Ngồi xuống đó!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n Text: 'I'm glad to see you!'\nLabels: [\"joy\"]\n\n Text: 'I'm not afraid of you!'\nLabels: [\"anger"
+  },
+  "136": {
+    "text": "Tôi đã suy nghĩ cả đêm...",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"Vì sao nó vẫn không đưa lời khuyên cho tôi"
+  },
+  "137": {
+    "text": "Cậu không cần phải nói ra những từ đó, Thống đốc.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n Text: \"Nếu cậu đã từng từng lần từng phát hiện "
+  },
+  "138": {
+    "text": "Vì hắn là tương lai.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n Text: \"Những chúng tôi đang cần là đồng minh họp.\"\nLabels:"
+  },
+  "139": {
+    "text": "Sẽ có rủi ro trong lúc hắn đang trên đà đi xuống.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n Text: \"Trong lúc đó, anh em sẽ chia sẻ với hắn những k"
+  },
+  "140": {
+    "text": "Cathy, liên lạc cuối cùng ta nhận được là gì?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: \"Thêm vào đó, chúng tôi có thể sẽ có một cách để "
+  },
+  "141": {
+    "text": "Vận may chỉ mới bắt đầu thôi.",
+    "gold": [
+      1,
+      6,
+      7
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n Text: \"Đừng sợ đâu, tôi sẽ giúp tôi.\"\nLabels: [\"trust\"]\n\n"
+  },
+  "142": {
+    "text": "Chiếc tàu chìm rồi.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n Text: 'Ngheo nhọc!'\nLabels: [\"surprise\"]\n\n Text: 'Những người t"
+  },
+  "143": {
+    "text": "Cảmơnem đã bắtmáy .",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy",
+      "surprise"
+    ],
+    "raw": " [\"joy\", \"surprise\"]\n\n Text: 'Tôi sợ tôi đã sợ!'\nLabels: [\"anger\", \"fear\"]\n\n Text:"
+  }
+}

@@ -422,11 +422,11 @@ def plot_all_lora_qlora_variants(df: pd.DataFrame, metric: str) -> None:
 
 def plot_lora_vs_qlora_per_language(df: pd.DataFrame, metric: str) -> None:
     """
-    Creates a separate bar plot for each language that compares ALL
-    LoRA and QLoRA variants individually for a chosen metric.
+    Creates one bar plot per language comparing ALL LoRA and QLoRA
+    variants for a chosen metric.
 
     Args:
-        df (pd.DataFrame): Dataframe containing full evaluation results.
+        df (pd.DataFrame): Dataframe containing evaluation results.
         metric (str): Metric column to visualize (e.g. "Jaccard", "Macro F1").
     """
     import seaborn as sns
@@ -450,17 +450,17 @@ def plot_lora_vs_qlora_per_language(df: pd.DataFrame, metric: str) -> None:
         axis=1
     )
 
-    sub = sub.sort_values(["Language", "Variant"])
-
-    languages = sorted(sub["Language"].unique())
-
     output_dir = Path("evals/figures/language_plots")
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    for lang in languages:
-        lang_df = sub[sub["Language"] == lang]
+    for lang in sorted(sub["Language"].unique()):
+        lang_df = (
+            sub[sub["Language"] == lang]
+            .sort_values(metric, ascending=True)
+        )
 
-        plt.figure(figsize=(10, max(6, 0.35 * len(lang_df))))
+        fig_height = max(5, 0.35 * len(lang_df))
+        plt.figure(figsize=(10, fig_height))
 
         sns.barplot(
             data=lang_df,
@@ -473,15 +473,15 @@ def plot_lora_vs_qlora_per_language(df: pd.DataFrame, metric: str) -> None:
             edgecolor="black"
         )
 
-        plt.title(f"{lang} — {metric} for LoRA & QLoRA Variants", fontsize=15)
+        plt.title(f"{lang} — {metric} (LoRA vs QLoRA)", fontsize=15)
         plt.xlabel(metric)
         plt.ylabel("Variant")
         plt.xlim(0, 1)
         plt.legend(title="Model", fontsize=9)
+        plt.tight_layout()
 
         out_path = output_dir / f"lora_qlora_{lang}_{metric}.png"
-        plt.tight_layout()
-        plt.savefig(out_path)
+        plt.savefig(out_path, dpi=300)
         plt.close()
 
         print(f"Saved: {out_path}")
