@@ -184,7 +184,7 @@ def get_training_args(title_args: str):
         per_device_eval_batch_size=8,
         learning_rate=2e-4,
         do_eval=True,
-        logging_steps=20,
+        logging_steps=50,
         eval_strategy="epoch",
         save_total_limit=2,
         remove_unused_columns=False,

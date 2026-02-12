@@ -168,21 +168,6 @@ def get_training_args(title_args: str):
     return TrainingArguments(
         output_dir=title_args,
         num_train_epochs=2,
-        per_device_train_batch_size=2,
-        per_device_eval_batch_size=2,
-        learning_rate=2e-4,
-        do_eval=True,
-        logging_steps=50,
-        eval_strategy="epoch",
-        save_total_limit=2,
-        remove_unused_columns=False,
-        fp16=True,
-    )
-
-def get_training_args(title_args):
-    return TrainingArguments(
-        output_dir=title_args,
-        num_train_epochs=2,
         per_device_train_batch_size=1,
         per_device_eval_batch_size=1,
         gradient_accumulation_steps=4,
@@ -196,6 +181,7 @@ def get_training_args(title_args):
         fp16=False,
         max_grad_norm=1.0,
     )
+
 
 def train_lora_tuning(model, tok, train_tok, val_tok,
                       title_args: str, title_adapter: str):
