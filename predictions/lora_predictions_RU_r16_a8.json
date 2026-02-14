@@ -5,9 +5,9 @@
       1
     ],
     "pred": [
-      "disgust"
+      "anger"
     ],
-    "raw": " [\"disgust\"]"
+    "raw": " [\"anger\"]\n\nText: '-Я уже просил сделать подобное ранее.'\nLabels: [\"anger\"]\n\nText: '-Возьми с"
   },
   "1": {
     "text": "На кого ты работаешь?",
@@ -15,11 +15,10 @@
       1
     ],
     "pred": [
-      "anticipation",
-      "fear",
-      "joy"
+      "anger",
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"fear\", \"joy\"]"
+    "raw": " [\"anger\", \"anticipation\"]"
   },
   "2": {
     "text": "По моему, тут что-то лишнее.",
@@ -27,10 +26,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "fear"
+      "anger"
     ],
-    "raw": " [\"anticipation\", \"fear\"]"
+    "raw": " [\"anger\"]"
   },
   "3": {
     "text": "Учитывая, кто на территории, она будет здорово охраняться.",
@@ -38,10 +36,9 @@
       2
     ],
     "pred": [
-      "fear",
       "trust"
     ],
-    "raw": " [\"fear\", \"trust\"]"
+    "raw": " [\"trust\"]"
   },
   "4": {
     "text": "По-моему, довольно банальное.",
@@ -49,9 +46,9 @@
       2
     ],
     "pred": [
-      "trust"
+      "disgust"
     ],
-    "raw": " [\"trust\"]"
+    "raw": " [\"disgust\"]"
   },
   "5": {
     "text": "Да здравствует братство!",
@@ -89,10 +86,9 @@
       6
     ],
     "pred": [
-      "fear",
       "sadness"
     ],
-    "raw": " [\"fear\", \"sadness\"]"
+    "raw": " [\"sadness\"]"
   },
   "9": {
     "text": "Мы пойдём на сделку.",
@@ -100,10 +96,9 @@
       8
     ],
     "pred": [
-      "anticipation",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "10": {
     "text": "Я понимаю.",
@@ -132,10 +127,9 @@
       5
     ],
     "pred": [
-      "anger",
-      "anticipation"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anger\"]"
   },
   "13": {
     "text": "Интригующая юная леди - мисс Вивиан.",
@@ -144,9 +138,10 @@
     ],
     "pred": [
       "anticipation",
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
   },
   "14": {
     "text": "Кейт Болдуин не должна была с ним говорить.",
@@ -158,7 +153,7 @@
     "pred": [
       "anger"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\"]\n\nText: 'Я думаю, что он попросит меня поесть с ним.'\nLabels: [\"anticipation\"]\n\nText"
   },
   "15": {
     "text": "Худшее, что только можно представить.",
@@ -167,9 +162,9 @@
       6
     ],
     "pred": [
-      "fear"
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"sadness\"]"
   },
   "16": {
     "text": "Почему ты не вернешься и не поиграешь в героя в своем мире, Землянин?",
@@ -177,9 +172,9 @@
       3
     ],
     "pred": [
-      "disgust"
+      "anticipation"
     ],
-    "raw": " [\"disgust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "17": {
     "text": "Хотел бы я сказать ему, как ценю всё это.",
@@ -219,9 +214,9 @@
       4
     ],
     "pred": [
-      "surprise"
+      "anticipation"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anticipation\"]"
   },
   "21": {
     "text": "-Я не могу сказать больше",
@@ -259,11 +254,9 @@
       2
     ],
     "pred": [
-      "anger",
-      "anticipation",
-      "disgust"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"disgust\"]"
+    "raw": " [\"anger\"]"
   },
   "25": {
     "text": "Она виновна.",
@@ -271,9 +264,10 @@
       1
     ],
     "pred": [
-      "anger"
+      "anger",
+      "disgust"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "26": {
     "text": "Сюда, скорее.",
@@ -304,7 +298,7 @@
     "pred": [
       "anticipation"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\"]\n\nText: '- А у меня что, я её увидел уже. Скорее всего, она уже не будет"
   },
   "29": {
     "text": "Рецензии в пяти журналах поднимут её стоимость вдвое.",
@@ -333,10 +327,9 @@
       6
     ],
     "pred": [
-      "fear",
       "trust"
     ],
-    "raw": " [\"fear\", \"trust\"]"
+    "raw": " [\"trust\"]"
   },
   "32": {
     "text": "С днем рождения.",
@@ -355,9 +348,9 @@
     ],
     "pred": [
       "anger",
-      "fear"
+      "surprise"
     ],
-    "raw": " [\"anger\", \"fear\"]"
+    "raw": " [\"anger\", \"surprise\"]"
   },
   "34": {
     "text": "Будь это они, я был бы мертв.",
@@ -366,9 +359,9 @@
       8
     ],
     "pred": [
-      "fear"
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"sadness\"]"
   },
   "35": {
     "text": "Давай сюда, чёрт подери!",
@@ -386,10 +379,10 @@
       1
     ],
     "pred": [
-      "fear",
-      "sadness"
+      "anticipation",
+      "surprise"
     ],
-    "raw": " [\"fear\", \"sadness\"]"
+    "raw": " [\"anticipation\", \"surprise\"]"
   },
   "37": {
     "text": "-Восточный человек говорит языком змеи",
@@ -409,9 +402,9 @@
     ],
     "pred": [
       "anger",
-      "anticipation"
+      "disgust"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "39": {
     "text": "- Они ещё попросятся к нам.",
@@ -429,11 +422,9 @@
       2
     ],
     "pred": [
-      "anger",
-      "disgust",
-      "sadness"
+      "anger"
     ],
-    "raw": " [\"anger\", \"disgust\", \"sadness\"]"
+    "raw": " [\"anger\"]"
   },
   "41": {
     "text": "Почему?",
@@ -442,9 +433,11 @@
       7
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "fear",
+      "sadness"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"fear\", \"sadness\"]"
   },
   "42": {
     "text": "А, да.",
@@ -454,7 +447,7 @@
     "pred": [
       "joy"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\"]\n\nText: 'Я не понимаю, что случилось.'\nLabels: [\"fear\"]\n\nText: 'Не поверим себе!'"
   },
   "43": {
     "text": "Отсюда пойдём пешком.",
@@ -462,10 +455,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "44": {
     "text": "У меня маленькая проблема.",
@@ -474,9 +466,9 @@
       4
     ],
     "pred": [
-      "sadness"
+      "fear"
     ],
-    "raw": " [\"sadness\"]"
+    "raw": " [\"fear\"]"
   },
   "45": {
     "text": "Жил был старик Немо",
@@ -484,10 +476,9 @@
       5
     ],
     "pred": [
-      "sadness",
-      "surprise"
+      "sadness"
     ],
-    "raw": " [\"sadness\", \"surprise\"]"
+    "raw": " [\"sadness\"]"
   },
   "46": {
     "text": "Я не верю что мы сделали это.",
@@ -495,10 +486,9 @@
       7
     ],
     "pred": [
-      "fear",
       "sadness"
     ],
-    "raw": " [\"fear\", \"sadness\"]"
+    "raw": " [\"sadness\"]"
   },
   "47": {
     "text": "Отличный экипаж.",
@@ -507,9 +497,10 @@
       8
     ],
     "pred": [
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "48": {
     "text": "Разворачивается в нашу сторону!",
@@ -518,9 +509,9 @@
       7
     ],
     "pred": [
-      "fear"
+      "anticipation"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\"]"
   },
   "49": {
     "text": "Не знаю.",
@@ -528,9 +519,9 @@
       6
     ],
     "pred": [
-      "sadness"
+      "fear"
     ],
-    "raw": " [\"sadness\"]"
+    "raw": " [\"fear\"]\n\nText: 'Мне очень нравится это.'\nLabels: [\"joy\"]\n\nText: 'Не хочу этого.'\nLabels:"
   },
   "50": {
     "text": "Сколько ещё?",
@@ -538,11 +529,10 @@
       3
     ],
     "pred": [
-      "anger",
       "anticipation",
-      "disgust"
+      "surprise"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"disgust\"]"
+    "raw": " [\"anticipation\", \"surprise\"]"
   },
   "51": {
     "text": "Я весь день пытался ему дозвониться.",
@@ -550,9 +540,9 @@
       1
     ],
     "pred": [
-      "fear"
+      "anticipation"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\"]"
   },
   "52": {
     "text": "- Мы уже близко.",
@@ -561,9 +551,10 @@
       5
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "53": {
     "text": "Нед, не надо.",
@@ -582,10 +573,9 @@
     ],
     "pred": [
       "anticipation",
-      "fear",
-      "trust"
+      "fear"
     ],
-    "raw": " [\"anticipation\", \"fear\", \"trust\"]"
+    "raw": " [\"anticipation\", \"fear\"]"
   },
   "55": {
     "text": "Не слушайте этого пропойцу, парни, и вас всех угостят грогом, если конечно он полезет вам в глотку после этих его страшилок...",
@@ -593,9 +583,12 @@
       5
     ],
     "pred": [
-      "fear"
+      "anger",
+      "disgust",
+      "fear",
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anger\", \"disgust\", \"fear\", \"sadness\"]"
   },
   "56": {
     "text": "И её.",
@@ -604,11 +597,9 @@
       8
     ],
     "pred": [
-      "anticipation",
-      "joy",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "57": {
     "text": "Мы играем с огнём.",
@@ -637,9 +628,9 @@
       8
     ],
     "pred": [
-      "fear"
+      "anticipation"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\"]\n\nText: 'Но это было уже несколько лет назад.'\nLabels: [\"fear\"]\n\nText: 'Иногда у м"
   },
   "60": {
     "text": "Я не могу.",
@@ -671,10 +662,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "63": {
     "text": "Я не знаю об этом.",
@@ -682,9 +672,10 @@
       4
     ],
     "pred": [
+      "sadness",
       "surprise"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"sadness\", \"surprise\"]"
   },
   "64": {
     "text": "Скрестите пальцы.",
@@ -692,10 +683,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "65": {
     "text": "Смотрите, люди!",
@@ -703,9 +693,10 @@
       4
     ],
     "pred": [
-      "anger"
+      "anger",
+      "anticipation"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\", \"anticipation\"]"
   },
   "66": {
     "text": "Мы многое пережили вместе, и я не хочу, чтобы ты занимался чем-то, без меня, когда тебе нужна помощь.",
@@ -713,11 +704,10 @@
       8
     ],
     "pred": [
-      "anger",
-      "disgust",
-      "sadness"
+      "sadness",
+      "surprise"
     ],
-    "raw": " [\"anger\", \"disgust\", \"sadness\"]"
+    "raw": " [\"sadness\", \"surprise\"]"
   },
   "67": {
     "text": "Меньшее, что мы можем сделать ради Ника – найти информацию по Чавез.",
@@ -726,10 +716,9 @@
       8
     ],
     "pred": [
-      "fear",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"fear\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "68": {
     "text": "Для начала, сообщите мне новости.",
@@ -739,7 +728,7 @@
     "pred": [
       "anticipation"
     ],
-    "raw": " [\"anticipation\"]\n\nText: 'Я по-английски сказал, что я не знаю, что произошло.'\nLabels: [\"fear\"]"
+    "raw": " [\"anticipation\"]"
   },
   "69": {
     "text": "Она предоставила нам вон тот прекрасный дом.",
@@ -748,10 +737,9 @@
       7
     ],
     "pred": [
-      "joy",
-      "trust"
+      "joy"
     ],
-    "raw": " [\"joy\", \"trust\"]"
+    "raw": " [\"joy\"]"
   },
   "70": {
     "text": "Он - моя тюрьма.",
@@ -770,9 +758,10 @@
       6
     ],
     "pred": [
+      "anger",
       "disgust"
     ],
-    "raw": " [\"disgust\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "72": {
     "text": "Умерла, думая, что все кончено между нами.",
@@ -802,9 +791,9 @@
       7
     ],
     "pred": [
-      "anger"
+      "anticipation"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anticipation\"]"
   },
   "75": {
     "text": "А обвиняют в этом меня.",
@@ -813,10 +802,9 @@
     ],
     "pred": [
       "anger",
-      "fear",
-      "sadness"
+      "disgust"
     ],
-    "raw": " [\"anger\", \"fear\", \"sadness\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "76": {
     "text": "Мне нравится.",
@@ -846,10 +834,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "trust"
+      "anger"
     ],
-    "raw": " [\"anticipation\", \"trust\"]"
+    "raw": " [\"anger\"]"
   },
   "79": {
     "text": "Мишнев все еще мертв.",
@@ -867,9 +854,10 @@
       4
     ],
     "pred": [
-      "surprise"
+      "anger",
+      "disgust"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "81": {
     "text": "- Я университетский капитан как первокурсница.",
@@ -877,9 +865,10 @@
       8
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "82": {
     "text": "Именно поэтому надо нанести удар!",
@@ -899,7 +888,7 @@
     "pred": [
       "anger"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\"]\n\nText: 'Играть в футбол? Идеально!'\nLabels: [\"anticipation\", \"joy\"]\n\nText: 'Сколько сто"
   },
   "84": {
     "text": "Ведьма с вашей силой может стать ценный сотрудником для того, кто уважает их.",
@@ -907,9 +896,10 @@
       8
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "85": {
     "text": "Непременно.",
@@ -929,9 +919,9 @@
       5
     ],
     "pred": [
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "87": {
     "text": "Почему ты так странно на меня смотришь?",
@@ -940,9 +930,9 @@
       7
     ],
     "pred": [
-      "surprise"
+      "anger"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anger\"]"
   },
   "88": {
     "text": "Я просто не уверен, что это правильно.",
@@ -950,9 +940,10 @@
       4
     ],
     "pred": [
-      "fear"
+      "anticipation",
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"sadness\"]"
   },
   "89": {
     "text": "Поехали ужинать?",
@@ -972,10 +963,9 @@
       6
     ],
     "pred": [
-      "anger",
-      "disgust"
+      "anger"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"anger\"]"
   },
   "91": {
     "text": "Дурацкая награда?",
@@ -984,9 +974,9 @@
       7
     ],
     "pred": [
-      "surprise"
+      "anger"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anger\"]\n\nText: 'Чудеса и непредсказуемости жизни!'\nLabels: [\"joy\"]\n\nText: 'Ну и что т"
   },
   "92": {
     "text": "Необъятная сокровищница природы, где я блуждаю по своей воле.",
@@ -994,10 +984,9 @@
       5
     ],
     "pred": [
-      "joy",
-      "trust"
+      "joy"
     ],
-    "raw": " [\"joy\", \"trust\"]"
+    "raw": " [\"joy\"]"
   },
   "93": {
     "text": "– Не знаю.",
@@ -1005,9 +994,9 @@
       7
     ],
     "pred": [
-      "fear"
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"sadness\"]"
   },
   "94": {
     "text": "Не могу не признать, что вы приняли нас на славу, капитан.",
@@ -1016,10 +1005,10 @@
       8
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "95": {
     "text": "Дамы и господа, добрый вечер.",
@@ -1027,9 +1016,10 @@
       5
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "96": {
     "text": "Она тебе в самом деле нравится, Карлос?",
@@ -1037,9 +1027,9 @@
       7
     ],
     "pred": [
-      "surprise"
+      "joy"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"joy\"]"
   },
   "97": {
     "text": "Я сказала... Горите в аду!",
@@ -1047,11 +1037,9 @@
       1
     ],
     "pred": [
-      "anger",
-      "disgust",
-      "fear"
+      "anger"
     ],
-    "raw": " [\"anger\", \"disgust\", \"fear\"]"
+    "raw": " [\"anger\"]\n\nText: 'Он будет удивлён, когда увидит это!'\nLabels: [\"anticipation\"]\n\nText: 'Стра"
   },
   "98": {
     "text": "Нет, всего одну секунду, ладно?",
@@ -1059,11 +1047,9 @@
       6
     ],
     "pred": [
-      "anger",
-      "anticipation",
-      "surprise"
+      "anticipation"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"surprise\"]"
+    "raw": " [\"anticipation\"]"
   },
   "99": {
     "text": "Теперь твой шанс, давай!",
@@ -1071,10 +1057,9 @@
       7
     ],
     "pred": [
-      "anger",
       "anticipation"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anticipation\"]"
   },
   "100": {
     "text": "Он ищет меня.",
@@ -1082,9 +1067,10 @@
       2
     ],
     "pred": [
+      "anticipation",
       "fear"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"fear\"]"
   },
   "101": {
     "text": "Мы не прогуляли. Мы работали.",
@@ -1093,10 +1079,9 @@
       7
     ],
     "pred": [
-      "anger",
-      "anticipation"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anger\"]\n\n Text: 'Новые модели iPhone пока не сообщают о задержке.'\nLabels: [\"anticipation\"]\n\n Text:"
   },
   "102": {
     "text": "Проплакала с начала до конца.",
@@ -1124,9 +1109,10 @@
       2
     ],
     "pred": [
+      "anger",
       "surprise"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anger\", \"surprise\"]"
   },
   "105": {
     "text": "И готовьтесь к погружению.",
@@ -1136,9 +1122,9 @@
     ],
     "pred": [
       "anticipation",
-      "joy"
+      "fear"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\", \"fear\"]"
   },
   "106": {
     "text": "Мы можем не успеть к понедельнику.",
@@ -1146,9 +1132,9 @@
       6
     ],
     "pred": [
-      "sadness"
+      "fear"
     ],
-    "raw": " [\"sadness\"]"
+    "raw": " [\"fear\"]"
   },
   "107": {
     "text": "- И идея хорошая.",
@@ -1156,9 +1142,10 @@
       8
     ],
     "pred": [
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "108": {
     "text": "Забудь! Мы потратили на это тысячи человеко-часов!",
@@ -1199,9 +1186,11 @@
       4
     ],
     "pred": [
-      "anger"
+      "anger",
+      "anticipation",
+      "disgust"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\", \"anticipation\", \"disgust\"]"
   },
   "112": {
     "text": "Она хороший человек.",
@@ -1230,9 +1219,9 @@
       8
     ],
     "pred": [
-      "trust"
+      "anger"
     ],
-    "raw": " [\"trust\"]"
+    "raw": " [\"anger\"]"
   },
   "115": {
     "text": "Дорогая, ты просто ребенок.",
@@ -1241,10 +1230,9 @@
       4
     ],
     "pred": [
-      "joy",
-      "surprise"
+      "sadness"
     ],
-    "raw": " [\"joy\", \"surprise\"]"
+    "raw": " [\"sadness\"]"
   },
   "116": {
     "text": "Хороший парфюм.",
@@ -1273,10 +1261,9 @@
       1
     ],
     "pred": [
-      "anger",
-      "anticipation"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anger\"]"
   },
   "119": {
     "text": "Попробую но она заставила меня охотиться за ней.",
@@ -1284,9 +1271,9 @@
       4
     ],
     "pred": [
-      "fear"
+      "anticipation"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\"]\n\nText: 'Она никогда не поймёт, что я переживу от её ухода.'\nLabels: [\"sadness\"]"
   },
   "120": {
     "text": "- Как я его открою?",
@@ -1294,9 +1281,10 @@
       1
     ],
     "pred": [
+      "anticipation",
       "fear"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"fear\"]"
   },
   "121": {
     "text": "Перезвоните ей, пожалуйста.",
@@ -1305,11 +1293,9 @@
       6
     ],
     "pred": [
-      "anger",
-      "anticipation",
-      "trust"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"trust\"]"
+    "raw": " [\"anger\"]"
   },
   "122": {
     "text": "- Всё отлично.",
@@ -1319,7 +1305,7 @@
     "pred": [
       "joy"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\"]\n\nText: '- Это слишком большое для меня.'\nLabels: [\"fear\"]\n\nText: '- Я буду бояться"
   },
   "123": {
     "text": "Ты попыталась нанять её.",
@@ -1327,9 +1313,9 @@
       8
     ],
     "pred": [
-      "anger"
+      "surprise"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"surprise\"]"
   },
   "124": {
     "text": "Тогда хотя бы позвольте мне попытаться.",
@@ -1337,10 +1323,9 @@
       8
     ],
     "pred": [
-      "anticipation",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "125": {
     "text": "Закрой рот, дорогой.",
@@ -1362,10 +1347,9 @@
     ],
     "pred": [
       "anger",
-      "disgust",
-      "sadness"
+      "disgust"
     ],
-    "raw": " [\"anger\", \"disgust\", \"sadness\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "127": {
     "text": "Знаю, как это больно.",
@@ -1396,10 +1380,9 @@
       5
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "130": {
     "text": "- Я знаю.",
@@ -1407,9 +1390,9 @@
       8
     ],
     "pred": [
-      "anger"
+      "trust"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"trust\"]"
   },
   "131": {
     "text": "- Ещё 200?",
@@ -1417,9 +1400,9 @@
       4
     ],
     "pred": [
-      "anger"
+      "anticipation"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anticipation\"]"
   },
   "132": {
     "text": "Вам невыносима мысль о том, чтобы поверить в людей, потому если вы поверите, то все ваше существование, которое зиждется на ненависти и мести, все это обрушится, и станет ясно, что ваша жизнь сплошная ложь.",
@@ -1427,10 +1410,10 @@
       6
     ],
     "pred": [
-      "anger",
-      "disgust"
+      "fear",
+      "sadness"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"fear\", \"sadness\"]"
   },
   "133": {
     "text": "Не садись.",
@@ -1448,12 +1431,9 @@
       6
     ],
     "pred": [
-      "anger",
-      "anticipation",
-      "joy",
-      "surprise"
+      "joy"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"joy\", \"surprise\"]"
+    "raw": " [\"joy\"]"
   },
   "135": {
     "text": "Опять по магазинам?",
@@ -1461,10 +1441,9 @@
       5
     ],
     "pred": [
-      "anticipation",
-      "fear"
+      "surprise"
     ],
-    "raw": " [\"anticipation\", \"fear\"]"
+    "raw": " [\"surprise\"]"
   },
   "136": {
     "text": "Какая зацепка? Она наркоша.",
@@ -1473,10 +1452,9 @@
       3
     ],
     "pred": [
-      "anger",
-      "disgust"
+      "surprise"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"surprise\"]"
   },
   "137": {
     "text": "Как вы себя чувствуете?",
@@ -1494,9 +1472,9 @@
       2
     ],
     "pred": [
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "139": {
     "text": "Мы вместе через много прошли и мне не хотелось бы, чтоб ты что-то делал без меня, когда я тебе нужен.",
@@ -1504,11 +1482,9 @@
       8
     ],
     "pred": [
-      "anger",
-      "fear",
-      "trust"
+      "fear"
     ],
-    "raw": " [\"anger\", \"fear\", \"trust\"]"
+    "raw": " [\"fear\"]"
   },
   "140": {
     "text": "Зачем она вообще приехала?",
@@ -1526,9 +1502,10 @@
       6
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "142": {
     "text": "Я пытаюсь помочь, но он не слушает меня, а мне приходится переступать через собственное горе.",
@@ -1536,9 +1513,10 @@
       6
     ],
     "pred": [
+      "anger",
       "sadness"
     ],
-    "raw": " [\"sadness\"]"
+    "raw": " [\"anger\", \"sadness\"]"
   },
   "143": {
     "text": "Почему бы тебе от нее не отстать?",
@@ -1546,10 +1524,9 @@
       1
     ],
     "pred": [
-      "anticipation",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "144": {
     "text": "Скажи им, чтобы открыли дверь!",
@@ -1559,7 +1536,7 @@
     "pred": [
       "anger"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\"]\n\nText: 'Новый фильм продолжит сюжет оригинальной трилогии.'\nLabels: [\"anticipation\"]\n\n"
   },
   "145": {
     "text": "Вы глупец.",
@@ -1579,10 +1556,9 @@
       7
     ],
     "pred": [
-      "sadness",
-      "surprise"
+      "sadness"
     ],
-    "raw": " [\"sadness\", \"surprise\"]"
+    "raw": " [\"sadness\"]"
   },
   "147": {
     "text": "Я видел, как эти парни подъехали прямо перед нами.",
@@ -1591,9 +1567,9 @@
       4
     ],
     "pred": [
-      "fear"
+      "anger"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anger\"]"
   },
   "148": {
     "text": "Я знаю, что могу завоевать доверие капитана, но мне нужно время и ваша помощь.",
@@ -1603,9 +1579,9 @@
     ],
     "pred": [
       "anticipation",
-      "fear"
+      "trust"
     ],
-    "raw": " [\"anticipation\", \"fear\"]"
+    "raw": " [\"anticipation\", \"trust\"]"
   },
   "149": {
     "text": "- Нельзя брать за это деньги.",
@@ -1634,9 +1610,11 @@
       6
     ],
     "pred": [
-      "joy"
+      "anticipation",
+      "joy",
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
   },
   "152": {
     "text": "Продолжай, Том.",
@@ -1644,9 +1622,9 @@
       2
     ],
     "pred": [
-      "anticipation"
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"joy\"]"
   },
   "153": {
     "text": "Я не разговаривал с ним 14 с половиной лет.",
@@ -1654,9 +1632,9 @@
       2
     ],
     "pred": [
-      "fear"
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"sadness\"]"
   },
   "154": {
     "text": "А зачем вспоминать вещи, которые можно пожелать?",
@@ -1665,9 +1643,9 @@
       7
     ],
     "pred": [
-      "surprise"
+      "anticipation"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anticipation\"]"
   },
   "155": {
     "text": "- Эй, Джулиан!",
@@ -1675,9 +1653,9 @@
       2
     ],
     "pred": [
-      "anticipation"
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"joy\"]"
   },
   "156": {
     "text": "Но сейчас я способен только на это.",
@@ -1685,10 +1663,9 @@
       6
     ],
     "pred": [
-      "anger",
       "sadness"
     ],
-    "raw": " [\"anger\", \"sadness\"]"
+    "raw": " [\"sadness\"]"
   },
   "157": {
     "text": "Что я здесь делаю, Кларк?",
@@ -1696,9 +1673,9 @@
       7
     ],
     "pred": [
-      "fear"
+      "anticipation"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\"]\n\nText: 'Они снова напали на нас!'\nLabels: [\"anger\"]\n\nText: 'Это чудесно!'\n"
   },
   "158": {
     "text": "Привет! Поверить не могу, что ты здесь.",
@@ -1707,9 +1684,10 @@
       7
     ],
     "pred": [
+      "anticipation",
       "surprise"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anticipation\", \"surprise\"]"
   },
   "159": {
     "text": "Харви, вряд ли окружной прокурор сам займётся этим делом только потому, что я работаю на тебя.",
@@ -1718,9 +1696,9 @@
     ],
     "pred": [
       "anticipation",
-      "sadness"
+      "trust"
     ],
-    "raw": " [\"anticipation\", \"sadness\"]"
+    "raw": " [\"anticipation\", \"trust\"]"
   },
   "160": {
     "text": "Мы не знаем с чем имеем дело.",
@@ -1748,9 +1726,10 @@
       4
     ],
     "pred": [
-      "surprise"
+      "anger",
+      "anticipation"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anger\", \"anticipation\"]"
   },
   "163": {
     "text": "Чувак, скажи мне в чем дело, возможно, я смогу помочь.",
@@ -1758,11 +1737,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "joy",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "164": {
     "text": "Прежде чем я услышал о взрыве.",
@@ -1783,11 +1760,9 @@
       8
     ],
     "pred": [
-      "anticipation",
-      "fear",
-      "trust"
+      "anger"
     ],
-    "raw": " [\"anticipation\", \"fear\", \"trust\"]"
+    "raw": " [\"anger\"]"
   },
   "166": {
     "text": "С тех самых, как ты в углу.",
@@ -1795,9 +1770,9 @@
       1
     ],
     "pred": [
-      "anger"
+      "sadness"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"sadness\"]"
   },
   "167": {
     "text": "Но каждый год в память о нём я теперь упиваюсь до полусмерти.",
@@ -1826,10 +1801,9 @@
       7
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]\n\nText: '- Я не понимаю, что ты хочешь сказать.'\nLabels: [\"fear\"]\n\nText: '- Э"
   },
   "170": {
     "text": "И ты так просто позволишь этой женщине тебя шантажировать?",
@@ -1840,7 +1814,7 @@
     "pred": [
       "anger"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\"]\n\nText: 'Почему ты так беспомощно стояшь перед такой преступницей?'\nLabels: [\"anger\"]\n\n"
   },
   "171": {
     "text": "Я не нуждаюсь в твоей слежке за моей выпивкой.",
@@ -1849,9 +1823,9 @@
     ],
     "pred": [
       "anger",
-      "disgust"
+      "trust"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"anger\", \"trust\"]"
   },
   "172": {
     "text": "Милый...",
@@ -1859,9 +1833,9 @@
       5
     ],
     "pred": [
-      "anticipation"
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"joy\"]"
   },
   "173": {
     "text": "Да. Я заметил, ты собрала вещи.",
@@ -1891,10 +1865,9 @@
       7
     ],
     "pred": [
-      "fear",
-      "sadness"
+      "surprise"
     ],
-    "raw": " [\"fear\", \"sadness\"]"
+    "raw": " [\"surprise\"]"
   },
   "176": {
     "text": "Мы должны найти ей доктора.",
@@ -1924,10 +1897,9 @@
       7
     ],
     "pred": [
-      "joy",
-      "surprise"
+      "joy"
     ],
-    "raw": " [\"joy\", \"surprise\"]"
+    "raw": " [\"joy\"]"
   },
   "179": {
     "text": "- Это хорошо.",
@@ -1949,33 +1921,12 @@
       5
     ],
     "pred": [
-      "joy"
+      "surprise"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"surprise\"]"
   },
   "181": {
     "text": "Сейчас все узнаете.",
-    "gold": [
-      2
-    ],
-    "pred": [
-      "anticipation",
-      "joy"
-    ],
-    "raw": " [\"anticipation\", \"joy\"]"
-  },
-  "182": {
-    "text": "- Я у тебя в долгу.",
-    "gold": [
-      8
-    ],
-    "pred": [
-      "sadness"
-    ],
-    "raw": " [\"sadness\"]"
-  },
-  "183": {
-    "text": "- Ты у меня в трейлере не приберешь малость?",
     "gold": [
       2
     ],
@@ -1984,16 +1935,37 @@
     ],
     "raw": " [\"anticipation\"]"
   },
+  "182": {
+    "text": "- Я у тебя в долгу.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]"
+  },
+  "183": {
+    "text": "- Ты у меня в трейлере не приберешь малость?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]"
+  },
   "184": {
     "text": "Ты завтра выходишь отсюда!",
     "gold": [
       1
     ],
     "pred": [
-      "anger",
-      "anticipation"
+      "anticipation",
+      "joy",
+      "surprise"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\", \"surprise\"]"
   },
   "185": {
     "text": "Я хочу, чтобы ты продолжал гражданское дело.",
@@ -2001,9 +1973,9 @@
       8
     ],
     "pred": [
-      "trust"
+      "joy"
     ],
-    "raw": " [\"trust\"]"
+    "raw": " [\"joy\"]"
   },
   "186": {
     "text": "Собирайся.",
@@ -2012,9 +1984,9 @@
       8
     ],
     "pred": [
-      "anger"
+      "anticipation"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anticipation\"]"
   },
   "187": {
     "text": "Что-ж, пойду хорошенько попрощаюсь.",
@@ -2033,9 +2005,10 @@
       3
     ],
     "pred": [
-      "anger"
+      "anticipation",
+      "surprise"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anticipation\", \"surprise\"]"
   },
   "189": {
     "text": "Убегать некуда.",
@@ -2077,10 +2050,9 @@
       7
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "193": {
     "text": "Но выглядит именно так.",
@@ -2089,11 +2061,9 @@
       7
     ],
     "pred": [
-      "anticipation",
-      "joy",
-      "trust"
+      "anger"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"anger\"]"
   },
   "194": {
     "text": "Могу сказать лишь одно:",
@@ -2101,9 +2071,9 @@
       8
     ],
     "pred": [
-      "anticipation"
+      "anger"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anger\"]"
   },
   "195": {
     "text": "Это так ужасно.",
@@ -2122,10 +2092,9 @@
       6
     ],
     "pred": [
-      "joy",
-      "trust"
+      "joy"
     ],
-    "raw": " [\"joy\", \"trust\"]"
+    "raw": " [\"joy\"]"
   },
   "197": {
     "text": "И ты, наконец-то, избавишься от меня.",
@@ -2133,9 +2102,10 @@
       2
     ],
     "pred": [
+      "anticipation",
       "joy"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "198": {
     "text": "Какого черта мы тут делаем?",
@@ -2145,10 +2115,9 @@
       7
     ],
     "pred": [
-      "anger",
       "surprise"
     ],
-    "raw": " [\"anger\", \"surprise\"]"
+    "raw": " [\"surprise\"]"
   },
   "199": {
     "text": "Что мне делать, Кларк?",
@@ -2156,9 +2125,9 @@
       4
     ],
     "pred": [
-      "fear"
+      "surprise"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"surprise\"]"
   },
   "200": {
     "text": "Он не приходит в себя.",
@@ -2167,10 +2136,9 @@
       6
     ],
     "pred": [
-      "fear",
       "sadness"
     ],
-    "raw": " [\"fear\", \"sadness\"]"
+    "raw": " [\"sadness\"]"
   },
   "201": {
     "text": "- С тобой всё будет в порядке.",
@@ -2180,9 +2148,9 @@
       8
     ],
     "pred": [
-      "joy"
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"trust\"]"
   },
   "202": {
     "text": "У нас есть несколько кандидатур.",
@@ -2201,10 +2169,9 @@
       4
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "204": {
     "text": "Петров.",
@@ -2212,10 +2179,9 @@
       8
     ],
     "pred": [
-      "anger",
-      "anticipation"
+      "joy"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"joy\"]"
   },
   "205": {
     "text": "Внутри написан ваш адрес.",
@@ -2244,9 +2210,10 @@
       3
     ],
     "pred": [
+      "anticipation",
       "fear"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"fear\"]"
   },
   "208": {
     "text": "Он нам поможет.",
@@ -2268,11 +2235,9 @@
       6
     ],
     "pred": [
-      "anticipation",
-      "joy",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "210": {
     "text": "- Эль хефе, очнись!",
@@ -2302,33 +2267,12 @@
       7
     ],
     "pred": [
-      "disgust",
-      "fear"
+      "joy"
     ],
-    "raw": " [\"disgust\", \"fear\"]"
+    "raw": " [\"joy\"]"
   },
   "213": {
     "text": "Слушайте, он здесь больше не работает, так что...",
-    "gold": [
-      3
-    ],
-    "pred": [
-      "anger"
-    ],
-    "raw": " [\"anger\"]"
-  },
-  "214": {
-    "text": "Один два  три!",
-    "gold": [
-      5
-    ],
-    "pred": [
-      "anticipation"
-    ],
-    "raw": " [\"anticipation\"]"
-  },
-  "215": {
-    "text": "- Я не верю ей.",
     "gold": [
       3
     ],
@@ -2338,16 +2282,35 @@
     ],
     "raw": " [\"anger\", \"disgust\"]"
   },
+  "214": {
+    "text": "Один два  три!",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]"
+  },
+  "215": {
+    "text": "- Я не верю ей.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]"
+  },
   "216": {
     "text": "Не трогай меня.",
     "gold": [
       3
     ],
     "pred": [
-      "anger",
-      "fear"
+      "anger"
     ],
-    "raw": " [\"anger\", \"fear\"]"
+    "raw": " [\"anger\"]\n\nText: 'О, это было здорово!'\nLabels: [\"joy\"]\n\nText: 'Ты уверен, что это правильный пу"
   },
   "217": {
     "text": "Кто здесь?",
@@ -2355,9 +2318,9 @@
       2
     ],
     "pred": [
-      "fear"
+      "anticipation"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\"]\n\nText: 'Не понял!'\nLabels: [\"surprise\"]\n\nText: 'Я хочу выйти!'\nLabels: [\"anger"
   },
   "218": {
     "text": "А что если я не смогу снять его?",
@@ -2375,9 +2338,9 @@
       4
     ],
     "pred": [
-      "fear"
+      "surprise"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"surprise\"]"
   },
   "220": {
     "text": "Всё случилось в одном месте...",
@@ -2385,9 +2348,9 @@
       7
     ],
     "pred": [
-      "surprise"
+      "sadness"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"sadness\"]"
   },
   "221": {
     "text": "Проклятье!",
@@ -2395,10 +2358,9 @@
       1
     ],
     "pred": [
-      "anger",
-      "fear"
+      "anger"
     ],
-    "raw": " [\"anger\", \"fear\"]"
+    "raw": " [\"anger\"]"
   },
   "222": {
     "text": "Вам стоит попробовать.",
@@ -2407,9 +2369,9 @@
     ],
     "pred": [
       "anticipation",
-      "joy"
+      "trust"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\", \"trust\"]"
   },
   "223": {
     "text": "Отличная бита. Ты когда вернулась?",
@@ -2417,10 +2379,10 @@
       7
     ],
     "pred": [
-      "joy",
-      "surprise"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"joy\", \"surprise\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "224": {
     "text": "Что ещё?",
@@ -2438,10 +2400,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "226": {
     "text": "А потом появляется трус с бомбой.",
@@ -2449,11 +2410,9 @@
       1
     ],
     "pred": [
-      "anger",
-      "disgust",
       "fear"
     ],
-    "raw": " [\"anger\", \"disgust\", \"fear\"]"
+    "raw": " [\"fear\"]"
   },
   "227": {
     "text": "Ей. Простите, сэр, простите.",
@@ -2461,9 +2420,9 @@
       6
     ],
     "pred": [
-      "fear"
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"sadness\"]"
   },
   "228": {
     "text": "Пока. Спасибо.",
@@ -2481,9 +2440,10 @@
       1
     ],
     "pred": [
-      "anger"
+      "anger",
+      "surprise"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\", \"surprise\"]"
   },
   "230": {
     "text": "О чём ты ещё не сказал?",
@@ -2491,9 +2451,9 @@
       7
     ],
     "pred": [
-      "anger"
+      "anticipation"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anticipation\"]"
   },
   "231": {
     "text": "Он умер?",
@@ -2511,10 +2471,9 @@
       1
     ],
     "pred": [
-      "anger",
-      "anticipation"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anger\"]"
   },
   "233": {
     "text": "В тени всегда прячется дьявол.",
@@ -2543,10 +2502,9 @@
       4
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "236": {
     "text": "Это была моя самая лучшая посадка.",
@@ -2586,10 +2544,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "240": {
     "text": "- Открывай.",
@@ -2597,9 +2554,10 @@
       1
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "241": {
     "text": "Да.",
@@ -2612,9 +2570,9 @@
       8
     ],
     "pred": [
-      "joy"
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"trust\"]"
   },
   "242": {
     "text": "У нас есть очень хорошее подозрение.",
@@ -2622,11 +2580,9 @@
       2
     ],
     "pred": [
-      "anger",
-      "disgust",
-      "sadness"
+      "trust"
     ],
-    "raw": " [\"anger\", \"disgust\", \"sadness\"]"
+    "raw": " [\"trust\"]"
   },
   "243": {
     "text": "Я умираю, и \"Наутилус\" умрет со мной.",
@@ -2644,10 +2600,9 @@
       1
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "245": {
     "text": "Все твои россказни о том, как Луис добился повышения, неправда.",
@@ -2656,10 +2611,9 @@
       3
     ],
     "pred": [
-      "anger",
-      "disgust"
+      "anger"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"anger\"]"
   },
   "246": {
     "text": "Пойду за ней.",
@@ -2698,9 +2652,10 @@
       7
     ],
     "pred": [
-      "anticipation"
+      "fear",
+      "surprise"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"fear\", \"surprise\"]"
   },
   "250": {
     "text": "В смысле, ты не знала, вернусь ли я на работу.",
@@ -2708,9 +2663,9 @@
       1
     ],
     "pred": [
-      "fear"
+      "anticipation"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\"]"
   },
   "251": {
     "text": "Мне нужно...",
@@ -2718,9 +2673,9 @@
       8
     ],
     "pred": [
-      "fear"
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"sadness\"]"
   },
   "252": {
     "text": "Эван, мне дорога эта женщина.",
@@ -2728,9 +2683,10 @@
       5
     ],
     "pred": [
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "253": {
     "text": "Я держал её на руках...",
@@ -2739,10 +2695,9 @@
       6
     ],
     "pred": [
-      "fear",
       "sadness"
     ],
-    "raw": " [\"fear\", \"sadness\"]"
+    "raw": " [\"sadness\"]"
   },
   "254": {
     "text": "Готов поклясться, дядя мёртв.",
@@ -2750,9 +2705,10 @@
       7
     ],
     "pred": [
-      "fear"
+      "fear",
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"fear\", \"sadness\"]"
   },
   "255": {
     "text": "Извини.",
@@ -2770,9 +2726,9 @@
       4
     ],
     "pred": [
-      "fear"
+      "anger"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anger\"]\n\nText: 'Привет!'\nLabels: [\"joy\"]\n\nText: 'Это будет страшно!'\nLabels: [\"fear\"]\n"
   },
   "257": {
     "text": "Не отвечайте.",
@@ -2780,9 +2736,9 @@
       4
     ],
     "pred": [
-      "anger"
+      "fear"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"fear\"]"
   },
   "258": {
     "text": "- Когда он умер?",
@@ -2791,9 +2747,9 @@
       7
     ],
     "pred": [
-      "surprise"
+      "sadness"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"sadness\"]\n\nText: '- А если бы он не умер?'\nLabels: [\"fear\"]\n\nText: '- А как справляется ты?'"
   },
   "259": {
     "text": "Значит, он был в районе во время первого убийства.",
@@ -2811,10 +2767,10 @@
       2
     ],
     "pred": [
-      "anger",
-      "disgust"
+      "anticipation",
+      "trust"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"anticipation\", \"trust\"]"
   },
   "261": {
     "text": "Помоги мне.",
@@ -2846,10 +2802,11 @@
       4
     ],
     "pred": [
-      "anger",
-      "disgust"
+      "anticipation",
+      "joy",
+      "trust"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
   },
   "264": {
     "text": "Чудовище?",
@@ -2869,9 +2826,9 @@
       6
     ],
     "pred": [
-      "joy"
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"trust\"]"
   },
   "266": {
     "text": "А теперь неси лампочки - и не побей их.",
@@ -2879,9 +2836,10 @@
       8
     ],
     "pred": [
-      "anticipation"
+      "anger",
+      "fear"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anger\", \"fear\"]"
   },
   "267": {
     "text": "Я видел, как в одну тварь засадили десятка с три пуль, а ей - хоть бы что.",
@@ -2890,9 +2848,10 @@
     ],
     "pred": [
       "anger",
-      "disgust"
+      "disgust",
+      "sadness"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"anger\", \"disgust\", \"sadness\"]"
   },
   "268": {
     "text": "Я думал, что больше никогда вас не увижу.",
@@ -2900,10 +2859,9 @@
       7
     ],
     "pred": [
-      "joy",
-      "surprise"
+      "sadness"
     ],
-    "raw": " [\"joy\", \"surprise\"]"
+    "raw": " [\"sadness\"]"
   },
   "269": {
     "text": "— Он... он друг.",
@@ -2911,10 +2869,9 @@
       4
     ],
     "pred": [
-      "joy",
-      "surprise"
+      "trust"
     ],
-    "raw": " [\"joy\", \"surprise\"]"
+    "raw": " [\"trust\"]"
   },
   "270": {
     "text": "Вы забрали её из моего дома этой ночью!",
@@ -2932,9 +2889,10 @@
       1
     ],
     "pred": [
+      "anticipation",
       "fear"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"fear\"]"
   },
   "272": {
     "text": "Вы в этом уверены, да?",
@@ -2942,9 +2900,10 @@
       7
     ],
     "pred": [
-      "fear"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "273": {
     "text": "Дьявол всегда кроется во тьме.",
@@ -2963,11 +2922,9 @@
       8
     ],
     "pred": [
-      "anger",
-      "disgust",
       "sadness"
     ],
-    "raw": " [\"anger\", \"disgust\", \"sadness\"]"
+    "raw": " [\"sadness\"]"
   },
   "275": {
     "text": "Сейчас узнаешь.",
@@ -2975,10 +2932,9 @@
       4
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "276": {
     "text": "А теперь еще крылья добавь.",
@@ -2997,10 +2953,9 @@
       5
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "278": {
     "text": "Катись к черту.",
@@ -3008,9 +2963,10 @@
       1
     ],
     "pred": [
-      "anger"
+      "anger",
+      "disgust"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "279": {
     "text": "Потому, что они самые лучшие.",
@@ -3018,11 +2974,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "joy",
-      "trust"
+      "joy"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"joy\"]"
   },
   "280": {
     "text": "Совсем рехнулись!",
@@ -3032,9 +2986,9 @@
     "pred": [
       "anger",
       "disgust",
-      "surprise"
+      "joy"
     ],
-    "raw": " [\"anger\", \"disgust\", \"surprise\"]"
+    "raw": " [\"anger\", \"disgust\", \"joy\"]"
   },
   "281": {
     "text": "Я знаю тебя ... ты совершил тяжкое убийство... сукин сын.",
@@ -3065,11 +3019,9 @@
       5
     ],
     "pred": [
-      "anticipation",
-      "joy",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "284": {
     "text": "Смотришь на мои руки?",
@@ -3077,9 +3029,9 @@
       1
     ],
     "pred": [
-      "fear"
+      "anger"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anger\"]"
   },
   "285": {
     "text": "- Приглядись к ним, когда в следующий раз будешь в суде:",
@@ -3110,9 +3062,9 @@
       1
     ],
     "pred": [
-      "fear"
+      "trust"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"trust\"]"
   },
   "288": {
     "text": "Смотри, что я нашла.",
@@ -3141,9 +3093,9 @@
       4
     ],
     "pred": [
-      "fear"
+      "anger"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anger\"]"
   },
   "291": {
     "text": "Из тебя могло бы столько всего получиться.",
@@ -3151,9 +3103,9 @@
       8
     ],
     "pred": [
-      "joy"
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"trust\"]"
   },
   "292": {
     "text": "Какой ущерб Донна нанесла \"Либерти Рейл\"?",
@@ -3162,9 +3114,9 @@
     ],
     "pred": [
       "anger",
-      "disgust"
+      "sadness"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"anger\", \"sadness\"]"
   },
   "293": {
     "text": "Заряжай! Запал!",
@@ -3173,11 +3125,9 @@
     ],
     "pred": [
       "anger",
-      "anticipation",
-      "fear",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"fear\", \"joy\"]"
+    "raw": " [\"anger\", \"anticipation\"]"
   },
   "294": {
     "text": "- Ну... Не по-французски, но...",
@@ -3197,11 +3147,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "joy",
       "trust"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"trust\"]"
   },
   "296": {
     "text": "- Он симпатичный.",
@@ -3211,7 +3159,7 @@
     "pred": [
       "joy"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\"]\n\n Text: '- Он ужасен.'\nLabels: [\"fear\"]\n\n Text: '- Они смешны.'\nLabels: [\"joy\"]\n\n"
   },
   "297": {
     "text": "Не думаю, что у нас есть что-то для вас.",
@@ -3231,10 +3179,9 @@
       8
     ],
     "pred": [
-      "anger",
-      "anticipation"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anger\"]"
   },
   "299": {
     "text": "Карсон?",
@@ -3242,9 +3189,9 @@
       2
     ],
     "pred": [
-      "anticipation"
+      "surprise"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"surprise\"]"
   },
   "300": {
     "text": "И теперь, из-за того, что я облажался, прочитал из книги один паршивый отрывок, зло нашло меня.",
@@ -3263,10 +3210,9 @@
     ],
     "pred": [
       "anger",
-      "disgust",
       "surprise"
     ],
-    "raw": " [\"anger\", \"disgust\", \"surprise\"]"
+    "raw": " [\"anger\", \"surprise\"]"
   },
   "302": {
     "text": "Адалинда рожает.",
@@ -3284,9 +3230,9 @@
       2
     ],
     "pred": [
-      "fear"
+      "anger"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anger\"]"
   },
   "304": {
     "text": "Для тебя все, что угодно, сладенький мой пирожочек.",
@@ -3305,9 +3251,10 @@
       5
     ],
     "pred": [
-      "anger"
+      "anticipation",
+      "surprise"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anticipation\", \"surprise\"]"
   },
   "306": {
     "text": "Это хорошо.",
@@ -3325,10 +3272,9 @@
       5
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\"]"
   },
   "308": {
     "text": "Запомни есть только две вещи без ограничений.",
@@ -3337,9 +3283,9 @@
     ],
     "pred": [
       "anticipation",
-      "joy"
+      "trust"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"anticipation\", \"trust\"]"
   },
   "309": {
     "text": "Ускоряемся, идем на таран!",
@@ -3347,12 +3293,9 @@
       4
     ],
     "pred": [
-      "anger",
-      "anticipation",
-      "disgust",
-      "joy"
+      "anger"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"disgust\", \"joy\"]"
+    "raw": " [\"anger\"]"
   },
   "310": {
     "text": "Когда вы в последний раз её видели?",
@@ -3360,12 +3303,22 @@
       6
     ],
     "pred": [
-      "surprise"
+      "anticipation"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"anticipation\"]"
   },
   "311": {
     "text": "Я думаю о своей собственной заднице.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]"
+  },
+  "312": {
+    "text": "- Познакомилась с кем-нибудь?",
     "gold": [
       5
     ],
@@ -3374,16 +3327,6 @@
       "joy"
     ],
     "raw": " [\"anticipation\", \"joy\"]"
-  },
-  "312": {
-    "text": "- Познакомилась с кем-нибудь?",
-    "gold": [
-      5
-    ],
-    "pred": [
-      "anticipation"
-    ],
-    "raw": " [\"anticipation\"]"
   },
   "313": {
     "text": "И в порыве гнева я сказал ей, что, то что мы снова вместе, наш возобновленный роман был большой ошибкой.",
@@ -3412,10 +3355,9 @@
     ],
     "pred": [
       "anticipation",
-      "fear",
-      "trust"
+      "sadness"
     ],
-    "raw": " [\"anticipation\", \"fear\", \"trust\"]"
+    "raw": " [\"anticipation\", \"sadness\"]"
   },
   "316": {
     "text": "Для существования нам необходимы ваши мечты и желания.",
@@ -3423,9 +3365,10 @@
       8
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "317": {
     "text": "Что это? Мой сын нуждается в отдыхе.",
@@ -3434,9 +3377,10 @@
       7
     ],
     "pred": [
-      "fear"
+      "anticipation",
+      "surprise"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"surprise\"]"
   },
   "318": {
     "text": "Бутылки разных размеров, стоящие в беспорядке.",
@@ -3444,10 +3388,9 @@
       1
     ],
     "pred": [
-      "disgust",
-      "sadness"
+      "anger"
     ],
-    "raw": " [\"disgust\", \"sadness\"]"
+    "raw": " [\"anger\"]"
   },
   "319": {
     "text": "- Успокойся.",
@@ -3455,9 +3398,9 @@
       8
     ],
     "pred": [
-      "surprise"
+      "fear"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"fear\"]"
   },
   "320": {
     "text": "Если вы не прекратите лезть на рожон, он убьет нас всех.",
@@ -3477,9 +3420,10 @@
       8
     ],
     "pred": [
+      "anger",
       "trust"
     ],
-    "raw": " [\"trust\"]"
+    "raw": " [\"anger\", \"trust\"]"
   },
   "322": {
     "text": "Мы идеально синхронны, Клэр.",
@@ -3488,9 +3432,10 @@
       8
     ],
     "pred": [
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "323": {
     "text": "Какое-то время нет, мэм.",
@@ -3499,9 +3444,9 @@
       3
     ],
     "pred": [
-      "sadness"
+      "anticipation"
     ],
-    "raw": " [\"sadness\"]"
+    "raw": " [\"anticipation\"]"
   },
   "324": {
     "text": "Благодарю.",
@@ -3521,10 +3466,9 @@
       2
     ],
     "pred": [
-      "anticipation",
-      "fear"
+      "anger"
     ],
-    "raw": " [\"anticipation\", \"fear\"]"
+    "raw": " [\"anger\"]"
   },
   "326": {
     "text": "Ещё один шаг, и я сверну ей шею.",
@@ -3542,11 +3486,9 @@
       7
     ],
     "pred": [
-      "anger",
-      "anticipation",
-      "disgust"
+      "anticipation"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"disgust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "328": {
     "text": "Никогда не знаешь, что он видит, о чём думает.",
@@ -3554,9 +3496,9 @@
       7
     ],
     "pred": [
-      "anticipation"
+      "fear"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"fear\"]"
   },
   "329": {
     "text": "Может, понимаешь, вы могли бы пожить вместе. ... ты знаешь, купить коня, бриллианты и дом.",
@@ -3564,9 +3506,10 @@
       1
     ],
     "pred": [
-      "anticipation"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "330": {
     "text": "Мы начали проводить вместе каждый вечер.",
@@ -3574,9 +3517,9 @@
       2
     ],
     "pred": [
-      "anticipation"
+      "joy"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"joy\"]"
   },
   "331": {
     "text": "Да, пусть зайдёт.",
@@ -3585,9 +3528,10 @@
       7
     ],
     "pred": [
-      "fear"
+      "anticipation",
+      "joy"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "332": {
     "text": "Но они быстро научатся.",
@@ -3607,11 +3551,9 @@
       8
     ],
     "pred": [
-      "anticipation",
-      "joy",
-      "trust"
+      "joy"
     ],
-    "raw": " [\"anticipation\", \"joy\", \"trust\"]"
+    "raw": " [\"joy\"]"
   },
   "334": {
     "text": "Вы только посмотрите - даже печатка не сломана.",
@@ -3620,9 +3562,10 @@
       7
     ],
     "pred": [
+      "anticipation",
       "joy"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"anticipation\", \"joy\"]"
   },
   "335": {
     "text": "Он застрелился.",
@@ -3655,9 +3598,10 @@
       8
     ],
     "pred": [
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"joy\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "338": {
     "text": "Это было раньше, сэр.",
@@ -3665,9 +3609,9 @@
       2
     ],
     "pred": [
-      "anticipation"
+      "sadness"
     ],
-    "raw": " [\"anticipation\"]"
+    "raw": " [\"sadness\"]"
   },
   "339": {
     "text": "Я почти кончила.",
@@ -3685,9 +3629,9 @@
       4
     ],
     "pred": [
-      "surprise"
+      "sadness"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"sadness\"]"
   },
   "341": {
     "text": "Кто-то добавил снотворное в ее тонизирующее.",
@@ -3695,10 +3639,10 @@
       7
     ],
     "pred": [
-      "anger",
-      "disgust"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"anger\", \"disgust\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "342": {
     "text": "- Алло!",
@@ -3709,7 +3653,7 @@
     "pred": [
       "surprise"
     ],
-    "raw": " [\"surprise\"]"
+    "raw": " [\"surprise\"]\n\nText: '- Покажи мне карту.'\nLabels: [\"anger\"]\n\nText: '- Здорово! Здесь вы можете ку"
   },
   "343": {
     "text": "Диана всегда подкладывала спичечный коробок под ножку, чтобы напомнить мне, что я неправильно замерил, но она так и не избавилась от него.",
@@ -3719,9 +3663,9 @@
     ],
     "pred": [
       "anger",
-      "sadness"
+      "disgust"
     ],
-    "raw": " [\"anger\", \"sadness\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "344": {
     "text": "Я желаю чтобы у тебя было сердце.",
@@ -3729,9 +3673,9 @@
       2
     ],
     "pred": [
-      "fear"
+      "sadness"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"sadness\"]"
   },
   "345": {
     "text": "Ладно. Твоя взяла.",
@@ -3740,10 +3684,10 @@
       3
     ],
     "pred": [
-      "anticipation",
-      "joy"
+      "joy",
+      "trust"
     ],
-    "raw": " [\"anticipation\", \"joy\"]"
+    "raw": " [\"joy\", \"trust\"]"
   },
   "346": {
     "text": "- Премьера не начинается вовремя.",
@@ -3754,7 +3698,7 @@
     "pred": [
       "anger"
     ],
-    "raw": " [\"anger\"]"
+    "raw": " [\"anger\"]\n\nText: '- Время отличное.'\nLabels: [\"joy\"]\n\nText: '- Мне не нравится эта музыка.'\n"
   },
   "347": {
     "text": "Мы столкнулись с интересной проблемой:",
@@ -3762,9 +3706,10 @@
       2
     ],
     "pred": [
-      "fear"
+      "anticipation",
+      "surprise"
     ],
-    "raw": " [\"fear\"]"
+    "raw": " [\"anticipation\", \"surprise\"]"
   },
   "348": {
     "text": "Сначала они отрицали, потом стали изворачиваться.",
@@ -3773,10 +3718,9 @@
     ],
     "pred": [
       "anger",
-      "disgust",
-      "sadness"
+      "disgust"
     ],
-    "raw": " [\"anger\", \"disgust\", \"sadness\"]"
+    "raw": " [\"anger\", \"disgust\"]"
   },
   "349": {
     "text": "В вашем мире такое оружие?",
@@ -3804,13 +3748,9 @@
       3
     ],
     "pred": [
-      "anger",
-      "anticipation",
-      "disgust",
-      "fear",
-      "trust"
+      "anticipation"
     ],
-    "raw": " [\"anger\", \"anticipation\", \"disgust\", \"fear\", \"trust\"]"
+    "raw": " [\"anticipation\"]"
   },
   "352": {
     "text": "Ты получишь новую жизнь с семьёй, которая ценит тебя.",
@@ -3852,9 +3792,10 @@
     ],
     "pred": [
       "anger",
-      "anticipation"
+      "anticipation",
+      "surprise"
     ],
-    "raw": " [\"anger\", \"anticipation\"]"
+    "raw": " [\"anger\", \"anticipation\", \"surprise\"]"
   },
   "356": {
     "text": "Лиэнн в Цинциннати, пытается заключить сделку насчёт дебатов.",
@@ -3862,9 +3803,9 @@
       8
     ],
     "pred": [
-      "anticipation",
-      "surprise"
+      "anger",
+      "anticipation"
     ],
-    "raw": " [\"anticipation\", \"surprise\"]"
+    "raw": " [\"anger\", \"anticipation\"]"
   }
 }

@@ -1,0 +1,3510 @@
+{
+  "0": {
+    "text": "-Так ты неудачник, ювелир?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: '-Спасибо! Это очень красивый! Посмотри, как это блестит!'\nLabels: [\"joy\"]\n"
+  },
+  "1": {
+    "text": "На кого ты работаешь?",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\", \"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n"
+  },
+  "2": {
+    "text": "По моему, тут что-то лишнее.",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['disgust']\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]"
+  },
+  "3": {
+    "text": "Учитывая, кто на территории, она будет здорово охраняться.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nText: 'Я уже думал, что у меня просто угончик.'\nLabels: [\"joy\"]\n\nText: '"
+  },
+  "4": {
+    "text": "По-моему, довольно банальное.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n[\"anger\"]\n\n[\"anticipation\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"trust"
+  },
+  "5": {
+    "text": "Да здравствует братство!",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Не зря я не выбрал вас в команду!'\nLabels: [\"joy\"]\n\nText: 'Не смотря"
+  },
+  "6": {
+    "text": "У ребёнка пропал пульс.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\nText: 'Он был похоронен в деревне своей родителей.'\nLabels"
+  },
+  "7": {
+    "text": "Я говорю не о нём.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\nText: 'Ну что ты ждёшь, он спасёт мир!'\nLabels: [\"anticipation\","
+  },
+  "8": {
+    "text": "Я пытаюсь очистить партию, нашу партию, и порой говорю необдуманные вещи.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\nText: 'Не надо думать, что я могу за"
+  },
+  "9": {
+    "text": "Мы пойдём на сделку.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Вот что сделал этот парень: украл у меня деньги и уехал.'\nLabels"
+  },
+  "10": {
+    "text": "Я понимаю.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nText: \"Ну вот, что, если вдруг...?\"\nLabels: [\"anticipation\"]\n\nText: \"Этот"
+  },
+  "11": {
+    "text": "Ник, сожалею.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'О, боже, я сорвал экзамен!'\nLabels: ['fear']\n\nText: 'Вот что я"
+  },
+  "12": {
+    "text": "Да пусть у них будет хоть сотня стволов - всё равно внизу безопаснее!",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Даже в самые тяжёлые минуты я никогда не сомневался, что все получится"
+  },
+  "13": {
+    "text": "Интригующая юная леди - мисс Вивиан.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Новость, которая могла бы потрясти весь мир, утеряна.'\nLabels: [\"disg"
+  },
+  "14": {
+    "text": "Кейт Болдуин не должна была с ним говорить.",
+    "gold": [
+      1,
+      3,
+      6
+    ],
+    "pred": [],
+    "raw": " ['anger', 'disgust']\n\nText: 'Она очень счастлива, что это произошло.'\nLabels: ['joy']\n\n"
+  },
+  "15": {
+    "text": "Худшее, что только можно представить.",
+    "gold": [
+      1,
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Наконец-то! Я наконец-то спасся!'\nLabels: [\"anticipation\", \"joy\"]"
+  },
+  "16": {
+    "text": "Почему ты не вернешься и не поиграешь в героя в своем мире, Землянин?",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Смотрите, это ужасно, но я могу поймать врага! Я буду сильнее, я буду"
+  },
+  "17": {
+    "text": "Хотел бы я сказать ему, как ценю всё это.",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\nText: 'Ну и что, ты подумал, что я могу спать?'\nLabels: ['anger']\n\nText: 'По"
+  },
+  "18": {
+    "text": "У Таска нет друзей.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Он убьет тебя!'\nLabels: [\"fear\"]\n\nText: 'Это поражает мен"
+  },
+  "19": {
+    "text": "Спасибо за краткий обзор.",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"surprise\"]\n\n[\"fear\"]\n\n[\"sadness\"]"
+  },
+  "20": {
+    "text": "- И что ты собираешься делать?",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"anger\", \"disgust\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n"
+  },
+  "21": {
+    "text": "-Я не могу сказать больше",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Что вы хотите сделать?'\nLabels: [\"anticipation\"]\n\nText: 'Я просто думаю,"
+  },
+  "22": {
+    "text": "Вообще-то она спасла мне жизнь.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"joy\"]\n\n[\"joy\", \"trust\"]\n\n[\"trust\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"joy\"]\n"
+  },
+  "23": {
+    "text": "А надо ещё.",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anticipation\"]\n[\"disgust\"]\n[\"surprise\"]\n\n[\"joy\"]\n[\"surprise\"]\n\n[\"surprise\"]\n"
+  },
+  "24": {
+    "text": "Предъявите улику \"Д\".",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: 'Неужели, подумали, что я пойму на \"Д\"?!'\nLabels: ['anger']\n\nText: '"
+  },
+  "25": {
+    "text": "Она виновна.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise"
+  },
+  "26": {
+    "text": "Сюда, скорее.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Ты что, думаешь, это нормально, что я так говорю?'\nLabels: [\"anger\", \""
+  },
+  "27": {
+    "text": "Последнее, что мы о ней знаем – она села в вертолёт.",
+    "gold": [
+      1,
+      7
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Ну, хорошо, давайте пойдём к ней навестить, если ты уверен,"
+  },
+  "28": {
+    "text": "- Кстати, Фил, насчёт машины.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\"]\n"
+  },
+  "29": {
+    "text": "Рецензии в пяти журналах поднимут её стоимость вдвое.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\", \"surprise\", \"trust\"]"
+  },
+  "30": {
+    "text": "Вы можете со мной не соглашаться.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"anticipation\", \"f"
+  },
+  "31": {
+    "text": "Да, я знаю, знаю.",
+    "gold": [
+      3,
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'О, боже, это ужасно!'\nLabels: [\"fear\", \"sadness\"]\n\nText: 'Вот и"
+  },
+  "32": {
+    "text": "С днем рождения.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"disgust"
+  },
+  "33": {
+    "text": "- Ну удружил, баран!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anger\", \"disgust\"]\n\n[\"joy\", \"trust\"]\n\n[\"anger\", \"disgust\", \"joy\"]\n\n[\"anger\"]"
+  },
+  "34": {
+    "text": "Будь это они, я был бы мертв.",
+    "gold": [
+      4,
+      8
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Никогда не надо было быть здесь.'\nLabels: [\"anger\", \"fear\"]\n\nText: 'Н"
+  },
+  "35": {
+    "text": "Давай сюда, чёрт подери!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Он нас спас!'\nLabels: [\"joy\"]\n\nText: 'Простите, я не могу это повери"
+  },
+  "36": {
+    "text": "Что это значит? Эдвард...",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\nText: 'Не хочу!'\nLabels: [\"anger\"]\n\nText: 'Всё получилось!'\nLabels: [\"joy\"]\n\nText"
+  },
+  "37": {
+    "text": "-Восточный человек говорит языком змеи",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Ты, конечно, сможешь это сделать, если ты хочешь.'\nLabels: [\"anticip"
+  },
+  "38": {
+    "text": "-Попробуйте вы.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust"
+  },
+  "39": {
+    "text": "- Они ещё попросятся к нам.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"anticipation\", \"surprise\"]\n\n[\"trust\"]"
+  },
+  "40": {
+    "text": "Тогда вы, должно быть, его...",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\", \"disgust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"disgust\"]\n\n[\"fear\", \"s"
+  },
+  "41": {
+    "text": "Почему?",
+    "gold": [
+      2,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"anticipation\"]\n[\"disgust\"]\n[\"fear\"]\n[\"joy\"]\n[\"surprise\"]\n[\"trust\"]\n[\"anger\", \""
+  },
+  "42": {
+    "text": "А, да.",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation', 'joy']\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\nText: 'Только"
+  },
+  "43": {
+    "text": "Отсюда пойдём пешком.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"joy\", \"surprise\"]\n\n[\"anticipation\", \"joy"
+  },
+  "44": {
+    "text": "У меня маленькая проблема.",
+    "gold": [
+      2,
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "45": {
+    "text": "Жил был старик Немо",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"fear\"]\n\n[\"disgust\"]\n\n[\"anger\"]"
+  },
+  "46": {
+    "text": "Я не верю что мы сделали это.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "disgust",
+      "sadness"
+    ],
+    "raw": " [\"disgust\", \"sadness\"]\n\nText: 'Они сделали это за мной.'\nLabels: [\"surprise\"]\n\nText: 'Я буду"
+  },
+  "47": {
+    "text": "Отличный экипаж.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Это очень плохо.'\nLabels: [\"sadness\"]\n\nText: 'Приходите на репетицию!'\n"
+  },
+  "48": {
+    "text": "Разворачивается в нашу сторону!",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\"]\n[\"fear\"]\n[\"joy\"]\n[\"surprise\"]\n[\"trust\"]\n\n[\"sadness\"]\n\n[\"joy"
+  },
+  "49": {
+    "text": "Не знаю.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Мне нравится.'\nLabels: ['joy']\n\nText: 'Это здесь просто неправильно.'\n"
+  },
+  "50": {
+    "text": "Сколько ещё?",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]"
+  },
+  "51": {
+    "text": "Я весь день пытался ему дозвониться.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Просто зайди в ресторан, и все будет хорошо.'\nLabels: [\"anticipation\", \"joy"
+  },
+  "52": {
+    "text": "- Мы уже близко.",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Смотрите, там паук!'\nLabels: [\"fear\"]\n\nText: 'Мы сделали это!'"
+  },
+  "53": {
+    "text": "Нед, не надо.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Бедный, бедный, бедный...'\nLabels: [\"sadness\"]\n\nText: 'Я наконец-"
+  },
+  "54": {
+    "text": "А окна выдержат, да?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"sadness\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n[\"disgust"
+  },
+  "55": {
+    "text": "Не слушайте этого пропойцу, парни, и вас всех угостят грогом, если конечно он полезет вам в глотку после этих его страшилок...",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "56": {
+    "text": "И её.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Нет, ничего.'\nLabels: [\"disgust\"]\n\nText: 'Ну, а что?'\nLabels: [\"anticip"
+  },
+  "57": {
+    "text": "Мы играем с огнём.",
+    "gold": [
+      2,
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Мы выиграли.'\nLabels: [\"joy\"]\n\nText: 'Продавец лжёт.'\nLabels:"
+  },
+  "58": {
+    "text": "Мне так жалко Ника.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Он удивил меня.'\nLabels: [\"surprise\"]\n\nText: 'Они совершили оши"
+  },
+  "59": {
+    "text": "Ты помнишь, что нужно говорить?",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anger', 'disgust','surprise']\n\n[\"anticipation\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\", \"surprise\"]"
+  },
+  "60": {
+    "text": "Я не могу.",
+    "gold": [
+      4,
+      6,
+      7
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Вы не сможете выиграть.'\nLabels: ['sadness']\n\nText: 'Дождь не"
+  },
+  "61": {
+    "text": "О этим кольцом я мог бы править миром!",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\""
+  },
+  "62": {
+    "text": "Сейчас!",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'У меня есть только два цента!'\nLabels: ['disgust']\n\nText: 'Ну что ж,"
+  },
+  "63": {
+    "text": "Я не знаю об этом.",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['anger', 'fear']\n\nText: 'Идем к реке!'\nLabels: ['anticipation', 'joy']\n\nText: 'Отвратитель"
+  },
+  "64": {
+    "text": "Скрестите пальцы.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Прости меня.'\nLabels: [\"sadness\"]\n\nText: 'Это отвратительно!'\nLabels:"
+  },
+  "65": {
+    "text": "Смотрите, люди!",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise"
+  },
+  "66": {
+    "text": "Мы многое пережили вместе, и я не хочу, чтобы ты занимался чем-то, без меня, когда тебе нужна помощь.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anger', 'anticipation']\n\n[\"fear\", \"sadness\"]\n\n[\"trust\"]\n\nText: 'Они убили нашего друга, и"
+  },
+  "67": {
+    "text": "Меньшее, что мы можем сделать ради Ника – найти информацию по Чавез.",
+    "gold": [
+      6,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\nText: 'Нельзя просто та"
+  },
+  "68": {
+    "text": "Для начала, сообщите мне новости.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anticipation\"]\n\n[\"anticipation\"]\n\n[\"anticipation\"]\n\n[\"anticipation\"]\n\n[\"anticipation\"]"
+  },
+  "69": {
+    "text": "Она предоставила нам вон тот прекрасный дом.",
+    "gold": [
+      2,
+      7
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\nText: 'Мой дом обрушился, я бездомный.'\nLabels: ['sadness']\n\nText: 'Ты мне"
+  },
+  "70": {
+    "text": "Он - моя тюрьма.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Я никогда не понимал его.'\nLabels: [\"sadness\"]\n\nText: 'Мой друг умер"
+  },
+  "71": {
+    "text": "Но я убил трёх женщин.",
+    "gold": [
+      3,
+      6
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: 'Я спас твою жизнь.'\nLabels: ['joy']\n\nText: 'Я буду ждать тебя!'"
+  },
+  "72": {
+    "text": "Умерла, думая, что все кончено между нами.",
+    "gold": [
+      4,
+      6,
+      8
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Девочка взяла в руки товар и смеялась.'\nLabels: ['joy']\n\nText: 'С"
+  },
+  "73": {
+    "text": "Я поставила чайник.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n"
+  },
+  "74": {
+    "text": "В чём дело.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]"
+  },
+  "75": {
+    "text": "А обвиняют в этом меня.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: 'А вот и день рождения!'\nLabels: ['joy']\n\nText: 'Ах, попался!'\nLabels: ['sur"
+  },
+  "76": {
+    "text": "Мне нравится.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\nText: 'Мне не нравится!'\nLabels: ['anger']\n\nText: 'Ты меня не понимаешь!'\n"
+  },
+  "77": {
+    "text": "Конечно.",
+    "gold": [
+      1,
+      2,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nText: \"Что ты здесь делаешь, ая-я-я!\"\nLabels: [\"anger\"]\n\nText: \""
+  },
+  "78": {
+    "text": "Ну ладно. Назначай встречу.  Я всех выслушаю.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n [\"anticipation\"]\n [\"joy\"]\n [\"trust\"]\n [\"surprise\"]\n [\"tr"
+  },
+  "79": {
+    "text": "Мишнев все еще мертв.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Это прекрасно!'\nLabels: ['joy']\n\nText: 'Мне не нравится это!'\nLabels: ['"
+  },
+  "80": {
+    "text": "Я только не понимаю почему Инглторп явно желал, чтобы его арестовали.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Вообще-то я могу показать всем, что я сделал.'\nLabels: [\"anticipation\"]\n\nText"
+  },
+  "81": {
+    "text": "- Я университетский капитан как первокурсница.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"disgust\"]\n\n[\"fear\"]"
+  },
+  "82": {
+    "text": "Именно поэтому надо нанести удар!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Вот сейчас, когда все готово!'\nLabels: [\"anticipation\"]\n\nText: 'Что ж, вот"
+  },
+  "83": {
+    "text": "В чем? Сукин ты сын.  Собираешься обвинить её в умысле?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n[\"anger\"]\n\n[\"anticipation\", \"fear\"]\n\n[\"anger\", \"disgust\"]\n\n[\"disgust"
+  },
+  "84": {
+    "text": "Ведьма с вашей силой может стать ценный сотрудником для того, кто уважает их.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Я тебя ненавижу!'\nLabels: [\"anger\"]\n\nText: 'Ты уже не мой друг.'"
+  },
+  "85": {
+    "text": "Непременно.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Вот и всё.'\nLabels: [\"sadness\"]\n\nText: 'О, боже!'\nLabels: [\"sur"
+  },
+  "86": {
+    "text": "Ладно. Вот тебе сигара.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"joy\", \"surprise\"]\n\n[\"trust\"]\n\n[\"anger\", \"disg"
+  },
+  "87": {
+    "text": "Почему ты так странно на меня смотришь?",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n"
+  },
+  "88": {
+    "text": "Я просто не уверен, что это правильно.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'У меня есть хорошая идея!'\nLabels: [\"anticipation\"]\n\nText: 'Это просто ка"
+  },
+  "89": {
+    "text": "Поехали ужинать?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'У меня всё плохо?'\nLabels: [\"sadness\"]\n\nText: 'Такого не должно было"
+  },
+  "90": {
+    "text": "Пожалуй, хватит комплиментов. А то я уже начинаю нервничать.",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "anger",
+      "anticipation"
+    ],
+    "raw": " [\"anger\", \"anticipation\"]\n\n[\"surprise\"]\n\n[\"joy\", \"surprise\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"disg"
+  },
+  "91": {
+    "text": "Дурацкая награда?",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anger', 'disgust']\n\n[\"anger\", \"disgust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"fear\"]\n\n[\"joy\"]\n"
+  },
+  "92": {
+    "text": "Необъятная сокровищница природы, где я блуждаю по своей воле.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Из-за необузданной любви к пиву, я постоянно оказываюсь в неловких си"
+  },
+  "93": {
+    "text": "– Не знаю.",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Такой-то мужик ехал за нами, и мы все погибли.'\nLabels: ['fear']"
+  },
+  "94": {
+    "text": "Не могу не признать, что вы приняли нас на славу, капитан.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [],
+    "raw": " ['joy', 'trust']\n\n[\"anticipation\", \"joy\"]\n[\"joy\", \"trust\"]\n\nText: 'Ну, что ж, иначе я"
+  },
+  "95": {
+    "text": "Дамы и господа, добрый вечер.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n"
+  },
+  "96": {
+    "text": "Она тебе в самом деле нравится, Карлос?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n"
+  },
+  "97": {
+    "text": "Я сказала... Горите в аду!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anticipation\"]"
+  },
+  "98": {
+    "text": "Нет, всего одну секунду, ладно?",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anger",
+      "anticipation"
+    ],
+    "raw": " [\"anger\", \"anticipation\"]\n\nText: 'О, этот шоколад просто блестящий!'\nLabels: [\"joy\"]\n\nText:"
+  },
+  "99": {
+    "text": "Теперь твой шанс, давай!",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\nText: 'Не смотря на всё, ты все-таки спасёшь меня!'"
+  },
+  "100": {
+    "text": "Он ищет меня.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n[\"disgust\"]"
+  },
+  "101": {
+    "text": "Мы не прогуляли. Мы работали.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation', 'joy']\n\n[\"anticipation\", \"joy\", \"trust\"]\n\n[\"joy\"]\n\n[\"joy\", \"trust\"]\n\n[\"tr"
+  },
+  "102": {
+    "text": "Проплакала с начала до конца.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"trust\"]"
+  },
+  "103": {
+    "text": "Но она приходит. Ладно, пойду попрощаюсь.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anger\"]\n\nText: 'Ч"
+  },
+  "104": {
+    "text": "Или ты не слышал этого?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\nText: 'Это очень неплохо!'\nLabels: [\"joy\"]\n\nText: 'Вот так? Ты не сомнева"
+  },
+  "105": {
+    "text": "И готовьтесь к погружению.",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Это был твой недостаток.'\nLabels: [\"anger\"]\n\nText: 'Нет, я не хочу этого!'"
+  },
+  "106": {
+    "text": "Мы можем не успеть к понедельнику.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation",
+      "fear"
+    ],
+    "raw": " [\"anticipation\", \"fear\"]\n\n[\"anticipation\"]\n[\"fear\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"joy"
+  },
+  "107": {
+    "text": "- И идея хорошая.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: '- Не знаю, что ты на меня так думаешь, но я думаю, что это действительно прекрасно"
+  },
+  "108": {
+    "text": "Забудь! Мы потратили на это тысячи человеко-часов!",
+    "gold": [
+      1,
+      2
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Сегодня я наконец-то узнаю, что будет дальше!'\nLabels: [\"anticipation\"]"
+  },
+  "109": {
+    "text": "А если я наклонюсь ещё немного?",
+    "gold": [
+      6,
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]"
+  },
+  "110": {
+    "text": "Мне нравится Марк, потому что я знаю, на чём он стоит.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Не знаю, зачем я даже приехал сюда, это очень скучно.'\nLabels: [\"s"
+  },
+  "111": {
+    "text": "Почему китайцам так важно знать, что находится на российском судне?",
+    "gold": [
+      2,
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\"]\n[\"disgust\"]\n\n[\"fear\"]\n[\"sadness\"]\n[\"surprise\"]\n[\"trust\"]\n\n"
+  },
+  "112": {
+    "text": "Она хороший человек.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [],
+    "raw": " ['trust']\n\nText: 'Извините, что так долго.'\nLabels: ['disgust']\n\nText: 'Я счастлив, что"
+  },
+  "113": {
+    "text": "О боже.",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\n[\"anger\", \"disgust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]"
+  },
+  "114": {
+    "text": "Даю слово.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\", \"anticipation\"]\n\n[\"fear\", \"surprise\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"dis"
+  },
+  "115": {
+    "text": "Дорогая, ты просто ребенок.",
+    "gold": [
+      3,
+      4
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\nText: 'Мне очень жаль, что мы не могли быть вместе.'\nLabels: [\"sadness\"]\n"
+  },
+  "116": {
+    "text": "Хороший парфюм.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n"
+  },
+  "117": {
+    "text": "Хэнк, она мертва.",
+    "gold": [
+      6,
+      8
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Хорошо, пусть умрет.'\nLabels: ['anger']\n\nText: 'Хорошо, что она"
+  },
+  "118": {
+    "text": "Не они заставили меня замолчать, а ты.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n"
+  },
+  "119": {
+    "text": "Попробую но она заставила меня охотиться за ней.",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"surprise\"]"
+  },
+  "120": {
+    "text": "- Как я его открою?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"joy\"]"
+  },
+  "121": {
+    "text": "Перезвоните ей, пожалуйста.",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Покажите мне фотографию.'\nLabels: [\"anticipation\"]\n\nText: 'Собираются ли зде"
+  },
+  "122": {
+    "text": "- Всё отлично.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"anticipation\", \"trust\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\", \"surprise\"]\n\n[\"s"
+  },
+  "123": {
+    "text": "Ты попыталась нанять её.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise"
+  },
+  "124": {
+    "text": "Тогда хотя бы позвольте мне попытаться.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"sadness\"]\n\n[\"anticipation\"]\n\n[\"surprise\"]\n\n[\"fear\"]\n\n[\"trust\"]\n\n[\"joy\"]"
+  },
+  "125": {
+    "text": "Закрой рот, дорогой.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n"
+  },
+  "126": {
+    "text": "Ненавижу это место.",
+    "gold": [
+      1,
+      3,
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Моя мама уже прилетит на вечеринку!'\nLabels: [\"anticipation\"]\n\nText: 'Ар"
+  },
+  "127": {
+    "text": "Знаю, как это больно.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Я так долго ждал этого!'\nLabels: [\"anticipation\"]\n\nText: 'Не могу поверить"
+  },
+  "128": {
+    "text": "Привет.",
+    "gold": [
+      2,
+      5,
+      8
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"anticipation\"]\n\n[\"surprise\"]\n\n[\"fear\"]\n\n[\"disgust\"]\n\n[\"sadness\"]\n\n[\"tr"
+  },
+  "129": {
+    "text": "- мы что-нибудь придумаем, Вивиан.",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anger\"]\n[\"fear\", \"sadness\"]\n[\"joy\"]\n[\"surprise\"]\n[\"trust\"]"
+  },
+  "130": {
+    "text": "- Я знаю.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger",
+      "anticipation"
+    ],
+    "raw": " [\"anger\", \"anticipation\"]\n\n[\"anger\"]\n\n[\"joy\", \"trust\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"fear\"]"
+  },
+  "131": {
+    "text": "- Ещё 200?",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"fear\"]"
+  },
+  "132": {
+    "text": "Вам невыносима мысль о том, чтобы поверить в людей, потому если вы поверите, то все ваше существование, которое зиждется на ненависти и мести, все это обрушится, и станет ясно, что ваша жизнь сплошная ложь.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "disgust",
+      "fear"
+    ],
+    "raw": " [\"disgust\", \"fear\"]\n\nText: 'Я никогда не могу найти что-нибудь общего с этим миром, я никогда"
+  },
+  "133": {
+    "text": "Не садись.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Это будет великолепно!'\nLabels: [\"anticipation\", \"joy\"]\n\nText: 'О, боже!'"
+  },
+  "134": {
+    "text": "Катя!",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"surprise\", \"joy\"]\n\n"
+  },
+  "135": {
+    "text": "Опять по магазинам?",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\nText: 'Мы сходим в кино!'\nLabels: ['anticipation', 'joy']\n\nText: 'Вообще, а"
+  },
+  "136": {
+    "text": "Какая зацепка? Она наркоша.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "anger",
+      "surprise"
+    ],
+    "raw": " [\"anger\", \"surprise\"]\n\nText: 'Вот и все. К тому же, уж слишком поздно.'\nLabels: [\"sadness\"]"
+  },
+  "137": {
+    "text": "Как вы себя чувствуете?",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['anticipation', 'joy']\n\n[\"anger\", \"disgust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n"
+  },
+  "138": {
+    "text": "У меня есть что-то.",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['anticipation', 'joy']\n\n[\"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n"
+  },
+  "139": {
+    "text": "Мы вместе через много прошли и мне не хотелось бы, чтоб ты что-то делал без меня, когда я тебе нужен.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\nText: 'Я тебя люблю, мой друг!'\nLabels: ['joy']\n\nText: 'У меня была зада"
+  },
+  "140": {
+    "text": "Зачем она вообще приехала?",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: 'О, вы такой смешной!'\nLabels: ['joy']\n\nText: 'У меня всегда есть какая"
+  },
+  "141": {
+    "text": "Это немного подрежет тебе крылья.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"anticipation\", \"joy\", \"tr"
+  },
+  "142": {
+    "text": "Я пытаюсь помочь, но он не слушает меня, а мне приходится переступать через собственное горе.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Это совершенно не то, что я ожидал, но это всё ещё очень хорошо!'"
+  },
+  "143": {
+    "text": "Почему бы тебе от нее не отстать?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Наконец-то! Я смотрю теперь то, что хотел!'\nLabels: [\"anticipation\", \"joy\"]"
+  },
+  "144": {
+    "text": "Скажи им, чтобы открыли дверь!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Я надеюсь, что мы соберёмся снова в ближайшее время!'\nLabels: [\"anticipation\"]\n"
+  },
+  "145": {
+    "text": "Вы глупец.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n"
+  },
+  "146": {
+    "text": "Это было глупо и жестоко.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"disgust\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"f"
+  },
+  "147": {
+    "text": "Я видел, как эти парни подъехали прямо перед нами.",
+    "gold": [
+      1,
+      4
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\","
+  },
+  "148": {
+    "text": "Я знаю, что могу завоевать доверие капитана, но мне нужно время и ваша помощь.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "sadness"
+    ],
+    "raw": " [\"anticipation\", \"sadness\"]\n\n[\"fear\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "149": {
+    "text": "- Нельзя брать за это деньги.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\nText: 'Вот это за ужасная новость!'\nLabels: [\"disgust\", \"surprise\"]\n\nText"
+  },
+  "150": {
+    "text": "Это прекрасный город.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"fear\"]\n\n[\"disgust\"]\n\n"
+  },
+  "151": {
+    "text": "Была у меня Русалка Минни",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Не думаю, что у меня будет ловлящая рыбу рука'\nLabels: [\"disgust"
+  },
+  "152": {
+    "text": "Продолжай, Том.",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Я не хочу это делать.'\nLabels: ['disgust','sadness']\n\nText: 'Воз"
+  },
+  "153": {
+    "text": "Я не разговаривал с ним 14 с половиной лет.",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Вот он и пришел!'\nLabels: ['anticipation']\n\nText: 'Стало темно, я оказа"
+  },
+  "154": {
+    "text": "А зачем вспоминать вещи, которые можно пожелать?",
+    "gold": [
+      2,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Какая ужасная штука!'\nLabels: ['disgust']\n\nText: 'Не тронь м"
+  },
+  "155": {
+    "text": "- Эй, Джулиан!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\", \"surprise"
+  },
+  "156": {
+    "text": "Но сейчас я способен только на это.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Просто мне пришлось работать с такими людьми.'\nLabels: ['anger', 'disgust']\n"
+  },
+  "157": {
+    "text": "Что я здесь делаю, Кларк?",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: 'Наконец-то!'\nLabels: ['anticipation']\n\nText: 'Ой-ой-ой!'\nLabels:"
+  },
+  "158": {
+    "text": "Привет! Поверить не могу, что ты здесь.",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\nText: 'Не хочу этого видеть.'\nLabels: [\"anger\"]\n\nText: 'Ура! Наконец-то.'\n"
+  },
+  "159": {
+    "text": "Харви, вряд ли окружной прокурор сам займётся этим делом только потому, что я работаю на тебя.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\nText: 'Он не очень-то очень умный, но несмотря на это, нашёл пу"
+  },
+  "160": {
+    "text": "Мы не знаем с чем имеем дело.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Сегодня у меня было очень хорошо.'\nLabels: [\"joy\"]\n\nText: 'Не по"
+  },
+  "161": {
+    "text": "Из любви к ней.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"joy\"]"
+  },
+  "162": {
+    "text": "Чувствуя необходимость в горячем напитке, она подогрела какао и выпила. Если стрихнина не было в кофе, мы знаем, что его не было в какао, где же он был?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"surprise\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"disgust\"]\n"
+  },
+  "163": {
+    "text": "Чувак, скажи мне в чем дело, возможно, я смогу помочь.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anger\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"joy\","
+  },
+  "164": {
+    "text": "Прежде чем я услышал о взрыве.",
+    "gold": [
+      1,
+      4,
+      6
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Теперь я не боюсь умереть.'\nLabels: [\"joy\"]\n\nText: 'Я очень недо"
+  },
+  "165": {
+    "text": "И... не стоит забывать, вы едите не за себя одну.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'О, какой ужас! Не понимаю, что это за страшное существо!?'\nLabels: [\"fear\"]"
+  },
+  "166": {
+    "text": "С тех самых, как ты в углу.",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anticipation', 'trust']\n\n[\"anticipation\", \"trust\"]\n\n[\"fear\", \"sadness\"]\n\n[\"joy\"]\n\n[\"sur"
+  },
+  "167": {
+    "text": "Но каждый год в память о нём я теперь упиваюсь до полусмерти.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Он был просто безумным.'\nLabels: [\"anger\"]\n\nText: 'Ты будешь мне здесь"
+  },
+  "168": {
+    "text": "Я просто расстроен.",
+    "gold": [
+      3,
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Он не сможет мне помочь.'\nLabels: [\"sadness\"]\n\nText: 'Неуже"
+  },
+  "169": {
+    "text": "- Может, это я и Форнелл.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust"
+  },
+  "170": {
+    "text": "И ты так просто позволишь этой женщине тебя шантажировать?",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Мне нужна помощь, надо тут срочно приехать!'\nLabels: [\"anticipation\"]\n\n"
+  },
+  "171": {
+    "text": "Я не нуждаюсь в твоей слежке за моей выпивкой.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Они сделали это настолько простым!'\nLabels: [\"joy\"]\n\nText: 'Он всё ещё може"
+  },
+  "172": {
+    "text": "Милый...",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"surprise\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"sadness\"]\n"
+  },
+  "173": {
+    "text": "Да. Я заметил, ты собрала вещи.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\nText: 'А, ты нам поможешь?'\nLabels: [\"anticipation\","
+  },
+  "174": {
+    "text": "Будет лучше, если мы больше никогда не увидимся.",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Я так счастлив, что мы наконец смогли сделать это!'\nLabels: ['joy']"
+  },
+  "175": {
+    "text": "Келли мертва?",
+    "gold": [
+      4,
+      6,
+      7
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Я здоров!'\nLabels: [\"joy\"]\n\nText: 'Так? Так, я почувствую.'\nLabels"
+  },
+  "176": {
+    "text": "Мы должны найти ей доктора.",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\nText: 'Это так странно! Как могут появиться такие бабочки здесь?'\n"
+  },
+  "177": {
+    "text": "Чёрт бы тебя побрал!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Очень хорошо!'\nLabels: [\"joy\"]\n\nText: 'Что ты делаешь?!'\nLabels:"
+  },
+  "178": {
+    "text": "Никогда не ел ничего вкуснее.",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anger\", \"anticipation\"]\n[\"disgust\"]\n[\"fear\"]\n[\"joy\"]\n[\"sadness\"]\n[\"surprise\"]\n"
+  },
+  "179": {
+    "text": "- Это хорошо.",
+    "gold": [
+      2,
+      5,
+      8
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"anger\"]\n\n[\"disgust\", \"sadness\"]\n\n[\"sur"
+  },
+  "180": {
+    "text": "Он был очень насторожен сначала, но вы были правы. Когда я ему сказал, что убийство Вами Нелли Бенин подстава, он купился на это - как вы и говорили - заглотнул и крючок, и леску, и грузило.",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Не смею сказать, что я был настолько счастлив, как вы, но я очень рад за"
+  },
+  "181": {
+    "text": "Сейчас все узнаете.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'У меня есть новости, и они очень важны.'\nLabels: [\"anticipation\"]\n\nText"
+  },
+  "182": {
+    "text": "- Я у тебя в долгу.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"fear\"]"
+  },
+  "183": {
+    "text": "- Ты у меня в трейлере не приберешь малость?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy"
+  },
+  "184": {
+    "text": "Ты завтра выходишь отсюда!",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"disgust\"]"
+  },
+  "185": {
+    "text": "Я хочу, чтобы ты продолжал гражданское дело.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anticipation\"]"
+  },
+  "186": {
+    "text": "Собирайся.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Больше нет.'\nLabels: [\"sadness\"]\n\nText: 'Я не верю, что ты сказа"
+  },
+  "187": {
+    "text": "Что-ж, пойду хорошенько попрощаюсь.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Ах, что уж мы об этом не говорили раньше!'\nLabels: [\"anticipation\"]\n\nText"
+  },
+  "188": {
+    "text": "Зачем?",
+    "gold": [
+      2,
+      3
+    ],
+    "pred": [],
+    "raw": " ['anger', \"surprise\"]\n\n[\"anger\", \"disgust\"]\n\n[\"anticipation\", \"fear\"]\n\n[\"fear\"]\n\n[\"sadness"
+  },
+  "189": {
+    "text": "Убегать некуда.",
+    "gold": [
+      1,
+      5
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\", \"disgust\", \"sadness\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n"
+  },
+  "190": {
+    "text": "Прошу вас, остановитесь.",
+    "gold": [
+      3,
+      4,
+      6
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Отлично! Мы счастливы, что вы решили заказать у нас!'\nLabels: [\"joy\"]\n"
+  },
+  "191": {
+    "text": "Хватай его!",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: 'Он уже нас нашел!'\nLabels: ['fear']\n\nText: 'Он такой сильный!'\nLabels"
+  },
+  "192": {
+    "text": "Когда мы едем?",
+    "gold": [
+      3,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anticipation"
+  },
+  "193": {
+    "text": "Но выглядит именно так.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\", \"surprise\"]\n\n[\"fear\"]\n\n[\"trust\"]\n\n[\"disgust\"]\n\n[\"joy\", \"sur"
+  },
+  "194": {
+    "text": "Могу сказать лишь одно:",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n[\"sadness\"]\n[\"surprise\"]\n[\"trust\"]"
+  },
+  "195": {
+    "text": "Это так ужасно.",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\nText: 'Он вышел из дома, чтобы поймать автобус.'\nLabels: [\"anticipation\"]\n\nText: '"
+  },
+  "196": {
+    "text": "Нет, ты не можешь уехать, ты самое классное, что тут есть.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"surprise\", \"trust\"]\n\n"
+  },
+  "197": {
+    "text": "И ты, наконец-то, избавишься от меня.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Что это за пустота!'\nLabels: [\"disgust\"]\n\nText: 'Не верь мне!'\nLabels: [\""
+  },
+  "198": {
+    "text": "Какого черта мы тут делаем?",
+    "gold": [
+      1,
+      4,
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n[\"fear\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n[\"disgust\"]"
+  },
+  "199": {
+    "text": "Что мне делать, Кларк?",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"anticipation\", \"joy\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n"
+  },
+  "200": {
+    "text": "Он не приходит в себя.",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\n[\"joy\"]\n[\"surprise\"]\n\n[\"anger\"]\n[\"disgust\"]\n[\"sadness\"]\n\n[\"fear\"]\n[\""
+  },
+  "201": {
+    "text": "- С тобой всё будет в порядке.",
+    "gold": [
+      2,
+      5,
+      8
+    ],
+    "pred": [],
+    "raw": " ['trust']\n\nText: '- А если все будет плохо?'\nLabels: ['anticipation', 'fear']\n\nText: '- Ну, т"
+  },
+  "202": {
+    "text": "У нас есть несколько кандидатур.",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"trust\"]\n\nText: 'Мой кот снова порвал постель.'\nLabels: [\"anger"
+  },
+  "203": {
+    "text": "-Тогда, это скорее всего, металл.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "204": {
+    "text": "Петров.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['surprise']\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"fear\"]"
+  },
+  "205": {
+    "text": "Внутри написан ваш адрес.",
+    "gold": [
+      1,
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Я здесь покажу, как это делается!'\nLabels: [\"anticipation\", \"joy\"]\n\nText: '"
+  },
+  "206": {
+    "text": "Смотри сюда.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Ай, конечно, нет, нет, это не смешно!'\nLabels: [\"disgust\", \"f"
+  },
+  "207": {
+    "text": "Мне надо бежать.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\"]"
+  },
+  "208": {
+    "text": "Он нам поможет.",
+    "gold": [
+      2,
+      5,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\nText: 'Я не знаю, что я делаю.'\nLabels"
+  },
+  "209": {
+    "text": "Мы можем кое-что обсудить?",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Мне нравится, что мы вместе!'\nLabels: ['joy']\n\nText: 'А что за глупо"
+  },
+  "210": {
+    "text": "- Эль хефе, очнись!",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: '- Небось я не понимаю, что ты хочешь от меня?'\nLabels: ['fear']\n\nText:"
+  },
+  "211": {
+    "text": "Судно затонет через двадцать, от силы тридцать два часа.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Кругом нет никаких врагов, наша армия захватила всё.'\nLabels: [\"anticip"
+  },
+  "212": {
+    "text": "Те, что в бутылках.",
+    "gold": [
+      2,
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\nText: 'Ну вот нажми на кнопку,"
+  },
+  "213": {
+    "text": "Слушайте, он здесь больше не работает, так что...",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "214": {
+    "text": "Один два  три!",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\", \"disgust\", \"fear\", \"sadness\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust"
+  },
+  "215": {
+    "text": "- Я не верю ей.",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"disgust\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"fear\"]\n\n[\"joy\"]"
+  },
+  "216": {
+    "text": "Не трогай меня.",
+    "gold": [
+      3
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\nText: 'Я видел, что ты пропал!'\nLabels: ['anticipation']\n\nText: 'Не верьте нико"
+  },
+  "217": {
+    "text": "Кто здесь?",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\", \"disgust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"joy\"]\n\n[\"anticipation\", \"joy\","
+  },
+  "218": {
+    "text": "А что если я не смогу снять его?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Отлично! Смотрим, что там еще!'\nLabels: [\"anticipation\"]\n\nText: 'Не"
+  },
+  "219": {
+    "text": "Что это было? ..",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust"
+  },
+  "220": {
+    "text": "Всё случилось в одном месте...",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "221": {
+    "text": "Проклятье!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'О, мама, смотри, я нарисовал тебя!'\nLabels: [\"joy\"]\n\nText: 'Это у"
+  },
+  "222": {
+    "text": "Вам стоит попробовать.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Это очень ужасно.'\nLabels: [\"disgust\"]\n\nText: 'Мне очень жаль"
+  },
+  "223": {
+    "text": "Отличная бита. Ты когда вернулась?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n"
+  },
+  "224": {
+    "text": "Что ещё?",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"dis"
+  },
+  "225": {
+    "text": "Ещё я купила туфли.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Что я здесь делаю?'\nLabels: [\"surprise\"]\n\nText: 'Собака рыкает, по"
+  },
+  "226": {
+    "text": "А потом появляется трус с бомбой.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger",
+      "disgust",
+      "sadness"
+    ],
+    "raw": " [\"anger\", \"disgust\", \"sadness\"]\n\n[\"anger\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust"
+  },
+  "227": {
+    "text": "Ей. Простите, сэр, простите.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Вот что ты получишь за этот день.'\nLabels: [\"anticipation\"]\n\nText: 'Всё у"
+  },
+  "228": {
+    "text": "Пока. Спасибо.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['joy', 'trust']\n\nText: 'Я никогда не буду тебя забывать.'\nLabels: ['joy', 'trust']\n\nText:"
+  },
+  "229": {
+    "text": "Хватит. С чего бы это?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Ну вот, сюда и сюда!'\nLabels: [\"anticipation\"]\n\nText: 'Это смешно"
+  },
+  "230": {
+    "text": "О чём ты ещё не сказал?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"surprise\"]\n\n[\"anticipation\", \"surprise\", \"trust"
+  },
+  "231": {
+    "text": "Он умер?",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\n[\"surprise\"]\n\n[\"anticipation\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\nText: 'Он не смо"
+  },
+  "232": {
+    "text": "Хочешь научить меня, как мне обращаться с собственной дочерью?",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anger', 'disgust']\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "233": {
+    "text": "В тени всегда прячется дьявол.",
+    "gold": [
+      2,
+      4
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\nText: 'Сегодня мне 25 лет!'\nLabels: ['joy']\n\nText: 'Моя мама умерла"
+  },
+  "234": {
+    "text": "Я обезумела.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\n[\"anger\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "235": {
+    "text": "Послушай, мы можем просто забыть прошлую ночь?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\nText: 'Не могу так понять, почему ты так рада!'\n"
+  },
+  "236": {
+    "text": "Это была моя самая лучшая посадка.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\nText: 'Это был самый страшный день моей жизни.'\nLabels: ['sadness', 'fear']\n\nText:"
+  },
+  "237": {
+    "text": "Отвратительно",
+    "gold": [
+      3,
+      4,
+      7
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\nText: 'Очень забавно!'\nLabels: [\"joy\"]\n\nText: 'Нужно подумать!'\nLabels:"
+  },
+  "238": {
+    "text": "И всё равно он должен взять у кого-то ссуду.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation"
+  },
+  "239": {
+    "text": "Заводи!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"trust\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\""
+  },
+  "240": {
+    "text": "- Открывай.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"anticipation\", \""
+  },
+  "241": {
+    "text": "Да.",
+    "gold": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anger\"]\n[\"surprise\"]\n[\"disgust\"]\n[\"joy\"]\n[\"surprise\"]\n[\"trust\"]\n[\"joy\"]\n[\"ant"
+  },
+  "242": {
+    "text": "У нас есть очень хорошее подозрение.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\nText: 'Он смеялся и сказал: «Вот и всё!»'\nLabels: [\"joy\"]\n\nText:"
+  },
+  "243": {
+    "text": "Я умираю, и \"Наутилус\" умрет со мной.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "fear",
+      "sadness"
+    ],
+    "raw": " [\"fear\", \"sadness\"]\n\n[\"anger\", \"sadness\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"anger\"]\n\n[\"dis"
+  },
+  "244": {
+    "text": "Вы знаете, что я скоро стану президентом?",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Все наши друзья уже встретились уже.'\nLabels: ['sadness']\n\nText: 'А"
+  },
+  "245": {
+    "text": "Все твои россказни о том, как Луис добился повышения, неправда.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\nText: 'Он сказал, что наш будет лучший свадебный день, и я теперь понима"
+  },
+  "246": {
+    "text": "Пойду за ней.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\", \"surprise\", \"trust\"]"
+  },
+  "247": {
+    "text": "Почти.",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anticipation\", \"joy\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"sadness\"]\n\n[\"anger\"]\n\n"
+  },
+  "248": {
+    "text": "Что бы ни происходило, ты нужен этому ребёнку.",
+    "gold": [
+      4,
+      8
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Вот твоё сердце, на которое я поверил.'\nLabels: ['trust']\n\nText: '"
+  },
+  "249": {
+    "text": "Тело подозреваемого, подражателя Джеку Потрошителю, было найдено прошлой ночью.",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\n[\"sadness\"]\n\n[\"anger\"]\n\n[\"surprise\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]"
+  },
+  "250": {
+    "text": "В смысле, ты не знала, вернусь ли я на работу.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"anticipation\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"anger\"]"
+  },
+  "251": {
+    "text": "Мне нужно...",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"anticipation\"]\n[\"disgust\"]\n[\"joy\"]\n[\"sadness\"]\n[\"surprise\"]\n[\"trust\"]"
+  },
+  "252": {
+    "text": "Эван, мне дорога эта женщина.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy",
+      "trust"
+    ],
+    "raw": " [\"joy\", \"trust\"]\n\n[\"joy\"]\n[\"trust\"]\n\n[\"trust\"]\n\n[\"joy\"]\n[\"trust\"]\n\n[\"joy\"]\n\n"
+  },
+  "253": {
+    "text": "Я держал её на руках...",
+    "gold": [
+      4,
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Она заговорила, но не узнала меня.'\nLabels: [\"disgust\"]\n\nText: 'М"
+  },
+  "254": {
+    "text": "Готов поклясться, дядя мёртв.",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\nText: 'Отлично! Мы закончили!'\nLabels: ['joy']\n\nText: 'Скоро придёт день"
+  },
+  "255": {
+    "text": "Извини.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Хорошо, все получилось!'\nLabels: [\"joy\"]\n\nText: 'Почему ты так озлоб"
+  },
+  "256": {
+    "text": "На помощь!",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Это ужасно!'\nLabels: [\"disgust\"]\n\nText: 'Они не поверили!'\nLabels:"
+  },
+  "257": {
+    "text": "Не отвечайте.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Мне не нравится.'\nLabels: [\"anger\"]\n\nText: 'Я не знаю, как сказать.'\nLabels:"
+  },
+  "258": {
+    "text": "- Когда он умер?",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\n[\"anger\", \"sadness\"]\n\n[\"surprise\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"disgust\"]\n\n[\""
+  },
+  "259": {
+    "text": "Значит, он был в районе во время первого убийства.",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['anger', 'disgust', 'fear']\n\n[\"joy\", \"surprise\"]\n\n[\"surprise\"]\n\n[\"anticipation\", \"joy\"]\n\n[\""
+  },
+  "260": {
+    "text": "Джо, послушайте.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "trust"
+    ],
+    "raw": " [\"anticipation\", \"trust\"]\n\n[\"joy\"]\n[\"surprise\"]\n[\"anger\"]\n[\"disgust\"]\n[\"sadness\"]\n[\"fear\"]"
+  },
+  "261": {
+    "text": "Помоги мне.",
+    "gold": [
+      4,
+      8
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"fear\"]"
+  },
+  "262": {
+    "text": "Не строй из себя Фрейда, Гиббс. Это не твоя специальность.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\nText: 'Неужели он всерьёз? Это невозможно!'\nLabels: [\"surprise\"]"
+  },
+  "263": {
+    "text": "Насколько я осведомлен, у них есть все.",
+    "gold": [
+      1,
+      2,
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\nText: 'Страшно, что я"
+  },
+  "264": {
+    "text": "Чудовище?",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [],
+    "raw": " ['fear']\n\n[\"anger\"]\n[\"anticipation\"]\n[\"disgust\"]\n[\"fear\"]\n[\"sadness\"]\n[\"surprise\"]\n[\"tr"
+  },
+  "265": {
+    "text": "Да. Чавез – единственное известное имя.",
+    "gold": [
+      1,
+      6
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n[\"surprise\"]\n\n[\"surprise\"]\n[\"trust\"]\n\n"
+  },
+  "266": {
+    "text": "А теперь неси лампочки - и не побей их.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\"]\n\n"
+  },
+  "267": {
+    "text": "Я видел, как в одну тварь засадили десятка с три пуль, а ей - хоть бы что.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\nText: 'Этот фильм настолько ужасный,"
+  },
+  "268": {
+    "text": "Я думал, что больше никогда вас не увижу.",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\nText: 'Ах, что я тебя не видел!'\nLabels: ['sadness']\n\nText: 'Наконец"
+  },
+  "269": {
+    "text": "— Он... он друг.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"surprise\"]\n\nText: '— Ты видел? Он упал!'\n"
+  },
+  "270": {
+    "text": "Вы забрали её из моего дома этой ночью!",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Ты увидишь, что в этом году я выиграю соревнование!'\nLabels: [\"anticipation\"]\n\n"
+  },
+  "271": {
+    "text": "Но на всякий удачный план...",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Так что я не могу сказать, что я рад, что увидел тебя, но я не мо"
+  },
+  "272": {
+    "text": "Вы в этом уверены, да?",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\"]\n[\"disgust\"]\n[\"joy\"]\n[\"surprise\"]\n[\"trust\"]\n\n[\"sadness\"]\n[\"sur"
+  },
+  "273": {
+    "text": "Дьявол всегда кроется во тьме.",
+    "gold": [
+      2,
+      4
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'У нас тут все в порядке!'\nLabels: [\"joy\"]\n\nText: 'Это бесчестное сосло"
+  },
+  "274": {
+    "text": "- А я хочу пить.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "275": {
+    "text": "Сейчас узнаешь.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Ой! Как это может быть!'\nLabels: [\"anger\", \"surprise\"]\n\nText: 'Мне больно"
+  },
+  "276": {
+    "text": "А теперь еще крылья добавь.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n[\"fear\"]\n\n[\"disgust\"]"
+  },
+  "277": {
+    "text": "Давай.",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"anger\", \"disgust\"]\n\n[\"trust\"]\n\n[\"fear\"]\n\n[\"surprise\"]\n\n"
+  },
+  "278": {
+    "text": "Катись к черту.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Она не отвечала, и я просто задумался о том, что могла бы случиться.'\nLabels: [\"f"
+  },
+  "279": {
+    "text": "Потому, что они самые лучшие.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"joy\"]\n\n[\""
+  },
+  "280": {
+    "text": "Совсем рехнулись!",
+    "gold": [
+      3
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Аха, отлично!'\nLabels: [\"joy\"]\n\nText: 'Неужели!'\nLabels: [\"surprise\"]\n"
+  },
+  "281": {
+    "text": "Я знаю тебя ... ты совершил тяжкое убийство... сукин сын.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [
+      "anger",
+      "disgust",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"disgust\", \"fear\"]\n\n[\"anger\"]\n[\"anticipation\"]\n[\"disgust\"]\n[\"fear\"]\n[\"joy\"]\n[\""
+  },
+  "282": {
+    "text": "Знаешь, ты мог бы заплатить мне.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Это был великолепный день!'\nLabels: [\"joy\"]\n\nText: 'Не знаю, что ты дела"
+  },
+  "283": {
+    "text": "Нас ждут великие дела, всех троих.",
+    "gold": [
+      2,
+      5
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"trust\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"joy\", \"trust\"]\n"
+  },
+  "284": {
+    "text": "Смотришь на мои руки?",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "disgust"
+    ],
+    "raw": " [\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n"
+  },
+  "285": {
+    "text": "- Приглядись к ним, когда в следующий раз будешь в суде:",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: '- А ты пока что в этом году в школах никогда не был, если ты думаешь, что это так"
+  },
+  "286": {
+    "text": "Что ж, может это и не лучшее время, но только что поступил звонок в 911.",
+    "gold": [
+      4,
+      6,
+      8
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "287": {
+    "text": "В этом доме ничто не уходит безвозвратно.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Ты не умрёшь, а я умру.'\nLabels: [\"fear\"]\n\nText: 'У мен"
+  },
+  "288": {
+    "text": "Смотри, что я нашла.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['anticipation', 'joy']\n\nText: 'Мой автобус уехал!'\nLabels: ['anger']\n\nText: 'Я заблоки"
+  },
+  "289": {
+    "text": "Подкиньте дров!",
+    "gold": [
+      4,
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Слушай, я сейчас заберу у тебя топор!'\nLabels: [\"anger\"]\n\nText:"
+  },
+  "290": {
+    "text": "Он начинает... Начинает...",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\"]\n\n"
+  },
+  "291": {
+    "text": "Из тебя могло бы столько всего получиться.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Ты просто хочешь, чтобы я был рад?'\nLabels: [\"anticipation\"]\n\nText: 'Не"
+  },
+  "292": {
+    "text": "Какой ущерб Донна нанесла \"Либерти Рейл\"?",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Мы можем сделать это!'\nLabels: [\"anticipation\", \"joy\"]\n\nText: 'Ух ты, это по"
+  },
+  "293": {
+    "text": "Заряжай! Запал!",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"joy\"]\n\n"
+  },
+  "294": {
+    "text": "- Ну... Не по-французски, но...",
+    "gold": [
+      4,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: '- Сегодня вечером я пойду в кино на фильм \"Робокоп\".'\nLabels:"
+  },
+  "295": {
+    "text": "Всегда.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\nText: 'Всегда.'\nLabels: [\"anticipation\"]\n\nText: 'Всегда.'\nLabels: [\"anticipation\"]\n"
+  },
+  "296": {
+    "text": "- Он симпатичный.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n[\"anticipation\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n[\""
+  },
+  "297": {
+    "text": "Не думаю, что у нас есть что-то для вас.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [],
+    "raw": " ['disgust\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"joy"
+  },
+  "298": {
+    "text": "Я уберу Форнелла с дороги.",
+    "gold": [
+      4,
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\nText: 'Новость: Инопланетяне прибыли!'\nLabels: [\"anticipation\"]\n\nText: 'У меня"
+  },
+  "299": {
+    "text": "Карсон?",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['surprise']\n\n[\"anticipation\", \"trust\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n"
+  },
+  "300": {
+    "text": "И теперь, из-за того, что я облажался, прочитал из книги один паршивый отрывок, зло нашло меня.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Не знаю, кто ты, но ты показал мне, что ты здесь, и я наде"
+  },
+  "301": {
+    "text": "С мысли сбиваешь!",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"anticipation\"]\n[\"disgust\"]\n[\"fear\"]\n[\"joy\"]\n[\"sadness\"]\n[\"surprise\"]\n[\"trust"
+  },
+  "302": {
+    "text": "Адалинда рожает.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n"
+  },
+  "303": {
+    "text": "Ох, мы только начали, директор, и многое нужно проработать.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation",
+      "fear"
+    ],
+    "raw": " [\"anticipation\", \"fear\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n"
+  },
+  "304": {
+    "text": "Для тебя все, что угодно, сладенький мой пирожочек.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\", \"trust\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"anticip"
+  },
+  "305": {
+    "text": "Да, знал, но какая разница?",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['anger', 'disgust']\n\nText: 'Отлично!'\nLabels: ['joy']\n\nText: 'Они могут спасти нас!'"
+  },
+  "306": {
+    "text": "Это хорошо.",
+    "gold": [
+      5
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n[\"anticipation\"]\n[\"trust\"]\n\n[\"fear\"]\n\n"
+  },
+  "307": {
+    "text": "Хочешь попробовать?",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['anticipation', 'joy']\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\""
+  },
+  "308": {
+    "text": "Запомни есть только две вещи без ограничений.",
+    "gold": [
+      2
+    ],
+    "pred": [],
+    "raw": " ['disgust']\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"sadness\"]\n\n[\"f"
+  },
+  "309": {
+    "text": "Ускоряемся, идем на таран!",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "anger",
+      "anticipation"
+    ],
+    "raw": " [\"anger\", \"anticipation\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n"
+  },
+  "310": {
+    "text": "Когда вы в последний раз её видели?",
+    "gold": [
+      6
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"disgust"
+  },
+  "311": {
+    "text": "Я думаю о своей собственной заднице.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['disgust']\n\nText: 'Она улыбается, когда ей повезло.'\nLabels: ['joy']\n\nText: 'Этот филь"
+  },
+  "312": {
+    "text": "- Познакомилась с кем-нибудь?",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"surprise\", \"tr"
+  },
+  "313": {
+    "text": "И в порыве гнева я сказал ей, что, то что мы снова вместе, наш возобновленный роман был большой ошибкой.",
+    "gold": [
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'И мы снова оказались в одиночестве, потому что она не могла понять, что я не"
+  },
+  "314": {
+    "text": "Остальное мы знаем.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "fear"
+    ],
+    "raw": " [\"fear\"]\n\nText: 'Сегодня всё хорошо.'\nLabels: [\"joy\"]\n\nText: 'Сегодня всё"
+  },
+  "315": {
+    "text": "Надо поговорить.",
+    "gold": [
+      1
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Это беда!'\nLabels: ['fear']\n\nText: 'У меня нет денег.'\nLabels:"
+  },
+  "316": {
+    "text": "Для существования нам необходимы ваши мечты и желания.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anticipation\", \"trust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"tr"
+  },
+  "317": {
+    "text": "Что это? Мой сын нуждается в отдыхе.",
+    "gold": [
+      1,
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"anticipation"
+  },
+  "318": {
+    "text": "Бутылки разных размеров, стоящие в беспорядке.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"anticipation\"]\n\n[\"surprise\"]\n\n[\"disgust"
+  },
+  "319": {
+    "text": "- Успокойся.",
+    "gold": [
+      8
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n"
+  },
+  "320": {
+    "text": "Если вы не прекратите лезть на рожон, он убьет нас всех.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [
+      "anger",
+      "fear"
+    ],
+    "raw": " [\"anger\", \"fear\"]\n\nText: 'Это забавно!'\nLabels: [\"joy\"]\n\nText: 'Почему бы не позвонить?'"
+  },
+  "321": {
+    "text": "В прошлом между нами были разногласия, но я уверен мы можем их разрешить.",
+    "gold": [
+      2,
+      8
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"joy\"]\n\n[\"trust\"]\n"
+  },
+  "322": {
+    "text": "Мы идеально синхронны, Клэр.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\nText: 'Собирайся, у меня что-то сказать.'\nLabels: ['anticipation']\n\nText: 'О"
+  },
+  "323": {
+    "text": "Какое-то время нет, мэм.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [],
+    "raw": " ['surprise']\n\nText: 'Не, это не так.'\nLabels: ['anger']\n\nText: 'Мне надо будет немного подума"
+  },
+  "324": {
+    "text": "Благодарю.",
+    "gold": [
+      5,
+      7
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"joy\"]\n\n[\"anger\"]\n\n[\"anticipation\", \"joy\"]\n\n[\"sadness\"]\n\n[\"anger\", \"disgust\"]"
+  },
+  "325": {
+    "text": "- Чувак. Говори, в чем дело, я тебе помогу.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust"
+  },
+  "326": {
+    "text": "Ещё один шаг, и я сверну ей шею.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"fear\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation\"]"
+  },
+  "327": {
+    "text": "- Допросы свидетелей?",
+    "gold": [
+      7
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"fear\"]\n\n[\"surprise\"]\n\n[\"disgust\"]\n\n[\"anger\"]\n\n[\"sadness"
+  },
+  "328": {
+    "text": "Никогда не знаешь, что он видит, о чём думает.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"disgust\"]\n\n[\""
+  },
+  "329": {
+    "text": "Может, понимаешь, вы могли бы пожить вместе. ... ты знаешь, купить коня, бриллианты и дом.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "anticipation",
+      "joy"
+    ],
+    "raw": " [\"anticipation\", \"joy\"]\n\n[\"anticipation\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]"
+  },
+  "330": {
+    "text": "Мы начали проводить вместе каждый вечер.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"trust\"]"
+  },
+  "331": {
+    "text": "Да, пусть зайдёт.",
+    "gold": [
+      1,
+      7
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"fear\"]\n\n[\"sadness\"]\n\n[\"anger\"]\n\n[\"surprise\"]"
+  },
+  "332": {
+    "text": "Но они быстро научатся.",
+    "gold": [
+      2,
+      5,
+      8
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anger\", \"disgust\", \"sadness\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n"
+  },
+  "333": {
+    "text": "Ты мне нужна.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['trust']\n\nText: 'Этот фильм настоящий хуй.'\nLabels: ['disgust']\n\nText: 'Играл бы в"
+  },
+  "334": {
+    "text": "Вы только посмотрите - даже печатка не сломана.",
+    "gold": [
+      2,
+      7
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\n[\"anticipation\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n"
+  },
+  "335": {
+    "text": "Он застрелился.",
+    "gold": [
+      3,
+      4,
+      6
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Пойду в кино!'\nLabels: [\"anticipation\", \"joy\"]\n\nText: 'Это здорово!'"
+  },
+  "336": {
+    "text": "Ни одной живой души не осталось.",
+    "gold": [
+      5,
+      6,
+      8
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\"]\n[\"disgust\"]\n[\"sadness\"]\n\n[\"anticipation\"]\n[\"fear\"]\n[\"joy\"]\n[\""
+  },
+  "337": {
+    "text": "Спасибо, Рэнди.",
+    "gold": [
+      5,
+      8
+    ],
+    "pred": [],
+    "raw": " ['joy']\n\n[\"anger\"]\n[\"disgust\"]\n[\"fear\"]\n[\"joy\"]\n[\"surprise\"]\n[\"trust\"]\n\n[\"joy\"]\n\n"
+  },
+  "338": {
+    "text": "Это было раньше, сэр.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\nText: 'Неужели ты это сделаешь?'\nLabels: [\"anticipation\", \"fear\"]\n\nText:"
+  },
+  "339": {
+    "text": "Я почти кончила.",
+    "gold": [
+      1
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"joy\"]\n\n[\"anticipation\"]\n\n[\"fear\"]\n\n[\"disgust\"]\n\n[\"surprise\"]\n\n[\"tr"
+  },
+  "340": {
+    "text": "Я думала, ты заблудился.",
+    "gold": [
+      4
+    ],
+    "pred": [],
+    "raw": " ['sadness']\n\n[\"anticipation\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"sur"
+  },
+  "341": {
+    "text": "Кто-то добавил снотворное в ее тонизирующее.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "anger",
+      "disgust"
+    ],
+    "raw": " [\"anger\", \"disgust\"]\n\nText: 'Там есть свобода и счастье.'\nLabels: [\"joy\", \"trust\"]\n\nText"
+  },
+  "342": {
+    "text": "- Алло!",
+    "gold": [
+      1,
+      4
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: '- Вы попали!'\nLabels: ['anger']\n\nText: '- Ах, наконец-то!'\nLabels: ['"
+  },
+  "343": {
+    "text": "Диана всегда подкладывала спичечный коробок под ножку, чтобы напомнить мне, что я неправильно замерил, но она так и не избавилась от него.",
+    "gold": [
+      1,
+      5
+    ],
+    "pred": [
+      "anger"
+    ],
+    "raw": " [\"anger\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]\n\nText: 'Собака замерзает"
+  },
+  "344": {
+    "text": "Я желаю чтобы у тебя было сердце.",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "345": {
+    "text": "Ладно. Твоя взяла.",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"fear\"]\n\n[\"surprise\"]\n\n[\"anger\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"trust\"]"
+  },
+  "346": {
+    "text": "- Премьера не начинается вовремя.",
+    "gold": [
+      6,
+      7
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"disgust\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n"
+  },
+  "347": {
+    "text": "Мы столкнулись с интересной проблемой:",
+    "gold": [
+      2
+    ],
+    "pred": [
+      "anticipation"
+    ],
+    "raw": " [\"anticipation\"]\n\n[\"anticipation\"]\n[\"joy\"]\n\n[\"anticipation\"]\n[\"joy\"]\n[\"surprise\"]\n\n[\"disgust\"]\n"
+  },
+  "348": {
+    "text": "Сначала они отрицали, потом стали изворачиваться.",
+    "gold": [
+      3
+    ],
+    "pred": [],
+    "raw": " ['anger']\n\n[\"fear\"]\n\n[\"disgust\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"joy\"]"
+  },
+  "349": {
+    "text": "В вашем мире такое оружие?",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "surprise"
+    ],
+    "raw": " [\"surprise\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]"
+  },
+  "350": {
+    "text": "Я засёк её телефон.",
+    "gold": [
+      5
+    ],
+    "pred": [],
+    "raw": " ['disgust']\n\nText: 'Подвесил украшения.'\nLabels: ['joy']\n\nText: 'Извини, я ошибся"
+  },
+  "351": {
+    "text": "Я занимался подобными случаями.",
+    "gold": [
+      3
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]"
+  },
+  "352": {
+    "text": "Ты получишь новую жизнь с семьёй, которая ценит тебя.",
+    "gold": [
+      2,
+      5,
+      7
+    ],
+    "pred": [
+      "joy"
+    ],
+    "raw": " [\"joy\"]\n\nText: 'Настал конец света.'\nLabels: [\"fear\"]\n\nText: 'Сегодня твоя жизнь"
+  },
+  "353": {
+    "text": "Это плохо.",
+    "gold": [
+      4
+    ],
+    "pred": [
+      "sadness"
+    ],
+    "raw": " [\"sadness\"]\n\n[\"anger\"]\n\n[\"disgust\"]\n\n[\"fear\"]\n\n[\"surprise\"]\n\n[\"trust\"]"
+  },
+  "354": {
+    "text": "Я вас понимаю.",
+    "gold": [
+      7
+    ],
+    "pred": [
+      "trust"
+    ],
+    "raw": " [\"trust\"]\n\n[\"anticipation\"]\n\n[\"joy\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"fear\"]\n\n[\"anticipation"
+  },
+  "355": {
+    "text": "Этого недостаточно?",
+    "gold": [
+      1,
+      3
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\n[\"anger\"]\n\n[\"joy\"]\n\n[\"sadness\"]\n\n[\"surprise\"]\n\n[\"trust\"]\n\n[\"anticipation"
+  },
+  "356": {
+    "text": "Лиэнн в Цинциннати, пытается заключить сделку насчёт дебатов.",
+    "gold": [
+      8
+    ],
+    "pred": [],
+    "raw": " ['anticipation']\n\nText: 'Вечер дождётся постараться изменить, что-то не так с дебатами.'\nLabels:"
+  }
+}
