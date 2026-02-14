@@ -55,6 +55,16 @@ def preprocess_fn(batch, tok, max_len: int = MAX_LEN) -> dict:
         label_names = [LABELS[i - 1] for i in ids]  # from 1–9 to 0–8
         label_text = json.dumps(label_names, ensure_ascii=False)
 
+        # prompt = (f"<s>[INST]Classify the text into anger, anticipation, disgust, \
+        #         fear, joy, sadness, surprise or trust. Here are some examples:\n \
+        #         1. I'm trapped . // fear\n \
+        #         2. If I see you in the stands , it make me feel better . // joy\n \
+        #         3. I'm really sorry . // sadness\n \
+        #         4. Help me ! // trust, surpise, fear\n \
+        #         5. Because I want to . // trust, anger, anticipation, disgust\n \
+        #         \nText: {text} //\n \
+        #         Emotion:  [/INST]")
+
         prompt = (f"<s>[INST]You are an emotion tagger. From this fixed \
             set:\n{LABELS}\n. Return a JSON array of one or more labels. \
             JSON only, no extra text.\n\n Text: '{text}'\nLabels: [/INST]")
