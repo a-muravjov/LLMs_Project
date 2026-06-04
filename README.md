@@ -71,6 +71,9 @@ rank=16 and alpha=8. It is worth mentioning that the current version fails
 to explore more suitable combinations and values for rank and alpha, especially
 given the varying size of chosen language datasets.
 
+Training and inference were performed on a system equipped with an NVIDIA A100 GPU
+(40 GB VRAM), 64 CPU cores, and 512 GB of system memory.
+
 ## How to run the project
 
 To preprocess the data, files in preprocessing folder were used and duplicates
