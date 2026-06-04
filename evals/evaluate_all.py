@@ -302,53 +302,131 @@ def plot_metrics_by_model(df: pd.DataFrame) -> None:
 
 def plot_lora_vs_qlora(df: pd.DataFrame, metric: str) -> None:
     """
-    Plots a comparison of all the configurations of LoRA and QLoRA
-    for a chosen metric per each language.
-
-    Args:
-        df (pd.DataFrame): Dataset with the metrics.
-        metric (str): Specified metric.
+    Plots LoRA and QLoRA variants in two separate graphs
+    (no averaging, same formatting as original).
     """
+
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    import re
+
+    sns.set(style="whitegrid")
+
+
+    # ---------- QLoRA ----------
     qlora_df = df[df["Model"] == "QLoRA"].copy()
+
     qlora_df["Rank"] = qlora_df["Path"].apply(
-        lambda x: int(re.search(
-            r"r(\d+)", x).group(1)) if re.search(r"r(\d+)", x) else None
+        lambda x: int(re.search(r"r(\d+)", x).group(1)) if re.search(r"r(\d+)", x) else None
     )
     qlora_df["Alpha"] = qlora_df["Path"].apply(
-        lambda x: int(re.search(
-            r"a(\d+)", x).group(1)) if re.search(r"a(\d+)", x) else None
+        lambda x: int(re.search(r"a(\d+)", x).group(1)) if re.search(r"a(\d+)", x) else None
     )
+
     qlora_df["Variant"] = qlora_df.apply(
         lambda row: f"QLoRA (r{int(row['Rank'])}_a{int(row['Alpha'])})"
         if pd.notnull(row['Rank']) and pd.notnull(row['Alpha'])
-        else "QLoRA (unknown)", axis=1
+        else "QLoRA (unknown)",
+        axis=1
     )
 
-    lora_df = df[df["Model"] == "LoRA"].copy()
-    lora_df["Variant"] = "LoRA"
+    def extract_rank(v):
+        m = re.search(r"r(\d+)", v)
+        return int(m.group(1)) if m else 999
 
-    combined = pd.concat([qlora_df, lora_df], ignore_index=True)
+    variant_order = (
+        qlora_df["Variant"]
+        .unique()
+    )
 
-    plt.figure(figsize=(9, 6))
+    variant_order = sorted(
+        variant_order,
+        key=lambda x: (extract_rank(x), x)
+    )
+
+
+    plt.figure(figsize=(9, 9))  # wider figure
+
     sns.barplot(
-        data=combined,
+        data=qlora_df,
         y="Language",
         x=metric,
         hue="Variant",
+        hue_order=variant_order,
+        palette="Set2",
+        orient="h",
+        edgecolor="black",
+        linewidth=1.2,      # thicker bar edges
+        width=0.8           # thicker bars (default ~0.8, you can try 0.9)
+    )
+
+    plt.title(f"QLoRA ({metric}) Comparison Across Languages and Variants",
+            fontsize=14)
+    plt.xlim(0, 1)
+    plt.xlabel(f"{metric} Score")
+    plt.ylabel("Language")
+
+    plt.legend(
+        title="Model Variant",
+        loc="lower right",
+        fontsize=9,
+        title_fontsize=10,
+        frameon=True
+    )
+
+    plt.tight_layout()
+    plt.savefig("evals/figures/qlora_only.png", dpi=300)
+    plt.show()
+
+    # ---------- LoRA ----------
+    lora_df = df[df["Model"] == "LoRA"].copy()
+
+    # If LoRA also has rank/alpha in path, extract it
+    lora_df["Rank"] = lora_df["Path"].apply(
+        lambda x: int(re.search(r"r(\d+)", x).group(1)) if re.search(r"r(\d+)", x) else None
+    )
+    lora_df["Alpha"] = lora_df["Path"].apply(
+        lambda x: int(re.search(r"a(\d+)", x).group(1)) if re.search(r"a(\d+)", x) else None
+    )
+
+    lora_df["Variant"] = lora_df.apply(
+        lambda row: f"LoRA (r{int(row['Rank'])}_a{int(row['Alpha'])})"
+        if pd.notnull(row['Rank']) and pd.notnull(row['Alpha'])
+        else "LoRA",
+        axis=1
+    )
+
+    variant_order = (
+        lora_df["Variant"]
+        .unique()
+    )
+
+    variant_order = sorted(
+        variant_order,
+        key=lambda x: (extract_rank(x), x)
+    )
+
+    plt.figure(figsize=(9, 9))
+    sns.barplot(
+        data=lora_df,
+        y="Language",
+        x=metric,
+        hue="Variant",
+        hue_order=variant_order,
         palette="Set2",
         orient="h",
         edgecolor="black"
     )
-    plt.title(
-        f"LoRA and QLoRA ({metric}) Comparison Across Languages and Variants",
-        fontsize=14)
+
+    plt.title(f"LoRA ({metric}) Comparison Across Languages and Variants",
+              fontsize=14)
     plt.xlim(0, 1)
     plt.xlabel(f"{metric} Score")
     plt.ylabel("Language")
-    plt.legend(title="Model Variant", loc="lower right", fontsize=9,
-               title_fontsize=10)
+    plt.legend(title="Model Variant", loc="lower right",
+               fontsize=9, title_fontsize=10)
     plt.tight_layout()
-    plt.savefig("evals/figures/lora_vs_qlora.png")
+    plt.savefig("evals/figures/lora_only.png")
     plt.show()
 
 
@@ -365,7 +443,7 @@ def plot_all_lora_qlora_variants(df: pd.DataFrame, metric: str) -> None:
     import matplotlib.pyplot as plt
     import re
 
-    sub = df[df["Model"].isin(["LoRA", "QLoRA"])].copy()
+    sub = df[df["Model"].isin(["LoRA"])].copy()
 
     def extract_variant(path, model):
         r = re.search(r"r(\d+)", path)
